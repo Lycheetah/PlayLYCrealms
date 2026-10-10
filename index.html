@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><title>Realms</title>
+<style>:root{color-scheme:dark}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0d1016;color:#eef;font:16px/1.4 system-ui,sans-serif}
+.b{max-width:420px;padding:28px 24px;text-align:center}h1{font-size:22px;margin:0 0 6px;letter-spacing:.06em}p{opacity:.8;margin:6px 0 18px}
+input{width:100%;box-sizing:border-box;font:700 24px/1.2 ui-monospace,monospace;letter-spacing:.2em;text-align:center;text-transform:uppercase;padding:14px;border-radius:12px;border:2px solid #3a4560;background:#161b26;color:#fff}
+input:focus,button:focus{outline:3px solid #ffd84a;outline-offset:2px}
+button{margin-top:14px;width:100%;font:700 18px system-ui;padding:14px;border-radius:12px;border:0;background:#ffd84a;color:#1a1408}#m{min-height:1.4em;margin-top:12px;color:#ffb0a0}</style></head>
+<body><div class="b"><h1>🔒 REALMS</h1><p>Type your code to play. This device remembers it.</p>
+<input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="CODE"><button id="g" type="button">Play</button><div id="m"></div></div>
+<script>
+const norm=s=>s.trim().toUpperCase().replace(/[^A-Z0-9]/g,''),M=t=>document.getElementById('m').textContent=t;
+async function unlock(code){const n=norm(code);if(n.length<6){M('That code is too short');return false;}M('Unlocking…');
+  try{const r=await fetch('game.bin',{cache:'no-cache'});if(!r.ok)throw new Error('the game file did not load ('+r.status+')');const b=new Uint8Array(await r.arrayBuffer());
+    if(String.fromCharCode(...b.slice(0,4))!=='FBR1')throw new Error('the game file is not right');const salt=b.slice(4,20),iv=b.slice(20,32),data=b.slice(32);
+    const base=await crypto.subtle.importKey('raw',new TextEncoder().encode(n),'PBKDF2',false,['deriveKey']);
+    const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:310000,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt']);
+    let plain;try{plain=await crypto.subtle.decrypt({name:'AES-GCM',iv},key,data);}catch(e){M('That code is not right');return false;}
+    const html=await new Response(new Blob([plain]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+    try{localStorage.setItem('realms_code',n);}catch(e){}
+    document.open();document.write(html);document.close();return true;}
+  catch(e){M('Could not start: '+(e&&e.message||e));return false;}}
+const h=new URLSearchParams(location.hash.slice(1)).get('k');if(h){history.replaceState(null,'',location.pathname+location.search);}
+let saved='';try{saved=localStorage.getItem('realms_code')||'';}catch(e){}
+document.getElementById('g').onclick=()=>unlock(document.getElementById('c').value);
+document.getElementById('c').addEventListener('keydown',e=>{if(e.key==='Enter')unlock(e.target.value);});
+if(!window.crypto||!crypto.subtle||typeof DecompressionStream==='undefined')M('This browser is too old to unlock the game');
+else if(h||saved)unlock(h||saved).then(ok=>{if(!ok&&saved&&!h)try{localStorage.removeItem('realms_code');}catch(e){}});
+document.getElementById('c').focus();
+</script></body></html>
