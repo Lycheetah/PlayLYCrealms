@@ -1,6 +1,6 @@
 # ⚒ ForgeBound Realms
 
-**Version 10.9** · updated 2026-10-14 · © Lycheetah, all rights reserved
+**Version 11.0** · updated 2026-10-14 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -23,6 +23,7 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 
 ## What's new
 
+- **⏱ Speed on real hardware:** Menu → Speed test: a 24-second flight over the land, the same on every device, that tells you how this device runs the game (frame rate, the worst stutters, the slowest frame) and what to change, then lands you back where you stood. When even a lower resolution cannot hold the frame rate, the new effects saver turns effects off one at a time (sway, glow, sun rays, half the lights, a shorter view) before the graphics level drops, and brings them back when there is room. And the game notes the frame rate every minute: if a phone warms up and slows down, it says so. All of it goes into the Feedback report.
 - **🔊 The sound pass:** Every sound now plays: about twenty-five were silent, among them the warning sounds of four monster families. Every sound was measured and set to its place, so chimes no longer shout over explosions, and each play shifts a little in pitch so repeats stop grating. Hits on foes thump, getting hurt has a sound, and the Menu and bag open with a soft note. Big moments lower the music for a breath, combat music takes over from the calm music, and the background levels itself place by place. New in Settings → Sound: Menu sounds and Mono sound. Sound pauses when the game is hidden.
 - **📺 Console ready:** Every version is now tested as if on an Xbox: its browser, a 1080p TV, and a controller pressing real buttons through the title, jumping, dashing, striking, the Menu, the D-pad, the bag and both bumpers. And a TV or console gets a sofa-friendly first launch: big text, fast leaves and no sway, on top of the quiet, light start.
 - **✉ Feedback, crash reports and world backups:** Ready for launch: Menu → Feedback lets you say what happened, pick bug, feels off, idea or crash, and copy (or share from a phone) a report with the version, your device, your settings and any recent errors, so problems get fixed fast. Errors the game hits are logged on your device and it tells you where to report them. And Menu → Back up this world saves your world as a file you can load on any device.
@@ -32,7 +33,6 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 - **🍃 Smoother forests, and a Main menu button:** Settings → Graphics has two new options for thick forests and glowing groves: Leaves (fancy see-through, or fast and solid with far fewer faces) and Plants and leaves sway (on or off). If the frame rate collapses somewhere full of glowing things, the game now halves the glowing lights and tells you. The Light and Phone presets use fast leaves and no sway. And the Menu has a clear 🏰 Main menu button, right under Resume.
 - **👑 Kingdoms:** Every town is a kingdom in the making. Towns climb ten ranks, from Camp to Crown City, as you fill their requests, complete their contracts and link them. Two cultures: Hearthbound towns pay well for timber, stone and food, Tidewise towns for tools, metal and gear. Prices drift day by day, and a town that just bought a heap of something pays less for more of it, so shop around. From rank 3 a town offers a big contract every three days; from rank 5 you can link two towns with a trade road and they pay tribute into your Treasury. Menu → Kingdoms.
 - **🗼 Epic Scale:** Look up and out. Every open-sky realm has something colossal on its horizon now: the PILLAR in Mundus, rising past the clouds with a crown that burns at night; the Glass Spires of Albedo; the Red Mesa of Rubedo; the World-Tree of Viriditas; the Great Pyramid of Citrinitas. They never come closer: they are where the story is going. Your compass marks them, and pods of great sky whales cross the far sky.
-- **⚒ The Entrance:** The title screen is forged now. FORGEBOUND is struck letter by letter like hot metal, white-hot and showering sparks, then cools to gold. Embers rise from a forge glow over your world at dusk. The seven realms are sigils in their colours: point at one, or tap it, to read its line. Play is a molten ingot, the rest are riveted iron plates, Continue shows your day and your next step, and the Lycheetah sits on its rock in the corner, blinking and flicking its tail.
 
 ---
 
