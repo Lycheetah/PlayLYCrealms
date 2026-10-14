@@ -1,6 +1,6 @@
 # ⚒ ForgeBound Realms
 
-**Version 10.8** · updated 2026-10-14 · © Lycheetah, all rights reserved
+**Version 10.9** · updated 2026-10-14 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -23,6 +23,7 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 
 ## What's new
 
+- **🔊 The sound pass:** Every sound now plays: about twenty-five were silent, among them the warning sounds of four monster families. Every sound was measured and set to its place, so chimes no longer shout over explosions, and each play shifts a little in pitch so repeats stop grating. Hits on foes thump, getting hurt has a sound, and the Menu and bag open with a soft note. Big moments lower the music for a breath, combat music takes over from the calm music, and the background levels itself place by place. New in Settings → Sound: Menu sounds and Mono sound. Sound pauses when the game is hidden.
 - **📺 Console ready:** Every version is now tested as if on an Xbox: its browser, a 1080p TV, and a controller pressing real buttons through the title, jumping, dashing, striking, the Menu, the D-pad, the bag and both bumpers. And a TV or console gets a sofa-friendly first launch: big text, fast leaves and no sway, on top of the quiet, light start.
 - **✉ Feedback, crash reports and world backups:** Ready for launch: Menu → Feedback lets you say what happened, pick bug, feels off, idea or crash, and copy (or share from a phone) a report with the version, your device, your settings and any recent errors, so problems get fixed fast. Errors the game hits are logged on your device and it tells you where to report them. And Menu → Back up this world saves your world as a file you can load on any device.
 - **🗼 The Road to the PILLAR:** The story arrives. Menu → Lore opens the Lore Codex: thirteen cards about the Lycheetah, the broken world, the PILLAR, the Spectral Black Sun, the Asterion Forge, the Black Current, the Hollow Earth, Aurelia, the Guardians and more, each unlocking as you find its part of the world. And a campaign follows the Lycheetah's Path: The Road to the PILLAR, eight great journeys from the Hollow Sun to the moon. Walk them all and the PILLAR answers you, every night.
@@ -32,7 +33,6 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 - **👑 Kingdoms:** Every town is a kingdom in the making. Towns climb ten ranks, from Camp to Crown City, as you fill their requests, complete their contracts and link them. Two cultures: Hearthbound towns pay well for timber, stone and food, Tidewise towns for tools, metal and gear. Prices drift day by day, and a town that just bought a heap of something pays less for more of it, so shop around. From rank 3 a town offers a big contract every three days; from rank 5 you can link two towns with a trade road and they pay tribute into your Treasury. Menu → Kingdoms.
 - **🗼 Epic Scale:** Look up and out. Every open-sky realm has something colossal on its horizon now: the PILLAR in Mundus, rising past the clouds with a crown that burns at night; the Glass Spires of Albedo; the Red Mesa of Rubedo; the World-Tree of Viriditas; the Great Pyramid of Citrinitas. They never come closer: they are where the story is going. Your compass marks them, and pods of great sky whales cross the far sky.
 - **⚒ The Entrance:** The title screen is forged now. FORGEBOUND is struck letter by letter like hot metal, white-hot and showering sparks, then cools to gold. Embers rise from a forge glow over your world at dusk. The seven realms are sigils in their colours: point at one, or tap it, to read its line. Play is a molten ingot, the rest are riveted iron plates, Continue shows your day and your next step, and the Lycheetah sits on its rock in the corner, blinking and flicking its tail.
-- **🪶 Starts quiet and light:** The game now starts with the sound off and on the new 🪶 Light graphics (capped at 30 frames a second), so a TV, a laptop or a phone never runs hot or loud on launch. Everyone gets this once with this version; after that your own settings are kept. Sound: the 🔊 button on the title screen or in the Menu. Graphics: Settings → Quick setup (Light, Phone, Laptop, Gaming PC, Beast or Auto).
 
 ---
 
