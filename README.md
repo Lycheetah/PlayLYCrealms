@@ -1,6 +1,6 @@
 # ⚒ ForgeBound Realms
 
-**Version 10.5** · updated 2026-10-14 · © Lycheetah, all rights reserved
+**Version 10.6** · updated 2026-10-14 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -23,6 +23,7 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 
 ## What's new
 
+- **🗼 The Road to the PILLAR:** The story arrives. Menu → Lore opens the Lore Codex: thirteen cards about the Lycheetah, the broken world, the PILLAR, the Spectral Black Sun, the Asterion Forge, the Black Current, the Hollow Earth, Aurelia, the Guardians and more, each unlocking as you find its part of the world. And a campaign follows the Lycheetah's Path: The Road to the PILLAR, eight great journeys from the Hollow Sun to the moon. Walk them all and the PILLAR answers you, every night.
 - **⛵ The Sea Pass and the Hollow Sun:** Every port you visit joins your ferry list (Menu → Ferry): stand at one and sail to any other you know, for a few gold by distance, or free with a Sea Pass (made at a Maker's Bench, or bought at port traders). And the Underworlds are the Hollow Earth now: at their heart hangs the Hollow Sun. Your compass points to it; stand beneath it and its light goes with you through the dark below.
 - **🏙 Aurelia, and companions with jobs:** High over Mundus floats Aurelia, a city on an island in the sky. You can see it from far off, and your compass marks it. Find the column of light beneath it, the Sky Lift, stand in it and rise; step off near it and you float down. Up top: a marble plaza, houses, lanterns round the rim and Celestine the sky trader. Aurelia is a town too, so it ranks up in Kingdoms. And every creature you tame can take a job (Menu → Companions): 🛡 Guard, 🧺 Gatherer, 🔭 Scout or 🍀 Lucky.
 - **🍃 Smoother forests, and a Main menu button:** Settings → Graphics has two new options for thick forests and glowing groves: Leaves (fancy see-through, or fast and solid with far fewer faces) and Plants and leaves sway (on or off). If the frame rate collapses somewhere full of glowing things, the game now halves the glowing lights and tells you. The Light and Phone presets use fast leaves and no sway. And the Menu has a clear 🏰 Main menu button, right under Resume.
@@ -32,7 +33,6 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 - **🪶 Starts quiet and light:** The game now starts with the sound off and on the new 🪶 Light graphics (capped at 30 frames a second), so a TV, a laptop or a phone never runs hot or loud on launch. Everyone gets this once with this version; after that your own settings are kept. Sound: the 🔊 button on the title screen or in the Menu. Graphics: Settings → Quick setup (Light, Phone, Laptop, Gaming PC, Beast or Auto).
 - **🔥 The First Hour:** A new world now starts at a camp: a hearth, a bedroll, a Maker's Bench, a chest and a signal post, with the Lycheetah watching from the grass. First Light walks you through it in eight steps (your bag, logs, planks, the bedroll, dash and strike, gliding, lighting the camp lantern so the camp becomes Home, and building the Sky Raft to fly), each pointing the way, each with a small reward. The first minute is calmer too: banners wait their turn, and long ones fit the screen. Your existing worlds are untouched.
 - **🐾 Monsters with identity:** Every creature that fights belongs to a family, and every family has a signature move it warns you about. A glowing mark on the ground shows where the strike will land and fills up as it comes: dash out (you can't be hit while dashing), step aside, or hit a creature as it winds up to break it. Wild beasts Pounce and Charge, Ember creatures Slam, Dusk creatures Shadow Step behind you, Machines fire a Beam, and Folk swing a Heavy Blow. The seven guardians have real patterns now: shockwaves to jump, falling strikes, charges, beams and dives, and their bite winds up too. Menu → Monster families shows them all.
-- **🙂 Your Look:** Make your character: skin, hair (six styles and ten colours), a beard or moustache, eyes, and the colours of your tunic, trim, trousers and boots. A new world asks you first; any time after, open the Fitting Room (I) or the Menu → Your Look. Costumes: wear the look of any armour you have collected over what you really wear, and keep your defence, or hide a piece, like your helmet. The eight sets merged in 8.7 are back as costumes. Dyes: colour any piece you show with the eight dyes you make by hand.
 
 ---
 
