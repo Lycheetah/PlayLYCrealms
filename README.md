@@ -1,6 +1,6 @@
 # ⚒ ForgeBound Realms
 
-**Version 11.3** · updated 2026-10-15 · © Lycheetah, all rights reserved
+**Version 11.4** · updated 2026-10-15 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -23,6 +23,7 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 
 ## What's new
 
+- **⚒ The toolmaker's pass:** Every tiered sword, spear, pick, axe, spade and hoe, from oak to infernal plus bone and ivory, has a new hand-drawn icon. Each tool has one well-made shape, and each tier adds its own mark: grain on oak, a rough edge on stone, a glowing edge on embersteel and solar, a dark notched edge on infernal, a crescent pommel on moonsilver, a gem on rosegold, a gold grip on aurum, a steel grip on steel, a leaf on sylvan, and a bone handle on bone and ivory. The energy, phase and ruby blades glow.
 - **🛡 The armoury pass:** Every older armour set has new hand-drawn icons, each with its own mark: a flame on embersteel, a crescent on moonsilver, a rose on rosegold, gold trim on aurum, a leaf on sylvan, a sun on solar, horns on infernal, a porthole on the deep set, stitching on hide, bones on bone, a grid on the lattice, stars on the star set and spots on the lychee set. Helms come open, visored, full, hooded or as diving domes. The crowns, the star cloak, the raider mask, the miner's lamp and the rocket and moon boots are drawn as themselves.
 - **🎨 The material pass:** 125 everyday materials have new hand-drawn icons: ingots are cast bars (some stacked), ores are rock with veins of the metal, dusts are heaps, dyes are corked bottles, gems are cut, crystals grow in clusters, shards catch the light, coal and wax are rough lumps, fish swim, fruit has a stem and a leaf, and the burger has lettuce. Each kind comes in a few variations, so a stack of ingots no longer looks like one ingot in different colours. Armour, weapons and tools are next.
 - **🎮 Play your way:** Controller buttons: put any action on any button (Settings → Controls, or Menu → Controller buttons), swap A and B in one tap, reset in one tap. Colour vision (Settings → Accessibility): red-green and blue-yellow colour blindness each get warning marks in colours that stay clear, and every mark now has a light and a dark edge so it shows on grass, sand, stone or snow. With Sound captions on, a monster about to strike now says so and from which side, and hits, thunder, horns and charging beams have captions. And every panel now fits a phone at the biggest text size.
@@ -32,7 +33,6 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 - **✉ Feedback, crash reports and world backups:** Ready for launch: Menu → Feedback lets you say what happened, pick bug, feels off, idea or crash, and copy (or share from a phone) a report with the version, your device, your settings and any recent errors, so problems get fixed fast. Errors the game hits are logged on your device and it tells you where to report them. And Menu → Back up this world saves your world as a file you can load on any device.
 - **🗼 The Road to the PILLAR:** The story arrives. Menu → Lore opens the Lore Codex: thirteen cards about the Lycheetah, the broken world, the PILLAR, the Spectral Black Sun, the Asterion Forge, the Black Current, the Hollow Earth, Aurelia, the Guardians and more, each unlocking as you find its part of the world. And a campaign follows the Lycheetah's Path: The Road to the PILLAR, eight great journeys from the Hollow Sun to the moon. Walk them all and the PILLAR answers you, every night.
 - **⛵ The Sea Pass and the Hollow Sun:** Every port you visit joins your ferry list (Menu → Ferry): stand at one and sail to any other you know, for a few gold by distance, or free with a Sea Pass (made at a Maker's Bench, or bought at port traders). And the Underworlds are the Hollow Earth now: at their heart hangs the Hollow Sun. Your compass points to it; stand beneath it and its light goes with you through the dark below.
-- **🏙 Aurelia, and companions with jobs:** High over Mundus floats Aurelia, a city on an island in the sky. You can see it from far off, and your compass marks it. Find the column of light beneath it, the Sky Lift, stand in it and rise; step off near it and you float down. Up top: a marble plaza, houses, lanterns round the rim and Celestine the sky trader. Aurelia is a town too, so it ranks up in Kingdoms. And every creature you tame can take a job (Menu → Companions): 🛡 Guard, 🧺 Gatherer, 🔭 Scout or 🍀 Lucky.
 
 ---
 
