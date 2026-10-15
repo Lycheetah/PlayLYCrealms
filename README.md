@@ -1,6 +1,6 @@
 # ⚒ ForgeBound Realms
 
-**Version 11.5** · updated 2026-10-15 · © Lycheetah, all rights reserved
+**Version 11.6** · updated 2026-10-15 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -23,6 +23,7 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 
 ## What's new
 
+- **🛡 Full Sets and the Loadout Sigil:** Creative has a new 🛡 Full sets tab: every armour set, the named sets with their bonuses and every tier line, as a card with its four pieces and matching weapon. One tap wears the whole set and puts the weapon in your hand. And in any mode, make a ◈ Loadout Sigil at a Maker's Bench (2 gold, a cord, a flint): right click it to save what you wear and your hotbar row into one of three kits (Mining, Fighting, Flying, or name your own), then swap a whole kit back on in one tap.
 - **🛠 Fixes from your play:** The craft tab no longer freezes: it opens about five times faster, paints icons only as you scroll to them, and a burst of pickups (mining, machines, loot) updates your bag a few times a second instead of rebuilding it for every single item. And new worlds keep a solid crust: caves stay under the ground and open through proper sloped cave mouths, instead of punching ragged holes through the surface. Worlds you have already started keep their old caves, so nothing moves under your builds.
 - **⚒ The toolmaker's pass:** Every tiered sword, spear, pick, axe, spade and hoe, from oak to infernal plus bone and ivory, has a new hand-drawn icon. Each tool has one well-made shape, and each tier adds its own mark: grain on oak, a rough edge on stone, a glowing edge on embersteel and solar, a dark notched edge on infernal, a crescent pommel on moonsilver, a gem on rosegold, a gold grip on aurum, a steel grip on steel, a leaf on sylvan, and a bone handle on bone and ivory. The energy, phase and ruby blades glow.
 - **🛡 The armoury pass:** Every older armour set has new hand-drawn icons, each with its own mark: a flame on embersteel, a crescent on moonsilver, a rose on rosegold, gold trim on aurum, a leaf on sylvan, a sun on solar, horns on infernal, a porthole on the deep set, stitching on hide, bones on bone, a grid on the lattice, stars on the star set and spots on the lychee set. Helms come open, visored, full, hooded or as diving domes. The crowns, the star cloak, the raider mask, the miner's lamp and the rocket and moon boots are drawn as themselves.
@@ -32,7 +33,6 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 - **🔊 The sound pass:** Every sound now plays: about twenty-five were silent, among them the warning sounds of four monster families. Every sound was measured and set to its place, so chimes no longer shout over explosions, and each play shifts a little in pitch so repeats stop grating. Hits on foes thump, getting hurt has a sound, and the Menu and bag open with a soft note. Big moments lower the music for a breath, combat music takes over from the calm music, and the background levels itself place by place. New in Settings → Sound: Menu sounds and Mono sound. Sound pauses when the game is hidden.
 - **📺 Console ready:** Every version is now tested as if on an Xbox: its browser, a 1080p TV, and a controller pressing real buttons through the title, jumping, dashing, striking, the Menu, the D-pad, the bag and both bumpers. And a TV or console gets a sofa-friendly first launch: big text, fast leaves and no sway, on top of the quiet, light start.
 - **✉ Feedback, crash reports and world backups:** Ready for launch: Menu → Feedback lets you say what happened, pick bug, feels off, idea or crash, and copy (or share from a phone) a report with the version, your device, your settings and any recent errors, so problems get fixed fast. Errors the game hits are logged on your device and it tells you where to report them. And Menu → Back up this world saves your world as a file you can load on any device.
-- **🗼 The Road to the PILLAR:** The story arrives. Menu → Lore opens the Lore Codex: thirteen cards about the Lycheetah, the broken world, the PILLAR, the Spectral Black Sun, the Asterion Forge, the Black Current, the Hollow Earth, Aurelia, the Guardians and more, each unlocking as you find its part of the world. And a campaign follows the Lycheetah's Path: The Road to the PILLAR, eight great journeys from the Hollow Sun to the moon. Walk them all and the PILLAR answers you, every night.
 
 ---
 
