@@ -7,7 +7,7 @@ A hand-forged voxel adventure across seven realms. Build, fight with fast, reada
 ## Play
 
 1. Open **https://lycheetah.github.io/PlayLYCrealms/**
-2. Type the code Lycheetah gave you. The device remembers it.
+2. Type the play code from Lycheetah's launch post. The device remembers it.
 3. The first launch is silent and light. Tap 🔊 under Play for sound, and use Settings → Quick setup to raise the graphics.
 
 It runs in a modern browser on **PC**, **phone and tablet**, and **TV and console browsers** (add `?console=1` to the address if the game won't start).
@@ -79,4 +79,4 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ---
 
-This repository holds a locked web copy of the game. The game files are encrypted and only unlock with a code that Lycheetah shares personally. It is not open source: no permission is given to copy, modify, distribute or reuse any part of it. ForgeBound Realms is an original, independent game and is not affiliated with any other game, studio or company.
+This repository holds a locked web copy of the game. The game files are encrypted and only unlock with the play code Lycheetah shares. It is not open source: no permission is given to copy, modify, distribute or reuse any part of it. ForgeBound Realms is an original, independent game and is not affiliated with any other game, studio or company.
