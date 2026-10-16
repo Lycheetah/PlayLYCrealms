@@ -19,6 +19,9 @@ section{padding:56px 0}
 .hero .bg{position:absolute;inset:0;background:url(site/hero.jpg) center/cover no-repeat}
 .hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,10,15,.78) 0%,rgba(8,10,15,.45) 55%,rgba(8,10,15,.15) 100%),linear-gradient(180deg,rgba(13,16,22,.2) 0%,rgba(13,16,22,.45) 55%,var(--bg) 100%)}
 .hero h1,.hero .tag,.hero .ver{text-shadow:0 2px 14px rgba(0,0,0,.65)}.hero h1{filter:drop-shadow(0 3px 10px rgba(0,0,0,.6))}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.gal figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--card)}
+.gal img{width:100%;aspect-ratio:1366/654;object-fit:cover}.gal figcaption{padding:8px 12px;font-size:14px;color:var(--dim)}.gal figcaption b{color:var(--ink)}
 @media (max-width:640px){.hero .bg::after{background:linear-gradient(180deg,rgba(8,10,15,.45) 0%,rgba(8,10,15,.72) 40%,var(--bg) 100%)}}
 .hero .w{position:relative;width:100%}
 .tag{font:600 clamp(13px,3.4vw,17px) system-ui;letter-spacing:.38em;text-transform:uppercase;margin:0 0 6px}
@@ -68,7 +71,7 @@ footer{padding:36px 0 48px;color:var(--dim);font-size:13px;border-top:1px solid 
 @media (max-width:640px){.top .links{display:none}.play{grid-template-columns:1fr}section{padding:40px 0}}
 </style></head>
 <body>
-<nav class="top"><div class="w"><span class="nm">ForgeBound</span><span class="links"><a href="#trailer">Trailer</a> &nbsp; <a href="#realms">Realms</a> &nbsp; <a href="#features">Features</a> &nbsp; <a href="#systems">Systems</a> &nbsp; <a href="#how">How to play</a></span><a class="go" href="#play">▶ Play</a></div></nav>
+<nav class="top"><div class="w"><span class="nm">ForgeBound</span><span class="links"><a href="#trailer">Trailer</a> &nbsp; <a href="#realms">Realms</a> &nbsp; <a href="#gallery">Pictures</a> &nbsp; <a href="#features">Features</a> &nbsp; <a href="#systems">Systems</a> &nbsp; <a href="#how">How to play</a></span><a class="go" href="#play">▶ Play</a></div></nav>
 
 <header class="hero" id="play"><div class="bg"></div><div class="w">
   <div class="k">⚒ A Lycheetah game</div>
@@ -97,6 +100,11 @@ footer{padding:36px 0 48px;color:var(--dim);font-size:13px;border-top:1px solid 
     <div class="realm" style="background-image:url(site/neon.jpg)"><div><b>Neon City</b><span>Rain on chrome, after dark.</span></div></div>
   </div>
   <p class="more">Also: Nigredo's ash and lava, the pyramids of Citrinitas, time portals to Ancient Egypt, the Modern Day and the Far Future, the Moon, the Aurum, the Underworlds, the Rift, the Hidden School and the Clockwork Reach.</p>
+</div></section>
+
+<section id="gallery" style="padding-top:8px"><div class="w">
+  <h2>From the game</h2><p class="sub">Real play, straight from the browser.</p>
+  <div class="gal"><figure><img src="site/g-pinewild.jpg" alt="Pinewild, Mundus" loading="lazy"><figcaption><b>Pinewild, Mundus</b> · mountains, pines and the tower on the horizon</figcaption></figure><figure><img src="site/g-greenmarch.jpg" alt="Greenmarch, Mundus" loading="lazy"><figcaption><b>Greenmarch, Mundus</b> · a coastal village that needs your help</figcaption></figure><figure><img src="site/g-viriditas.jpg" alt="Mushroom Hollow, Viriditas" loading="lazy"><figcaption><b>Mushroom Hollow, Viriditas</b> · glowcaps and blossom</figcaption></figure><figure><img src="site/g-citrinitas.jpg" alt="Palm Isles, Citrinitas" loading="lazy"><figcaption><b>Palm Isles, Citrinitas</b> · floating isles under the pyramid (it is raining chickens)</figcaption></figure><figure><img src="site/g-titangraves.jpg" alt="Titan Graves, Mortificatio" loading="lazy"><figcaption><b>Titan Graves, Mortificatio</b> · where the giants fell</figcaption></figure></div>
 </div></section>
 
 <section id="features" style="padding-top:8px"><div class="w">
