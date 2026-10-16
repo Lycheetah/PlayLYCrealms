@@ -78,7 +78,7 @@ footer{padding:36px 0 48px;color:var(--dim);font-size:13px;border-top:1px solid 
   <p class="lead">A hand-forged voxel adventure that plays right in your browser. Cross living realms, each with its own land, light and creatures. Build machines that explain themselves, fight with fast, readable moves, fly what you build, and raise towns into kingdoms.</p>
   <div class="play"><input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="YOUR CODE" aria-label="Your play code"><button id="g" type="button">▶ Play</button></div>
   <div id="m"></div>
-  <div class="hint">🔒 Type the code Lycheetah gave you. This device remembers it, so next time the game opens straight away.</div>
+  <div class="hint">🔒 Type the code Lycheetah gave you. This device remembers it, so next time it is filled in for you.</div>
 </div></header>
 
 <section id="trailer"><div class="w">
@@ -362,8 +362,8 @@ const Q=new URLSearchParams(location.search),h=new URLSearchParams(location.hash
 let saved='';try{saved=localStorage.getItem('realms_code')||'';}catch(e){}
 document.getElementById('g').onclick=()=>unlock(document.getElementById('c').value);
 document.getElementById('c').addEventListener('keydown',e=>{if(e.key==='Enter')unlock(e.target.value);});
-// a returning player goes straight into the game; ?site shows this page instead
+// the page always shows; a returning player finds their code filled in, one tap from playing (an invite link with #k= still opens the game at once)
 if(!window.crypto||!crypto.subtle||typeof DecompressionStream==='undefined')M('This browser is too old to unlock the game');
-else if(h||(saved&&!Q.has('site')))unlock(h||saved).then(ok=>{if(!ok&&saved&&!h)try{localStorage.removeItem('realms_code');}catch(e){}});
-else if(saved)document.getElementById('c').value=saved;
+else if(h)unlock(h);
+else if(saved){document.getElementById('c').value=saved;document.getElementById('g').textContent='▶ Continue playing';}
 </script></body></html>
