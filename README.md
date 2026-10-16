@@ -1,6 +1,6 @@
 # ⚒ ForgeBound Realms
 
-**Version 11.16** · updated 2026-10-16 · © Lycheetah, all rights reserved
+**Version 11.17** · updated 2026-10-16 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📖 The forged books:** Every menu in the game now wears the forge: the Field Guide (B), the Handbook, quests, the Hall of Deeds, the ranch, the codex and the rest share the riveted iron look of the title screen and the bag. The Alchemical Tablet is laid out properly, with a clear Essence bar, a real grid, what you can afford first and the long explanation folded away. And while a menu is open, the controls panel and banners step aside so you see one thing at a time.
 - **⚒ The forged bag:** The Survival bag has been rebuilt in the forge look of the title screen. On the left is You: your health, your defence and what you wear. On the right, one slim search-and-filter bar, and the items get the room. The hotbar sits along the bottom, crafting rows you can make now glow gold, and the controls panel steps aside while the bag is open.
 - **🌱 A true start in Survival:** A new Survival world no longer hands you a builder's kit of planks and bricks, or a pack of copper gear, kits and gold that set off a cascade of rewards you never earned. You start with empty hands, the Alchemical Tablet and a little bread, and First Light's steps mean something: cut the logs, make the planks, craft your tools. The Hide Glider comes when First Light asks you to glide. Creative is unchanged, and a world you have already played keeps its bag.
 - **🖼 Clearer graphics settings, and never stuck loading:** A far view distance no longer leaves the title on "Forging": the world opens once the ground around you is ready, and the rest forges while you play. Settings → Graphics now holds everything about the picture, with Style, Colour, Contrast, Vignette, Fog and Brightness under Picture; Glow, Sun rays and Lights say when they need Medium or above, and raising the level from Classic switches them back on. The film grade (contrast curve, warm and cool tint, vignette) can be switched off, the brightness called normal is the one the game really uses, styles no longer undo colour-vision correction, and the lights are only thinned out by itself when you turn on the effects saver.
 - **✨ Lychee AI:** The phone's ✨ Lychee AI app answers now. It has read this whole world, every recipe, machine, creature, realm and handbook page, so ask it how to make something, where a creature lives, what it drops, how to beat it, or what a realm is like. It runs on your device with no connection, and it only knows this world; ask it about anything else and it will say so.
 - **🐛 Realms alive:** Every realm has creatures of its own now. Mortificatio: Grave Borers travel under the ground where nothing can hit them, a trail of churned earth above; watch the dirt, and strike when one bursts up to bite. Old Titans sleep in the Titan Graves, twice a titan's size: let them lie, or wake them. Titans are no longer rare where the giants fell, and Marrow Wisps drift through the dark. The Rift, empty until now, has Rift Stalkers and Void Rays; Neon City has Neon Cats and, after dark, Scrap Hounds; the Written Realm has Inklings, and the Aurum its Gilded Stags. And the Settings tab bar no longer shows the buttons beneath it.
-- **🎓 Lesson kits:** Kit Library → 🎓 Lessons: four small working setups that teach how the machines fit together. Turning power (a Water Wheel, Gearboxes, a Millstone and a Bellows: watch one wheel come up short, then add wheels until it is enough), Charge (a generator, cable, an Electric Furnace, a lamp and a Charge Bank), Signals (a lever, a timer and a day sensor each switching a lamp) and Tubes (a Pump Tube and a Sorting Tube moving items between chests). Floating numbered signs say what each part is, and a checklist beside the screen ticks itself off as you do each step. The lessons teach through the machines' own words: look at any machine and it tells you what it needs.
 
 ---
 
