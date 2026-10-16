@@ -1,6 +1,6 @@
 # ⚒ ForgeBound Realms
 
-**Version 11.12** · updated 2026-10-16 · © Lycheetah, all rights reserved
+**Version 11.14** · updated 2026-10-16 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -12,27 +12,70 @@ A hand-forged voxel adventure across seven realms. Build, fight with fast, reada
 
 It runs in a modern browser on **PC**, **phone and tablet**, and **TV and console browsers** (add `?console=1` to the address if the game won't start).
 
+## Your first hour
+
+- **Start in Survival** in a new world. A camp is waiting with a bedroll, a bench and a chest, and **First Light** (top left) walks you through eight steps: cut logs, make planks, build a bench, craft tools, and survive the first night.
+- **Press B** for the handbook, and **E** for your bag and crafting (the 📜 Guide tab shows what to do next).
+- **Night is dangerous.** Stay near the Hearth, keep torches lit, and greet the dawn.
+- Lost? Ask **Lychee AI** on the in-game phone (make a Smartphone at a Maker's Bench), or type **/guide** after pressing Enter.
+
 ## Controls
 
 | | Keyboard and mouse | Controller | Touch |
 |---|---|---|---|
 | Move · look | WASD · mouse | left stick · right stick | left pad · drag |
-| Jump · dash | Space · Q | A · B | ⤒ · 🤸 |
-| Use · break | right · left click | RT · LT | tap · hold |
-| Bag · menu | E · Esc | Y · Start | 🎒 · ☰ |
+| Run · jump · dash | Shift · Space · Q | · A · B | · ⤒ · 🤸 |
+| Use · break or strike | right click · left click (hold to mine) | RT · LT | tap · hold |
+| Pick from the hotbar | 1–9 · mouse wheel | | tap the bar |
+| Bag · handbook · menu | E · B · Esc | Y · · Start | Bag · Guide · Menu |
+| Map · quests · landmark view | M · J · L | | Map · Quests |
+| See yourself | V (behind, then all around) | | |
+| Horse · Skywing · ride | Z · X · F (mounted: Shift gallops) | | |
+| Fly (Creative) | double Space, then Space up · Q down | | |
+| Travel | walk into a Gate, or T | | |
+| Play together · chat | P · Enter | | |
+
+The controller can be remapped in Settings → Controls.
+
+## The realms
+
+Seven alchemical realms, each with its own land, light, creatures and riches, and more beyond them:
+
+- **Mundus**, the middle realm: rivers, pasture, pine forests and peaks. Home, and where the road to the PILLAR begins.
+- **Nigredo**: ash, ember and lava under a stone sky.
+- **Albedo**: islands in the clouds. Mind the drop.
+- **Rubedo**: red savanna, lychee groves and crimson mesas.
+- **Viriditas**: fey glades, giant trees and glowing mushrooms.
+- **Citrinitas**: golden haze, sun dunes and the pyramids of the old kings.
+- **Mortificatio**, the Underdeep: bone fields and the Titan Graves, where titans walk and Grave Borers hunt from under the ground.
+- **Beyond them:** time portals to Ancient Egypt, the Modern Day and the Far Future, plus Albedo's Moon, the Aurum, the Underworlds, the Rift, Neon City, the Hidden School and the Clockwork Reach.
+
+## What you can do
+
+- **Build** anything, block by block. Or lay down **kits**: whole homes, labs, farms, ships and landmarks, built from the blocks in your bag.
+- **Learn the machines.** Creative → Kit Library → 🎓 Lessons builds working setups with a checklist. Water wheels, gearboxes, mills, furnaces, charge, signals and tubes all grow into automated factories. Every machine tells you in one line why it has stopped.
+- **Fight** with combos, dashes, launchers and lock-on. Read each family's warning before it strikes, and face the guardians of every realm.
+- **Travel:** glide, ride horses, call a Skywing, fly crafts you build yourself, and use waystones and the travel map.
+- **Rule:** raise towns into kingdoms and trade between them.
+- **The phone:** a camera with selfies and stickers, a Factory app that finds your stuck machines, a map, the weather, and Lychee AI.
+- **Creative mode:** the whole bag, flight, Full Sets (a complete armour set and weapon in one tap), and every kit for free.
+
+## If it runs slowly
+
+The game starts on the lightest graphics, and nothing changes them behind your back. Raise them in **Settings → Graphics**. If it stutters, lower the **view distance** first. **Menu → ⏱ Speed test** measures your device.
+
+## Found a bug?
+
+This is an early build of a big game, so you will find rough edges. Please tell us: **Menu → ✉ Feedback → Copy report** puts your device and settings into one message to paste to Lycheetah.
 
 ## What's new
 
+- **🖼 Clearer graphics settings, and never stuck loading:** A far view distance no longer leaves the title on "Forging": the world opens once the ground around you is ready, and the rest forges while you play. Settings → Graphics now holds everything about the picture, with Style, Colour, Contrast, Vignette, Fog and Brightness under Picture; Glow, Sun rays and Lights say when they need Medium or above, and raising the level from Classic switches them back on. The film grade (contrast curve, warm and cool tint, vignette) can be switched off, the brightness called normal is the one the game really uses, styles no longer undo colour-vision correction, and the lights are only thinned out by itself when you turn on the effects saver.
+- **✨ Lychee AI:** The phone's ✨ Lychee AI app answers now. It has read this whole world, every recipe, machine, creature, realm and handbook page, so ask it how to make something, where a creature lives, what it drops, how to beat it, or what a realm is like. It runs on your device with no connection, and it only knows this world; ask it about anything else and it will say so.
 - **🐛 Realms alive:** Every realm has creatures of its own now. Mortificatio: Grave Borers travel under the ground where nothing can hit them, a trail of churned earth above; watch the dirt, and strike when one bursts up to bite. Old Titans sleep in the Titan Graves, twice a titan's size: let them lie, or wake them. Titans are no longer rare where the giants fell, and Marrow Wisps drift through the dark. The Rift, empty until now, has Rift Stalkers and Void Rays; Neon City has Neon Cats and, after dark, Scrap Hounds; the Written Realm has Inklings, and the Aurum its Gilded Stags. And the Settings tab bar no longer shows the buttons beneath it.
 - **🎓 Lesson kits:** Kit Library → 🎓 Lessons: four small working setups that teach how the machines fit together. Turning power (a Water Wheel, Gearboxes, a Millstone and a Bellows: watch one wheel come up short, then add wheels until it is enough), Charge (a generator, cable, an Electric Furnace, a lamp and a Charge Bank), Signals (a lever, a timer and a day sensor each switching a lamp) and Tubes (a Pump Tube and a Sorting Tube moving items between chests). Floating numbered signs say what each part is, and a checklist beside the screen ticks itself off as you do each step. The lessons teach through the machines' own words: look at any machine and it tells you what it needs.
 - **⚙ Settings you can trust:** The picture no longer changes by itself: auto resolution, the effects saver and "lower graphics if slow" are all off unless you turn them on (Settings → Graphics → Smoothness), and whatever graphics you choose stay chosen, on phones too. A new world still starts on the lightest setup, so you pick how far to go. Settings is one tab at a time now (Graphics, Sound, Camera, Game, Controls, Access, Worlds), each opening with a line that says how things are set right now. Sound changes are heard at once, and if the master volume was off, raising any other volume turns it back on.
 - **⚙ Machines that explain themselves:** Every machine now says, in one line, what it is doing or why it has stopped: waiting for something to work, no power (and what to connect), short of power (what its network makes against what it wants), output full, holding the wrong thing, or switched off by its signal. The line sits at the top of its sheet, and under your crosshair whenever you look at one, so you can walk your factory without opening anything. A stopped machine near you sends up a red spark now and then, a starved one an amber one. And the phone has a 🏭 Factory app: every machine in this realm that is stuck or short, nearest first, with what is wrong.
-- **📱 The phone:** The Smartphone is a real phone now: right click it, or Menu → 📱 Phone. The 📸 Camera hides the HUD; drag to frame your shot, tap 🤳 for a selfie (your pet Lycheetah hops in beside you), then snap and dress it up with stickers and a caption. A little 🐆 ForgeBound Realms mark sits in the corner, and 📤 Share sends it straight from your phone (or saves it on a PC). Your last photos live in the 🖼 Gallery, and the phone has Map, Weather, Kits, Lore and Feedback apps, plus a Lychee AI that is still being raised. Make one at a Maker's Bench: a microchip, a lens and a copper sheet.
-- **🧰 Kits that teach and travel:** Place a kit and a card now explains it: what it is, the machines inside and what each one does, and what it is built from, so every kit is a lesson in how the systems fit together. Your own blueprints can now leave the game: copy a share code, share it from a phone, or save it as a file, and add a friend's kit from a code or a file in any world. All of it lives in the new Menu → 🧰 Kit Gallery, with the showcase kits and what each one teaches.
-- **🛡 Full Sets and the Loadout Sigil:** Creative has a new 🛡 Full sets tab: every armour set, the named sets with their bonuses and every tier line, as a card with its four pieces and matching weapon. One tap wears the whole set and puts the weapon in your hand. And in any mode, make a ◈ Loadout Sigil at a Maker's Bench (2 gold, a cord, a flint): right click it to save what you wear and your hotbar row into one of three kits (Mining, Fighting, Flying, or name your own), then swap a whole kit back on in one tap.
-- **🛠 Fixes from your play:** The craft tab no longer freezes: it opens about five times faster, paints icons only as you scroll to them, and a burst of pickups (mining, machines, loot) updates your bag a few times a second instead of rebuilding it for every single item. And new worlds keep a solid crust: caves stay under the ground and open through proper sloped cave mouths, instead of punching ragged holes through the surface. Worlds you have already started keep their old caves, so nothing moves under your builds.
-- **⚒ The toolmaker's pass:** Every tiered sword, spear, pick, axe, spade and hoe, from oak to infernal plus bone and ivory, has a new hand-drawn icon. Each tool has one well-made shape, and each tier adds its own mark: grain on oak, a rough edge on stone, a glowing edge on embersteel and solar, a dark notched edge on infernal, a crescent pommel on moonsilver, a gem on rosegold, a gold grip on aurum, a steel grip on steel, a leaf on sylvan, and a bone handle on bone and ivory. The energy, phase and ruby blades glow.
-- **🛡 The armoury pass:** Every older armour set has new hand-drawn icons, each with its own mark: a flame on embersteel, a crescent on moonsilver, a rose on rosegold, gold trim on aurum, a leaf on sylvan, a sun on solar, horns on infernal, a porthole on the deep set, stitching on hide, bones on bone, a grid on the lattice, stars on the star set and spots on the lychee set. Helms come open, visored, full, hooded or as diving domes. The crowns, the star cloak, the raider mask, the miner's lamp and the rocket and moon boots are drawn as themselves.
 
 ---
 
