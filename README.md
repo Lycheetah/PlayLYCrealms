@@ -1,13 +1,13 @@
 # ⚒ ForgeBound Realms
 
-**Version 11.24** · updated 2026-10-17 · © Lycheetah, all rights reserved
+**Version 11.25** · updated 2026-10-17 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
 ## Play
 
 1. Open **https://lycheetah.github.io/PlayLYCrealms/**
-2. Type the play code from Lycheetah's launch post. The device remembers it.
+2. Type the play code from Lycheetah's launch post on X, [@lycheetahlyc](https://x.com/lycheetahlyc). The device remembers it.
 3. The first launch is silent and light. Tap 🔊 under Play for sound, and use Settings → Quick setup to raise the graphics.
 
 It runs in a modern browser on **PC**, **phone and tablet**, and **TV and console browsers** (add `?console=1` to the address if the game won't start).
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🛟 A safety net:** If the game ever struggles badly (frames that take seconds, or the browser running out of memory), it now saves your world, rests the music for a minute and tells you what to do, instead of letting the tab fail and take your building with it. If it happens to you, Menu → ✉ Feedback → Copy report now says so: please send it in. Also: after a stall the music picks up where it should, instead of playing every note it missed at once.
 - **🔓 The world always opens:** Some players were stuck on "Forging" for good. The check that opens the world ran last in every frame, so one error that repeated every frame (from an older save, or a rare moment) held the title shut with no word why. Now it runs first, a second guard opens the world after 25 seconds whatever else is happening, and if something keeps failing the loading line says what it is, so you can send it in with Menu → ✉ Feedback.
 - **🏘 Room for everyone:** The land around a town used to be strangely empty: the townsfolk, wanderers and Elders were being counted as wild creatures, so the wild filled up before a single deer arrived. Now people and creatures each have their own room, and a town sits in living country. Wandering hermits, bards and pedlars also stopped being crowded out by Elders and roadside traders, and every realm now keeps its own 40 place marks on your map instead of all realms sharing 40.
 - **🦌 Every realm, more alive:** A world audit counted every creature in all 18 realms and found single species flooding whole realms: 54 gazelles in Rubedo, 59 moonmoths on the Moon, 43 neon cats in Neon City. No creature may now take more than 12 of the wild places around you, so every realm shows more of its own life. And the Titan Graves finally have titans walking them (bonehound packs had been taking every place): rare and huge, never more than three near you.
 - **🖱 Right click stays in the game:** A right click anywhere on the game (the HUD, the hotbar, a panel, a banner) no longer opens the browser's own menu; it stays a game action. Text boxes like search and chat still let you copy and paste.
 - **🌍 The world, fixed in five places:** A world audit found things meant to appear that never did. Glowjellies and crocodiles now spawn on the water they live on, and Peaceful nights stay truly peaceful. The Ash Column (Nigredo) and the Titan's Ribs (Mortificatio) now stand on the horizon. Elders, wanderers and post folk keep their posts at night instead of vanishing. The Underworlds' Lost Hold has its dwarves. A place, sky fort, camp, city, delve or vault that failed to build once is tried again later instead of never. And the Great Work can be begun in Survival: the Athanor now asks for 4 Aurum Blocks. Three Field Guide pages were also put right (iron needs a Stone Pick; lamps need charge; Drone Port and Drone Kit).
-- **⚒ How it works:** Every page of the Field Guide (B) now opens with How it works: how the thing actually works end to end, the few rules that matter, and the first thing to do, for all 19 disciplines from power and farming to magic. Also: press X near your Skywing to send it home (X from afar still calls it), and raider camps fight back again: they were wrongly counted as broken before a single raider came.
 
 ---
 
