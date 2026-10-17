@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.26** · updated 2026-10-17 · © Lycheetah, all rights reserved
+**Version 11.27** · updated 2026-10-17 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🌸 The Lycheetah Bloom:** Somewhere in Mundus, a few minutes from where your world began, there is a crater the broken world filled with something sweet: a meadow of lychee red and cheetah gold, a pool of light, and a giant flower that wears cheetah spots. It is closed. It is waiting. When you have found your feet, the Lycheetah will smell it and your compass will show the way. Find its three seeds and see what it does (it is a little ticklish). Its gift is a Bloom Seed: plant it at home and a little oasis grows that heals you, and a lychling comes to live there. It is the first of the Myth Sites: places built by hand from the Lycheetah canon. More are coming. Also: the Moonsilver Boots can be made again.
 - **🐆 Lycheetah Realms:** The game has its real name: Lycheetah Realms. The title screen strikes it letter by letter, and the site, the phone and Feedback carry it too. Nothing else changes: every world, build and setting you have is right where you left it. Also: the Solar armour set can be finished at last. The Solar Helm and Solar Boots had lost their recipes (another set had taken their names), and both are back at the bench, 5 and 4 Solar Ingots.
 - **🛟 A safety net:** If the game ever struggles badly (frames that take seconds, or the browser running out of memory), it now saves your world, rests the music for a minute and tells you what to do, instead of letting the tab fail and take your building with it. If it happens to you, Menu → ✉ Feedback → Copy report now says so: please send it in. Also: after a stall the music picks up where it should, instead of playing every note it missed at once.
 - **🔓 The world always opens:** Some players were stuck on "Forging" for good. The check that opens the world ran last in every frame, so one error that repeated every frame (from an older save, or a rare moment) held the title shut with no word why. Now it runs first, a second guard opens the world after 25 seconds whatever else is happening, and if something keeps failing the loading line says what it is, so you can send it in with Menu → ✉ Feedback.
 - **🏘 Room for everyone:** The land around a town used to be strangely empty: the townsfolk, wanderers and Elders were being counted as wild creatures, so the wild filled up before a single deer arrived. Now people and creatures each have their own room, and a town sits in living country. Wandering hermits, bards and pedlars also stopped being crowded out by Elders and roadside traders, and every realm now keeps its own 40 place marks on your map instead of all realms sharing 40.
 - **🦌 Every realm, more alive:** A world audit counted every creature in all 18 realms and found single species flooding whole realms: 54 gazelles in Rubedo, 59 moonmoths on the Moon, 43 neon cats in Neon City. No creature may now take more than 12 of the wild places around you, so every realm shows more of its own life. And the Titan Graves finally have titans walking them (bonehound packs had been taking every place): rare and huge, never more than three near you.
-- **🖱 Right click stays in the game:** A right click anywhere on the game (the HUD, the hotbar, a panel, a banner) no longer opens the browser's own menu; it stays a game action. Text boxes like search and chat still let you copy and paste.
 
 ---
 
