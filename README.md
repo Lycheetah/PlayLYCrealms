@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.71** · updated 2026-10-19 · © Lycheetah, all rights reserved
+**Version 11.74** · updated 2026-10-19 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🎈 The Garage, part three:** Two more vehicles in the 🚗 Cars tab. The Lychee Airship: a plank gondola under an envelope of balloons, with sails, a pedal rotor astern and lychee lanterns; it floats with no fuel. The Delivery Van: a box van with a cargo hold of four chests behind the cab, for carrying a whole harvest home.
+- **🔍 Every set has a body:** A check of every named armour set found one with no 3D look of its own: Hunter's Leathers. Now it has a hood with a feather, a jerkin with a strap and a quiver on the back, a knife at the belt and fur-topped boots. Every set now shows as itself when you press V.
+- **👗 The Wardrobe road:** A ninth Lycheetah's Road, for all the new armour and costumes: make an Armour Stand, wear a whole new costume, swap outfits at a stand, raise an Armoury Hall, and become a Wardrobe Master. A reward at every step, and the Lycheetah has something to say about each one. Open 🐆 The Roads in the Field Guide.
 - **🏆 Deeds for the new things:** Six new deeds, so each new thing is something to aim for: Dress-Up (wear three of the new costumes in full), Wardrobe Master (all sixteen, and a title), Broadside! (fire the Deck Cannon from a craft), Messages from the Sea (read five bottles), Big Friend (put a Giant's Collar on a tamed creature) and Quick Change (swap outfits at an Armour Stand).
 - **🏛 The Armoury Hall:** Use an Armoury Hall Kit and a hall rises in front of you: a plank floor, low stone walls with lamps, and ten Armour Stands in two rows, facing the door. In Creative they come dressed in the newest sets; in Survival they stand ready for yours. Also fixed: an area power that swept up a butterfly or a bee no longer stops there.
 - **🌊 The Deck Cannon:** The Pirate Sloop has something to fire now. The Deck Cannon fires one iron ball in a long arc that bursts where it lands, 16 harm and a shove to every foe within 4 blocks. Fire it from the deck of any craft you are aboard and it is a broadside: three balls at once.
-- **🔮 More curios:** Small things that make the world feel alive, on the 🆕 New & Experimental shelf. Shake the Snow Globe and snow falls around you for half a minute, wherever you are. Open the Firefly Jar and a cloud of glowing fireflies follows you for a minute, lighting the dark. And sometimes a chest holds a Message in a Bottle: read it for a line from the Lycheetah, and now and then something more is rolled up inside (gold, or a Weathered Map).
-- **🐝 Three more costumes:** Three more sets on the 🆕 New & Experimental shelf, each with its own look on your body. The Beekeeper (a veiled hat and a smock): your bees sting the nearest foe every two seconds. The Frost Witch (a tall frosted hat and a pale robe): a chill comes off you, and foes close by stall in the cold. The Briar Knight (thorn-wound plate): one hit in three, the thorns throw the attacker far back.
-- **🍒 The Lychee kitchen:** Three sweet dishes for the Cooking Pot (by a fire). Lychee Pie gives Swift, a sugar rush; Lychee Soda gives Light Step, the fizz puts a bounce in you; Lychee Ice gives Calm, so cool the hunters let you be. Each lasts three minutes, and the next meal replaces it. Also: the Nocturne Scythe and the Bloom Staff are redrawn, so they look like a scythe and a flowering staff in your hand.
 
 ---
 
