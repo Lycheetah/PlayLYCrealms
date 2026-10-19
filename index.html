@@ -7,436 +7,155 @@
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Lycheetah Realms"><meta name="twitter:description" content="Build · Fight · Fly · Rule. A hand-forged voxel adventure in your browser."><meta name="twitter:image" content="https://lycheetah.github.io/PlayLYCrealms/site/hero.jpg">
 <link rel="canonical" href="https://lycheetah.github.io/PlayLYCrealms/"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%E2%9A%92%3C/text%3E%3C/svg%3E">
 <style>
-:root{color-scheme:dark;--bg:#0b0907;--iron:#1d1914;--iron2:#120f0c;--rim:#4d3d27;--rim2:#6b5332;--ink:#f3ead6;--dim:#b9a888;--gold:#f4c76a;--hot:#f4a640}
+:root{color-scheme:dark;--bg:#0a0806;--ink:#f6eedb;--dim:#c1b292;--faint:#8a7d64;--gold:#f4c76a;--hot:#f4a640;--line:#2c2318;--rim:#4d3d27;--panel:#16120e}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
 a{color:var(--gold)}img{display:block;max-width:100%}
-.w{max-width:1100px;margin:0 auto;padding:0 16px}
-.k{font:700 11px system-ui;letter-spacing:.42em;color:var(--gold);text-transform:uppercase}
+.w{max-width:1180px;margin:0 auto;padding:0 20px}
+.k{font:700 12px system-ui;letter-spacing:.36em;color:var(--gold);text-transform:uppercase}
 .gold{background:linear-gradient(180deg,#fff4cf 0%,#f4d27a 42%,#d49a3a 72%,#8f5a1e 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
-h2{font:700 clamp(24px,5vw,36px)/1.15 Georgia,serif;letter-spacing:.1em;text-transform:uppercase;margin:6px 0 4px}
-.sub{color:var(--dim);margin:0 0 22px;font-style:italic;font-family:Georgia,serif}
-section{padding:64px 0 0}
-/* iron plates with rivets, as on the title screen */
-.plate{position:relative;border:1px solid var(--rim);border-radius:14px;background:linear-gradient(180deg,#2b2620 0%,#1a1612 100%);box-shadow:inset 0 1px 0 rgba(255,220,160,.12),inset 0 -2px 0 rgba(0,0,0,.5),0 8px 24px rgba(0,0,0,.45)}
-.plate::before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:radial-gradient(circle at 9px 9px,#9a8257 1.6px,transparent 2.6px),radial-gradient(circle at calc(100% - 9px) 9px,#9a8257 1.6px,transparent 2.6px),radial-gradient(circle at 9px calc(100% - 9px),#9a8257 1.6px,transparent 2.6px),radial-gradient(circle at calc(100% - 9px) calc(100% - 9px),#9a8257 1.6px,transparent 2.6px)}
-/* the forge: hero */
-.hero{position:relative;min-height:100vh;min-height:100svh;display:grid;grid-template-columns:minmax(0,1fr);place-items:center;text-align:center;padding:40px 0 70px;overflow:hidden;background:#07060a}
-.hero .bg{position:absolute;inset:0;background:url(site/hero.jpg) center/cover no-repeat;opacity:.38;filter:saturate(.85)}
-.hero::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 118%,rgba(255,118,28,.42) 0%,rgba(255,90,20,.12) 38%,transparent 62%),radial-gradient(ellipse at 50% 40%,transparent 30%,rgba(5,4,3,.85) 100%),linear-gradient(180deg,transparent 70%,var(--bg) 100%)}
-.ember{position:absolute;bottom:-10px;width:3px;height:3px;border-radius:50%;background:#ffb04a;box-shadow:0 0 8px 2px rgba(255,140,40,.7);opacity:0;animation:rise 9s linear infinite;z-index:1}
-@keyframes rise{0%{transform:translateY(0) translateX(0);opacity:0}10%{opacity:.9}100%{transform:translateY(-95vh) translateX(40px);opacity:0}}
-@media (prefers-reduced-motion:reduce){.ember{display:none}}
-.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.trio figure{margin:0;overflow:hidden;padding:0}.trio img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:13px 13px 0 0;display:block}
-.trio figcaption{padding:12px 16px 14px;color:var(--dim);font-size:15px;line-height:1.5}.trio figcaption b{display:block;color:var(--ink);font-family:Georgia,serif;font-size:19px;letter-spacing:.03em;margin-bottom:4px}
-.ind{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}.ind .plate{padding:18px}.ind i{font-style:normal;font-size:30px}.ind b{display:block;font-family:Georgia,serif;font-size:19px;color:var(--ink);margin:6px 0 4px}
-.ind span{color:var(--dim);line-height:1.5}.ind small{display:block;margin-top:10px;color:var(--gold,#f4d27a);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase}.ind .soon{opacity:.72}.ind .more{display:inline-block;margin-top:8px;font-size:13.5px;font-weight:600;text-decoration:none}.ind .more:hover{text-decoration:underline}
-.ency{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:18px 0 4px}.ency span{color:var(--dim);flex:1;min-width:220px}
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.duo figure{margin:0;overflow:hidden;padding:0}.duo img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:13px 13px 0 0;display:block}.duo figcaption{padding:10px 14px 12px;color:var(--dim);font-size:14px}
-.firsth{counter-reset:f;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;list-style:none;padding:0}.firsth li{padding:18px 18px 16px;line-height:1.5;color:var(--dim)}.firsth li b{color:var(--ink)}
-.firsth li:before{counter-increment:f;content:counter(f);display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:rgba(244,210,122,.15);color:#f4d27a;font-weight:700;margin-bottom:10px}
-details.manual>summary{cursor:pointer;list-style:none;padding:16px 20px;font-family:Georgia,serif;font-size:20px;color:var(--ink)}details.manual>summary:before{content:'▸ ';color:#f4d27a}details.manual[open]>summary:before{content:'▾ '}
-details.older>summary{cursor:pointer;color:#f4d27a;margin-top:12px}
-@media (max-width:760px){.trio,.duo{grid-template-columns:1fr}}
-.hero .w{position:relative;z-index:2;width:100%}
-.hero h1{margin:10px 0 0;font:700 clamp(34px,10.4vw,128px)/1 Georgia,serif;letter-spacing:.08em;text-transform:uppercase;filter:drop-shadow(0 4px 20px rgba(0,0,0,.9))}
-.hero .rl{font:600 13px system-ui;letter-spacing:.5em;text-transform:uppercase;margin:6px 0 18px}.hero .rl b{color:var(--gold)}
-.sig{display:flex;justify-content:center;gap:clamp(8px,2.4vw,22px);flex-wrap:wrap;margin:0 auto 18px;max-width:640px}
-.sig a{display:flex;flex-direction:column;align-items:center;gap:5px;text-decoration:none;font:700 9.5px system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--c)}
-.sig a{min-width:0}.sig a span{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-size:17px;border:2px solid var(--c);background:radial-gradient(circle,rgba(0,0,0,.2),rgba(0,0,0,.65));box-shadow:0 0 14px color-mix(in srgb,var(--c) 45%,transparent);transition:transform .2s}
-.sig a:hover span{transform:translateY(-2px) scale(1.06)}
-.tag{font:italic 400 clamp(16px,2.6vw,21px)/1.45 Georgia,serif;max-width:620px;margin:0 auto 26px;color:#efe3c8;text-shadow:0 2px 10px #000}
-.play{max-width:520px;margin:0 auto;padding:16px}
+h2{font:700 clamp(30px,5.4vw,58px)/1.02 Georgia,serif;letter-spacing:.01em;margin:10px 0 14px}
+.ingot{font:800 18px system-ui;padding:14px 28px;border-radius:12px;color:#1d1206;border:1px solid #ffd98a;background:linear-gradient(180deg,#fff0b8 0%,#f6cd66 30%,#e09a36 68%,#a9601b 100%);box-shadow:0 0 22px rgba(255,170,60,.35),inset 0 1px 0 rgba(255,255,255,.5);text-decoration:none;display:inline-block;cursor:pointer}
+.ingot:hover{filter:brightness(1.07)}
+/* the hero: one big picture, the name, and the way in */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:grid;align-items:end;overflow:hidden;background:#07060a}
+.hero .bg{position:absolute;inset:0;background:url(site/hero.jpg) 50% 30%/cover no-repeat}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,5,4,.2) 0%,rgba(6,5,4,.12) 30%,rgba(6,5,4,.7) 62%,rgba(6,5,4,.9) 82%,var(--bg) 100%),radial-gradient(ellipse at 20% 80%,rgba(6,5,4,.55),transparent 60%)}
+@media (max-width:860px){.hero::after{background:linear-gradient(180deg,rgba(6,5,4,.35) 0%,rgba(6,5,4,.62) 30%,rgba(6,5,4,.86) 60%,var(--bg) 100%)}}
+.hero .w{position:relative;z-index:2;width:100%;padding-bottom:9vh}
+.hero h1{margin:8px 0 4px;font:700 clamp(46px,11vw,150px)/.92 Georgia,serif;letter-spacing:.04em;text-transform:uppercase;filter:drop-shadow(0 6px 24px rgba(0,0,0,.85))}
+.hero .rl{font:700 13px system-ui;letter-spacing:.5em;text-transform:uppercase;color:#f0e2c2;margin:0 0 18px}
+.tag{font:400 clamp(18px,2.4vw,24px)/1.4 Georgia,serif;max-width:640px;margin:0 0 24px;color:#f3e8cf;text-shadow:0 2px 12px #000}
+.play{max-width:520px;padding:14px;border-radius:16px;background:rgba(14,11,8,.78);backdrop-filter:blur(8px);border:1px solid var(--rim)}
 .play .row{display:grid;grid-template-columns:1fr auto;gap:10px}
 input{width:100%;min-width:0;font:700 22px/1.2 ui-monospace,monospace;letter-spacing:.24em;text-align:center;text-transform:uppercase;padding:14px;border-radius:12px;border:1px solid var(--rim);background:#0f0d0a;color:#fff4cf}
 input:focus{outline:none;border-color:var(--hot);box-shadow:0 0 0 2px rgba(244,166,64,.3)}
 button{cursor:pointer}
-.ingot,#g{font:800 18px system-ui;padding:14px 28px;border-radius:12px;color:#1d1206;border:1px solid #ffd98a;background:linear-gradient(180deg,#fff0b8 0%,#f6cd66 30%,#e09a36 68%,#a9601b 100%);box-shadow:0 0 22px rgba(255,170,60,.35),inset 0 1px 0 rgba(255,255,255,.5);text-decoration:none;display:inline-block}
-.ingot:hover,#g:hover{filter:brightness(1.07);box-shadow:0 0 30px rgba(255,170,60,.55),inset 0 1px 0 rgba(255,255,255,.5)}
-#m{min-height:1.4em;margin-top:8px;color:#ffb0a0;font-weight:600}
-.hint{font-size:13px;color:var(--dim);margin-top:2px}
-.facts{display:flex;justify-content:center;gap:8px 20px;flex-wrap:wrap;margin-top:18px;font:700 11px system-ui;letter-spacing:.22em;text-transform:uppercase;color:var(--dim)}
-.scroll{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);z-index:2;color:var(--dim);font-size:12px;letter-spacing:.3em;text-transform:uppercase;text-decoration:none}
-/* nav */
-.top{position:sticky;top:0;z-index:20;background:rgba(11,9,7,.9);backdrop-filter:blur(8px);border-bottom:1px solid #2c2318}
-.top .w{display:flex;gap:6px 18px;align-items:center;flex-wrap:wrap;padding-top:9px;padding-bottom:9px}
-.top a{color:var(--ink);text-decoration:none;font-weight:600;font-size:14px}.top a:hover{color:var(--gold)}
-.top .nm{font:700 15px Georgia,serif;letter-spacing:.16em;text-transform:uppercase}
-.top .ingot{margin-left:auto;padding:6px 16px;font-size:14px}
-/* gallery */
-.gal{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
-.gal figure{margin:0;overflow:hidden;padding:0}.gal figure:nth-child(1),.gal figure:nth-child(2){grid-column:span 3}.gal figure:nth-child(n+3){grid-column:span 2}
-.gal img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:13px 13px 0 0}
-.gal figcaption{padding:9px 14px 11px;font-size:14px;color:var(--dim)}.gal figcaption b{color:var(--ink);font-family:Georgia,serif;letter-spacing:.04em}
-/* realms */
-.realms{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
-.realm{position:relative;aspect-ratio:16/10;border-radius:14px;overflow:hidden;border:1px solid var(--rim);background:var(--iron) center/cover no-repeat}
-.realm div{position:absolute;inset:auto 0 0 0;padding:44px 14px 12px;background:linear-gradient(180deg,transparent,rgba(8,6,4,.85) 40%,rgba(8,6,4,.96));text-shadow:0 1px 4px #000}
-.realm i{display:block;font:700 9.5px system-ui;font-style:normal;letter-spacing:.3em;text-transform:uppercase;color:var(--c,var(--gold))}
-.realm b{display:block;font:700 21px Georgia,serif;letter-spacing:.06em}.realm span{font-size:14px;color:#e2d6bb}
-.more{margin-top:16px;color:var(--dim)}
-/* features */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
-.grid .plate{padding:18px 18px 16px}
-.grid i{font-style:normal;font-size:26px;display:block;margin-bottom:4px}
-.grid b{display:block;font:700 17px Georgia,serif;letter-spacing:.04em;color:#fff4cf;margin-bottom:3px}.grid span{color:var(--dim);font-size:15px}
-/* systems (from site-systems.html) */
-.tools{display:flex;gap:8px;margin:0 0 12px}.tools button{font:600 13px system-ui;padding:7px 14px;border-radius:10px;border:1px solid var(--rim);background:#1a1612;color:var(--ink)}
-.sys{display:grid;gap:10px}
-.sy{position:relative;border:1px solid var(--rim);border-radius:14px;background:linear-gradient(180deg,#25201a,#17130f)}
-.sy[open]{border-color:var(--rim2)}
-.sy summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:auto 1fr auto;gap:0 12px;align-items:center;padding:14px 18px}
-.sy summary::-webkit-details-marker{display:none}
-.sy summary::after{content:"+";font:700 22px system-ui;color:var(--gold);grid-row:1/3;grid-column:3}.sy[open] summary::after{content:"–"}
-.sy summary i{font-style:normal;font-size:24px;grid-row:1/3}.sy summary b{font:700 17px Georgia,serif;letter-spacing:.04em}.sy summary span{color:var(--dim);font-size:14px;grid-column:2}
-.sy .sb{padding:0 18px 8px;border-top:1px solid #2c2318}.sy ul{margin:12px 0;padding-left:20px}.sy li{margin:0 0 8px}.sy li b{color:var(--gold)}
-.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:18px}
-.nums div{border:1px solid var(--rim);border-radius:14px;padding:14px;text-align:center;background:linear-gradient(180deg,#2b2620,#1a1612)}.nums b{display:block;font:700 32px Georgia,serif;color:var(--gold)}.nums span{color:var(--dim);font-size:14px}
-/* how to play */
-.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
-.steps li{counter-increment:s;padding:16px 16px 16px 58px}
-.steps li::after{content:counter(s);position:absolute;left:16px;top:15px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font:800 15px system-ui;color:#1d1206;background:linear-gradient(180deg,#fff0b8,#e09a36)}
-.tw{overflow-x:auto;margin-top:16px;padding:6px}
-table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:9px 10px;border-bottom:1px solid #2c2318;vertical-align:top}th{color:var(--gold);font-family:Georgia,serif}
-.film{aspect-ratio:16/9;border-radius:14px;overflow:hidden;border:1px solid var(--rim);background:#07060a center/cover no-repeat;display:grid;place-items:center}
-.film video{width:100%;height:100%;object-fit:cover}.film .soon{font:700 12px system-ui;letter-spacing:.3em;text-transform:uppercase;background:rgba(0,0,0,.6);padding:10px 16px;border-radius:10px;border:1px solid var(--rim)}
-.news li{margin:0 0 10px}.news b{color:var(--gold)}
-.end{text-align:center;padding:80px 0 30px}
-footer{padding:30px 0 50px;color:#8a7d64;font-size:12px;letter-spacing:.08em;text-align:center;border-top:1px solid #2c2318;margin-top:40px}
-.how .fl{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:12px 0 4px}.how .fl>b{color:var(--hot)}
-.how .fs{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:80px;max-width:120px;padding:7px 8px;border:1px solid var(--rim);border-radius:11px;background:#17130f;text-align:center}.how .fs i{font-style:normal;font-size:22px}.how .fs span{font-size:12px;color:#eadfc6;line-height:1.25}
-.how .first{margin:4px 0 12px;padding:9px 12px;border:1px solid #c99a4a;border-radius:11px;background:rgba(244,199,106,.1)}.how .first b{color:#ffe2a0}
-.how summary span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-@media (max-width:760px){.sig{gap:10px 12px}.sig a{font-size:8.5px;letter-spacing:.08em}.play{margin:0 4px}.gal figure:nth-child(n){grid-column:span 6}.top .links{display:none}.play .row{grid-template-columns:1fr}section{padding-top:48px}.steps li{padding-left:58px}}
+#g{font:800 18px system-ui;padding:14px 26px;border-radius:12px;color:#1d1206;border:1px solid #ffd98a;background:linear-gradient(180deg,#fff0b8 0%,#f6cd66 30%,#e09a36 68%,#a9601b 100%)}
+#m{min-height:1.3em;margin-top:6px;color:#ffb0a0;font-weight:600;font-size:15px}
+.hint{font-size:13.5px;color:var(--dim)}
+.facts{display:flex;gap:8px 20px;flex-wrap:wrap;margin-top:16px;font:700 11.5px system-ui;letter-spacing:.2em;text-transform:uppercase;color:#d9cba9}
+/* the bar */
+.top{position:sticky;top:0;z-index:20;background:rgba(10,8,6,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .w{display:flex;gap:6px 22px;align-items:center;padding-top:10px;padding-bottom:10px}
+.top a{color:var(--ink);text-decoration:none;font-weight:600;font-size:14.5px}.top a:hover{color:var(--gold)}
+.top .nm{font:700 15px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;margin-right:8px}
+.top .ingot{margin-left:auto;padding:7px 18px;font-size:14px;box-shadow:none}
+/* the showcase: big pictures, few words */
+.show{padding:110px 0 0}
+.sc{display:grid;grid-template-columns:1.45fr 1fr;gap:44px;align-items:center}
+.sc.r{grid-template-columns:1fr 1.45fr}.sc.r .pic{order:2}
+.pic{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.6);aspect-ratio:16/10;background:#111}
+.pic img{width:100%;height:100%;object-fit:cover}
+.pic .thumbs{position:absolute;right:14px;bottom:14px;display:flex;gap:8px}.pic .thumbs img{width:120px;height:72px;border-radius:9px;border:2px solid rgba(255,240,200,.75);object-fit:cover;box-shadow:0 8px 20px rgba(0,0,0,.6)}
+.txt p{color:var(--dim);margin:0 0 16px;font-size:18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chips a,.chips span{font:600 14px system-ui;color:var(--ink);text-decoration:none;padding:7px 12px;border-radius:999px;background:#1a1510;border:1px solid var(--line)}
+.chips a:hover{border-color:var(--rim);color:var(--gold)}
+/* the realms: one strip you swipe through */
+.realms{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(260px,30%);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 0 18px;scrollbar-width:thin}
+.realm{scroll-snap-align:start;position:relative;aspect-ratio:3/4;border-radius:16px;overflow:hidden;background:#111 center/cover no-repeat}
+.realm div{position:absolute;inset:auto 0 0 0;padding:70px 18px 18px;background:linear-gradient(180deg,transparent,rgba(8,6,4,.9) 50%)}
+.realm i{display:block;font:700 10.5px system-ui;font-style:normal;letter-spacing:.3em;text-transform:uppercase;color:var(--c,var(--gold))}
+.realm b{display:block;font:700 28px Georgia,serif}.realm span{font-size:15px;color:#e6dabf}
+.more{color:var(--faint);font-size:15px;margin:6px 0 0}
+/* the Encyclopedia band */
+.band{margin-top:110px;padding:56px 0;background:linear-gradient(180deg,#15100b,#0f0c09);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.band .w{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.band p{color:var(--dim);margin:0;max-width:640px}
+/* how to play, and what is new */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:44px;padding-top:100px}
+.steps{list-style:none;padding:0;margin:18px 0 0;counter-reset:s}.steps li{counter-increment:s;position:relative;padding:0 0 18px 50px;color:var(--dim)}.steps li b{color:var(--ink)}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font:800 15px system-ui;color:#1d1206;background:linear-gradient(180deg,#fff0b8,#e09a36)}
+details.keys{margin-top:6px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}details.keys summary{cursor:pointer;padding:10px 14px;color:var(--gold);font-weight:700}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px 12px;border-top:1px solid var(--line);vertical-align:top}th{color:var(--gold);font-weight:700}
+.newsc{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:12px}
+.newsc li{padding:16px 18px;border-radius:14px;background:var(--panel);border:1px solid var(--line)}.newsc b{display:block;font:700 19px Georgia,serif;margin-bottom:4px}.newsc span{color:var(--dim);font-size:15.5px}
+.end{text-align:center;padding:120px 0 40px}.end h2{font-size:clamp(36px,7vw,72px)}
+footer{padding:30px 0 50px;color:var(--faint);font-size:12px;letter-spacing:.08em;text-align:center;border-top:1px solid var(--line);margin-top:40px}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media (max-width:860px){.sc,.sc.r{grid-template-columns:1fr;gap:20px}.sc.r .pic{order:0}.show{padding-top:72px}.two{grid-template-columns:1fr;gap:56px;padding-top:72px}
+  .band .w{grid-template-columns:1fr}.realms{grid-auto-columns:72%}.top .links{display:none}.pic .thumbs img{width:84px;height:50px}.band{margin-top:72px}.play .row{grid-template-columns:1fr}}
 </style></head>
 <body>
-<header class="hero" id="play"><div class="bg"></div><i class="ember" style="left:8%;animation-delay:0s;animation-duration:9s"></i><i class="ember" style="left:18%;animation-delay:3s;animation-duration:11s"></i><i class="ember" style="left:27%;animation-delay:6s;animation-duration:8s"></i><i class="ember" style="left:39%;animation-delay:1.5s;animation-duration:10s"></i><i class="ember" style="left:52%;animation-delay:4.5s;animation-duration:9s"></i><i class="ember" style="left:63%;animation-delay:2s;animation-duration:12s"></i><i class="ember" style="left:71%;animation-delay:7s;animation-duration:9s"></i><i class="ember" style="left:82%;animation-delay:5s;animation-duration:10s"></i><i class="ember" style="left:91%;animation-delay:1s;animation-duration:11s"></i>
+<header class="hero" id="play"><div class="bg"></div>
   <div class="w">
-    <div class="k">⚒ Hand-forged</div>
+    <div class="k">⚒ A hand-forged voxel adventure</div>
     <h1 class="gold">Lycheetah</h1>
-    <div class="rl">Realms <b>v11.36</b></div>
-    <nav class="sig" aria-label="The seven realms">
-      <a href="#realms" style="--c:#f4d27a"><span>◉</span>Mundus</a><a href="#realms" style="--c:#ff7a3c"><span>▲</span>Nigredo</a><a href="#realms" style="--c:#cfe6ff"><span>❄</span>Albedo</a><a href="#realms" style="--c:#ff6b8a"><span>♛</span>Rubedo</a><a href="#realms" style="--c:#7fe08a"><span>❦</span>Viriditas</a><a href="#realms" style="--c:#ffd84a"><span>☀</span>Citrinitas</a><a href="#realms" style="--c:#ec6478"><span>☠</span>Mortificatio</a>
-    </nav>
-    <p class="tag">A hand-forged voxel world with a cheetah at its heart: alien places built by hand, creatures you will meet nowhere else, and deep crafts you master one tier at a time.</p>
-    <div class="play plate"><div class="row"><input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="YOUR CODE" aria-label="Your play code"><button id="g" type="button">▶ Play</button></div>
-      <div id="m"></div><div class="hint">🔒 Type the play code from Lycheetah's launch post on X, <a href="https://x.com/lycheetahlyc" target="_blank" rel="noopener">@lycheetahlyc</a>. This device remembers it.</div></div>
+    <div class="rl">Realms · v11.37</div>
+    <p class="tag">Alien places built by hand. Creatures you will meet nowhere else. Crafts that run from your first fire to a base on the Moon.</p>
+    <div class="play"><div class="row"><input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="YOUR CODE" aria-label="Your play code"><button id="g" type="button">▶ Play</button></div>
+      <div id="m"></div><div class="hint">🔒 The play code is in Lycheetah's launch post on X, <a href="https://x.com/lycheetahlyc" target="_blank" rel="noopener">@lycheetahlyc</a>. This device remembers it.</div></div>
     <div class="facts"><span>Free</span><span>In your browser</span><span>PC · phone · controller</span><span>Early access · 2026-10-19</span></div>
   </div>
-  <a class="scroll" href="#different">▼ See what makes it different</a>
 </header>
 
-<nav class="top"><div class="w"><span class="nm gold">Lycheetah Realms</span><span class="links"><a href="#different">Why it is different</a> &nbsp; <a href="#industries">What you do</a> &nbsp; <a href="site/encyclopedia.html">Encyclopedia</a> &nbsp; <a href="#realms">Realms</a> &nbsp; <a href="#how">How to play</a> &nbsp; <a href="#news">New</a></span><a class="ingot" href="#play">▶ Play</a></div></nav>
+<nav class="top"><div class="w"><span class="nm gold">Lycheetah Realms</span><span class="links"><a href="#myth">The world</a> &nbsp; <a href="#lines">What you do</a> &nbsp; <a href="#realms">Realms</a> &nbsp; <a href="site/encyclopedia.html">Encyclopedia</a> &nbsp; <a href="#start">Play</a> &nbsp; <a href="#news">New</a></span><a class="ingot" href="#play">▶ Play</a></div></nav>
 
-<section id="different"><div class="w">
-  <div class="k">Not another block game</div><h2 class="gold">Places built by hand, from a myth</h2><p class="sub">Out in the realms stand the Myth Sites: places laid out block by block from the Lycheetah canon, each with a story, a puzzle and a gift you cannot get any other way.</p>
-  <div class="trio">
-    <figure class="plate"><img src="site/myth-bloom.jpg" alt="The Lycheetah Bloom" loading="lazy"><figcaption><b>🌸 The Lycheetah Bloom</b>A crater the broken world filled with something sweet. Find its three seeds and see what it does (it is a little ticklish). Its gift heals you at home.</figcaption></figure>
-    <figure class="plate"><img src="site/myth-maw.jpg" alt="The Laughing Maw" loading="lazy"><figcaption><b>😈 The Laughing Maw</b>A giant stone face in a wrecked carnival that has not laughed since the world broke. Give it three silly things. Give it something boring and it spits you across the field.</figcaption></figure>
-    <figure class="plate"><img src="site/myth-mirror.jpg" alt="The Mirror Well" loading="lazy"><figcaption><b>🪞 The Mirror Well</b>On the white isles, a mirror that remembers the day the world broke, twice, and the two memories disagree. Choose which to believe by walking through its arch.</figcaption></figure>
-  </div>
+<section class="show" id="myth"><div class="w sc reveal">
+  <div class="pic"><img src="site/myth-bloom.jpg" alt="The Lycheetah Bloom, a crater filled with pink blossoms" loading="lazy"><div class="thumbs"><img src="site/myth-maw.jpg" alt="The Laughing Maw" loading="lazy"><img src="site/myth-mirror.jpg" alt="The Mirror Well" loading="lazy"></div></div>
+  <div class="txt"><div class="k">Not another block game</div><h2 class="gold">Places built by hand, from a myth</h2>
+    <p>The Lycheetah Bloom, a crater the broken world filled with something sweet. The Laughing Maw, a stone face that spits you out if you are boring. The Mirror Well, which remembers the day the world broke, twice.</p>
+    <div class="chips"><span>🌸 The Bloom</span><span>😈 The Maw</span><span>🪞 The Mirror Well</span><span>✦ more coming</span></div></div>
 </div></section>
 
-<section id="life"><div class="w">
-  <div class="k">Every realm, its own wild</div><h2 class="gold">Creatures you will meet nowhere else</h2><p class="sub">Grave Borers that hunt from under the ground. Old Titans asleep where the giants fell. Crater Hoppers bounding in the Moon's low gravity. A crab that lives in a vending machine and is always out of order.</p>
-  <div class="trio">
-    <figure class="plate"><img src="site/life-moon.jpg" alt="Creatures of the Moon" loading="lazy"><figcaption><b>The Moon</b>Crater Hoppers, Grey Grazers with ice on their backs, and the brass Wreck Mites.</figcaption></figure>
-    <figure class="plate"><img src="site/life-neon.jpg" alt="Creatures of Neon City" loading="lazy"><figcaption><b>Neon City</b>Chrome Pigeons, Neon Cats, Scrap Hounds by night, and the Vend Crab: *clunk*.</figcaption></figure>
-    <figure class="plate"><img src="site/life-albedo.jpg" alt="Creatures of Albedo" loading="lazy"><figcaption><b>Albedo</b>Pearl Snails that leave a trail of light, Salt Hares, and Glass Herons on legs like blue glass.</figcaption></figure>
-  </div>
+<section class="show"><div class="w sc r reveal">
+  <div class="pic"><img src="site/life-lych.jpg" alt="Lycheetahs, a cub, a gazelle and a lion in a Rubedo canyon" loading="lazy"><div class="thumbs"><img src="site/life-moon2.jpg" alt="Crater Hoppers, a Grey Grazer and a Wreck Mite before the Moon dome" loading="lazy"><img src="site/life-titan.jpg" alt="An Old Titan in Mortificatio" loading="lazy"></div></div>
+  <div class="txt"><div class="k">Every realm, its own wild</div><h2 class="gold">Creatures you will meet nowhere else</h2>
+    <p>The Lycheetah itself, running wild in Rubedo's red canyons. Grave Borers that hunt from under the ground. Old Titans asleep where the giants fell. Crater Hoppers bounding in the Moon's low gravity. A crab that lives in a vending machine and is always out of order.</p>
+    <div class="chips"><a href="site/encyclopedia.html#life">🐾 Meet all 73 creatures</a></div></div>
 </div></section>
 
-<section id="industries"><div class="w">
-  <div class="k">Deep by choice</div><h2 class="gold">Every craft is a whole line</h2><p class="sub">Each part of the game runs from your first hour to an end goal, in five tiers, with its own page in the in-game Field Guide (B). Start anywhere; go as deep as you like.</p>
-  <div class="ind">
-    <div class="plate"><i>🌾</i><b>Farming &amp; Food</b><span>Seeds, a Watering Can, then a Cooking Pot by the fire: eight meals that each do something, from night eyes to a lighter step.</span><small>Plot → kitchen → homestead → machine farm</small><a class="more" href="site/encyclopedia.html#farm">Every piece in the Encyclopedia →</a></div>
-    <div class="plate"><i>🚗</i><b>Vehicles &amp; Mounts</b><span>Your horse and a saddle, rails and gliders, then crafts you build block by block: airships, walkers, jets, flying cities, and the Jump Drive to the Moon.</span><small>Ride → rails → engines → sky → beyond</small><a class="more" href="site/encyclopedia.html#craft">Every piece in the Encyclopedia →</a></div>
-    <div class="plate"><i>🧭</i><b>Exploration</b><span>The map stays dark until you go there. Spy a tower through the Spyglass, walk in, delve below, and fill your Atlas.</span><small>Wander → survey → chart → delve → the Atlas</small><a class="more" href="site/encyclopedia.html#adv">Every piece in the Encyclopedia →</a></div>
-    <div class="plate"><i>⚙️</i><b>Machines &amp; Power</b><span>Water wheels to factories, charge, circuits and tubes. Every machine tells you in one line why it has stopped.</span><small>Wheels → charge → logic → factories</small><a class="more" href="site/encyclopedia.html#power">Every piece in the Encyclopedia →</a></div>
-    <div class="plate"><i>✨</i><b>Alchemy &amp; Magic</b><span>Wands, spells you write yourself, sigils, the Mystery Schools and the Great Work.</span><small>Wands → spells → schools → the Great Work</small><a class="more" href="site/encyclopedia.html#magic">Every piece in the Encyclopedia →</a></div>
-    <div class="plate"><i>⚔️</i><b>Combat</b><span>Combos, dashes and lock-on, legendary sets like the Hollowsun Dragonlord, and a Guardian for every realm.</span><small>Blades → sets → Guardians</small><a class="more" href="site/encyclopedia.html#combat">Every piece in the Encyclopedia →</a></div>
-    <div class="plate soon"><i>🚀</i><b>Space</b><span>Pressure suits, a base on the Moon, airlocks and a metal you can only forge up there.</span><small>Coming next</small></div>
-  </div>
-  <p class="ency"><a class="ingot" href="site/encyclopedia.html">📖 Open the Encyclopedia</a><span>Every block, item, machine and creature: what it does, how it is made, what it goes into, where to find it.</span></p>
-  <div class="duo">
-    <figure class="plate"><img src="site/farm-pot.jpg" alt="The Cooking Pot" loading="lazy"><figcaption>The Cooking Pot: eight meals from your own crops.</figcaption></figure>
-    <figure class="plate"><img src="site/map-fog.jpg" alt="The map, uncovered as you explore" loading="lazy"><figcaption>The map: only what you have walked or spotted.</figcaption></figure>
-  </div>
+<section class="show" id="lines"><div class="w sc reveal">
+  <div class="pic"><img src="site/line-moon.jpg" alt="A base on the Moon under a glass dome" loading="lazy"><div class="thumbs"><img src="site/line-pyramid.jpg" alt="The Flying Pyramid over Citrinitas" loading="lazy"><img src="site/line-elftree.jpg" alt="An Elf Tree in Viriditas" loading="lazy"></div></div>
+  <div class="txt"><div class="k">Deep by choice</div><h2 class="gold">Every craft is a whole line</h2>
+    <p>Farming, vehicles, exploration, machines, magic, combat and space: each one runs from your first hour to an end goal, in five tiers. Start anywhere and go as deep as you like.</p>
+    <div class="chips"><a href="site/encyclopedia.html#farm">🌾 Farming</a><a href="site/encyclopedia.html#craft">🚗 Vehicles</a><a href="site/encyclopedia.html#adv">🧭 Exploration</a><a href="site/encyclopedia.html#power">⚙️ Machines</a><a href="site/encyclopedia.html#magic">🔮 Magic</a><a href="site/encyclopedia.html#combat">🛡 Combat</a><a href="site/encyclopedia.html#space">🚀 Space</a></div></div>
 </div></section>
 
-<section id="first"><div class="w">
-  <div class="k">Your first hour</div><h2 class="gold">From a dying fire to the Bloom</h2>
-  <ol class="firsth">
-    <li class="plate"><b>Wake by a dying fire.</b> First Light walks you through it: logs, planks, your first tools, a fire that heals.</li>
-    <li class="plate"><b>Call your horse</b> with Z and ride. Glide off a hill. Tame something stranger.</li>
-    <li class="plate"><b>Follow the Lycheetah's nose.</b> It smells the Bloom a few minutes from home and puts it on your compass.</li>
-    <li class="plate"><b>Find your line.</b> Farm, build, tinker, delve or fly: open the Field Guide (B) and pick a page.</li>
-  </ol>
-</div></section>
-
-<section id="gallery"><div class="w">
-  <div class="k">From the game</div><h2 class="gold">Real play, in a browser</h2><p class="sub">No trailer tricks: these are screenshots from Lycheetah's own worlds.</p>
-  <div class="gal">
-    <figure class="plate"><img src="site/g-pinewild.jpg" alt="Pinewild, Mundus" loading="lazy"><figcaption><b>Pinewild</b> · Mundus · mountains, pines and a tower on the horizon</figcaption></figure>
-    <figure class="plate"><img src="site/g-titangraves.jpg" alt="Titan Graves, Mortificatio" loading="lazy"><figcaption><b>Titan Graves</b> · Mortificatio · where the giants fell</figcaption></figure>
-    <figure class="plate"><img src="site/g-greenmarch.jpg" alt="Greenmarch, Mundus" loading="lazy"><figcaption><b>Greenmarch</b> · a village on the coast</figcaption></figure>
-    <figure class="plate"><img src="site/g-viriditas.jpg" alt="Mushroom Hollow, Viriditas" loading="lazy"><figcaption><b>Mushroom Hollow</b> · Viriditas</figcaption></figure>
-    <figure class="plate"><img src="site/g-citrinitas.jpg" alt="Palm Isles, Citrinitas" loading="lazy"><figcaption><b>Palm Isles</b> · it is raining chickens</figcaption></figure>
-  </div>
-</div></section>
-
-<section id="realms"><div class="w">
-  <div class="k">Seven alchemical realms, and eleven more beyond</div><h2 class="gold">Every realm has its own wild</h2><p class="sub">Land, light and creatures of their own. Walk into a gate and cross.</p>
+<section class="show" id="realms"><div class="w reveal">
+  <div class="k">Seven alchemical realms, and eleven more beyond</div><h2 class="gold">Walk into a gate and cross</h2>
   <div class="realms">
-    <div class="realm" style="background-image:url(site/mundus.jpg);--c:#f4d27a"><div><i>The middle realm</i><b>Mundus</b><span>Rivers, pasture, pine forests and peaks. Home.</span></div></div>
-    <div class="realm" style="background-image:url(site/albedo.jpg);--c:#cfe6ff"><div><i>The White Isles</i><b>Albedo</b><span>Islands in the clouds. Mind the drop.</span></div></div>
-    <div class="realm" style="background-image:url(site/rubedo.jpg);--c:#ff6b8a"><div><i>The Crimson Savanna</i><b>Rubedo</b><span>Lychee groves and red mesas.</span></div></div>
-    <div class="realm" style="background-image:url(site/viriditas.jpg);--c:#7fe08a"><div><i>The Greening</i><b>Viriditas</b><span>Fey glades, giant trees, glowing mushrooms.</span></div></div>
-    <div class="realm" style="background-image:url(site/mortificatio.jpg);--c:#ec6478"><div><i>The Underdeep</i><b>Mortificatio</b><span>Titans walk the Titan Graves, and Grave Borers hunt from under the ground.</span></div></div>
-    <div class="realm" style="background-image:url(site/neon.jpg);--c:#7fe8ff"><div><i>Rain on chrome</i><b>Neon City</b><span>A megacity after dark.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-mundus.jpg);--c:#f4d27a"><div><i>The middle realm</i><b>Mundus</b><span>Rivers, pasture, pine forests, peaks, and towns like Thornfall.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-albedo.jpg);--c:#cfe6ff"><div><i>The White Isles</i><b>Albedo</b><span>Islands in the clouds, a Star Observatory. Mind the drop.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-rubedo.jpg);--c:#ff6b8a"><div><i>The Crimson Savanna</i><b>Rubedo</b><span>Lychee groves, red mesas, and the Lycheetah's home.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-viriditas.jpg);--c:#7fe08a"><div><i>The Greening</i><b>Viriditas</b><span>Fey glades, Elf Trees, an airship under a rainbow.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-citrinitas.jpg);--c:#ffd84a"><div><i>The Golden Sands</i><b>Citrinitas</b><span>Pyramids on the ground and in the sky.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-nigredo.jpg);--c:#ff7a3c"><div><i>Ash and fire</i><b>Nigredo</b><span>A lava sea under a red sky, and the Crucible Hall.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-mortificatio.jpg);--c:#ec6478"><div><i>The Underdeep</i><b>Mortificatio</b><span>Old Titans asleep where the giants fell.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-moon.jpg);--c:#c8d2e6"><div><i>Albedo's Moon</i><b>The Moon</b><span>Low gravity, a black sky, and a base you build yourself.</span></div></div>
+    <div class="realm" style="background-image:url(site/r-neon.jpg);--c:#7fe8ff"><div><i>Rain on chrome</i><b>Neon City</b><span>A megacity of glass canyons.</span></div></div>
   </div>
-  <p class="more">Also Nigredo's ash and lava, the pyramids of Citrinitas, time portals to Ancient Egypt, the Modern Day and the Far Future, the Moon, the Aurum, the Underworlds, the Rift, the Hidden School and the Clockwork Reach.</p>
+  <p class="more">Swipe for more. Also time portals to Ancient Egypt, the Modern Day and the Far Future, the Underworlds, the Rift, the Hidden School and the Clockwork Reach.</p>
 </div></section>
 
-<section id="features"><div class="w">
-  <div class="k">What you do</div><h2 class="gold">Build · Fight · Fly · Rule</h2><p class="sub">One world, as deep as you want to go.</p>
-  <div class="grid">
-    <div class="plate"><i>🧱</i><b>Build anything</b><span>Block by block, or lay down whole kits: homes, labs, farms, ships and landmarks.</span></div>
-    <div class="plate"><i>⚙️</i><b>Machines that talk</b><span>Water wheels to factories. Every machine says in one line why it has stopped.</span></div>
-    <div class="plate"><i>⚔️</i><b>Fight with style</b><span>Combos, dashes, launchers and lock-on, and a guardian for every realm.</span></div>
-    <div class="plate"><i>🪂</i><b>Fly and ride</b><span>Glide, ride, call a Skywing, and fly the crafts you build yourself.</span></div>
-    <div class="plate"><i>👑</i><b>Rule</b><span>Raise towns into kingdoms and trade between them.</span></div>
-    <div class="plate"><i>🤳</i><b>A phone in your pocket</b><span>Selfies, a Factory app, the map, and Lychee AI to answer "how do I…?".</span></div>
-  </div>
-</div></section>
+<div class="band"><div class="w reveal"><div><div class="k">📖 The Encyclopedia</div><h2 class="gold" style="font-size:clamp(28px,4.4vw,44px)">Every piece, in the order you will meet it</h2>
+  <p>1449 blocks, items, machines and creatures across 20 industries: what each one does, how it is made, and what it leads to.</p></div><a class="ingot" href="site/encyclopedia.html">Open the Encyclopedia</a></div></div>
 
-<section id="how"><div class="w">
-  <div class="k">No download, no install</div><h2 class="gold">How to play</h2><p class="sub">Four steps from here to your first night.</p>
-  <ol class="steps">
-    <li class="plate"><b>Type your code</b> at the top and press Play. The game opens in this tab.</li>
-    <li class="plate"><b>Start in Survival.</b> A camp waits, and First Light walks you through your first night.</li>
-    <li class="plate"><b>Turn on sound</b> under Play, and raise the graphics in Settings if your device can take it.</li>
-    <li class="plate"><b>Stuck?</b> Press B for the handbook, or ask Lychee AI on the in-game phone.</li>
-  </ol>
-  <div class="tw plate"><table>
-    <tr><th></th><th>Keyboard and mouse</th><th>Controller</th><th>Touch</th></tr>
-    <tr><td>Move · look</td><td>WASD · mouse</td><td>left stick · right stick</td><td>left pad · drag</td></tr>
-    <tr><td>Run · jump · dash</td><td>Shift · Space · Q</td><td>· A · B</td><td>· ⤒ · 🤸</td></tr>
-    <tr><td>Use · break or strike</td><td>right click · left click</td><td>RT · LT</td><td>tap · hold</td></tr>
-    <tr><td>Bag · handbook · menu</td><td>E · B · Esc</td><td>Y · · Start</td><td>Bag · Guide · Menu</td></tr>
-    <tr><td>Map · quests</td><td>M · J</td><td></td><td>Map · Quests</td></tr>
-  </table></div>
-  <p class="more">Slow device? The game starts on the lightest graphics; lower the view distance first if it stutters. A TV or console browser that won't start: add <code>?console=1</code> to the address.</p>
-</div></section>
-
-<section id="news"><div class="w">
-  <div class="k">Updated often</div><h2 class="gold">What's new</h2>
-  <ul class="news"><li><b>🧭 Exploration, made whole:</b> The map is yours to uncover: it stays dark until you have walked there, and the landmarks in the dark stay hidden. Hold the Spyglass and look at a landmark far off (out to 450 blocks): it is named, marked on your compass and uncovered on your map. Places now count when you walk into them, not when they appear near you, and the Atlas follows it: Cartographer for 150 squares of map, Far Sight for 10 landmarks spotted, and the title Atlas-Bearer for 50 places entered. The Field Guide's Exploration &amp; Adventure page holds the whole line, with the Spyglass, the Star Chart and the Cartographer's Table.</li><li><b>🚗 Vehicles, made whole:</b> Everything you ride, drive, fly or sail now lives on one Field Guide page, Vehicles &amp; Mounts, in five tiers: ride, wheels and rails, engines, sky, beyond. New: saddles. A Leather Saddle (four hides and an iron) makes every mount of that kind 15% faster; a Racing Saddle (a Leather Saddle, two gold and a feather) 30% faster, with a higher jump. Hold one and right click near your horse or any mount you have tamed. And the Garage (six iron, four planks and a circuit), the workshop for all of it: right click it to open the Shipwright, Shift + right click to call your craft to it.</li><li><b>🐉 Two new legendary sets:</b> The Hollowsun Dragonlord: obsidian scale veined with magma, four armour pieces, Sunfang the Dragonlord Greatsword (right click: Sunbreak, a 12 block wave of solar fire) and a Hollowsun Wyrmling Egg, forged from Sunscale and Wyrm Hearts. And the Glacial Sovereign: four armour pieces, Rimebane the Winter Runeblade and a Frost Colossus Egg, forged from Winter Hearts. Find them in Creative → 🆕 New &amp; experimental, or forge them at the bench.</li><li><b>🌅 The sun put right:</b> Facing the sun used to wash the whole screen white: the shafts of sunlight took their light from the entire sky, and the glow lit anything bright, a blue sky included. Now the shafts come only from the sun, through the gaps in trees and hills, and the glow only from what is truly bright: the sun, lava, lamps. And the graphics levels mean something: High adds sun shadows with cool shaded sides, finer shafts and a softer glow, and sees 10 chunks; Ultra wider shadows and every light, 12 chunks; Max soft shadows and the finest light, 14 chunks. Choosing a level brings its view distance with it (you can still change it). Also: building a kit no longer refuses because a Delve or a road happens to be going up nearby.</li></ul><details class="older"><summary>Earlier updates</summary><ul class="news"><li><b>🍲 Farming, made whole:</b> Farming is the first part of the game made into one clear line, from the first seed to the kitchen. A Watering Can (three iron at the bench) fills at water and waters your sprouts: watered crops grow twice as fast. A Cooking Pot (four iron and a bucket) set down beside a Bonfire, Brazier or Kiln is a new station in your Craft list, with eight meals, each made from your crops and each with an effect for three minutes: Hearty Stew heals you slowly, Sun Melon Juice makes you swift, Ember Chili makes you mine faster, Lumen Soup gives you night eyes, Fish Pie doubles your air on the Moon, Rose Hip Tea keeps the wild calm, Lychee Sorbet lightens your step, and Harvest Bread keeps you full. One meal at a time; the timer shows above your hearts. The Field Guide's Farming page now holds the whole line, with the Seed Cannon, the Farmer's Plot and the Growth Sigil brought home to it.</li><li><b>🔧 Every break fixed:</b> We read through four whole parts of the game, farming, vehicles, exploration and space, and fixed everything we found broken. Crops planted by a Farmer's Plot, the Seed Cannon, a farm kit or a sky garden now grow (they never did, and old ones near you will start); the Seed Cannon plants the seeds it fires, not always wheat; apiaries count every flower; and every fish you catch can be cooked. Aboard a craft, Y opens the Shipwright again (on foot it is still the Travel Map). Microchips and Plasma Cores can be made, so can the Jump Drive to the Moon; so can the Star Chart. Finishing the Road to the PILLAR gives you the title Pillar-Called at last, opened vaults and cleared Delves leave your compass, and the Hermit points at real raiders, not at his own hut.</li></ul></details>
-  <p class="more">Found a bug? In the game: Menu → ✉ Feedback → Copy report, then send it to Lycheetah. This is an early build of a big game, and every report helps.</p>
-</div></section>
-
-<section id="manual"><div class="w">
-  <details class="manual plate"><summary>The full manual: how every system works</summary><div style="padding:0 16px 16px">
-    <p class="sub">The same primers the Field Guide (B) opens with.</p><div class="sys"><details class="sy how"><summary><i>🦴</i><b>Wild Craft</b><span>Logs from a trunk → Planks and hafts → Maker's Bench → Stone tools → A Bonfire</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🌳</i><span>Logs from a trunk</span></div><b>➜</b><div class="fs"><i>🪵</i><span>Planks and hafts</span></div><b>➜</b><div class="fs"><i>🛠️</i><span>Maker's Bench</span></div><b>➜</b><div class="fs"><i>🪨</i><span>Stone tools</span></div><b>➜</b><div class="fs"><i>🔥</i><span>A Bonfire</span></div></div><ul><li><b>Your hands are a tool.</b> Hold the button on a block to break it. A tree trunk gives logs even bare-handed, just slowly. Stone needs a pick. Coal Ore takes any pick; copper, tin and iron ore need a Stone Pick or better.</li><li><b>Hand, bench and kiln.</b> Open your bag (E) and Craft: a log makes four planks, two planks make four hafts, four planks make a Maker's Bench. Bench recipes work while the bench is in your bag or within 4 blocks. A Kiln only works set down near you.</li><li><b>Fire.</b> Four logs and four stone make a Bonfire by hand. It burns forever, and standing within 4 blocks of it heals you. Right click it with raw meat or fish to cook. Torches take a haft and coal or charcoal.</li><li><b>Food keeps you healing.</b> Your 🍗 bar drains as you move, faster when you sprint. Health only comes back while the bar is above three drumsticks, and faster when it is nearly full. Empty, you slowly starve down to two hearts.</li><li><b>Living off the land.</b> Break grass and ferns for plant fibre; three twist into cord. Gravel sometimes gives flint. Two hafts, cord and flint make a Fire Drill, which lights a bonfire anywhere for two logs. Four vines and cord make a Vine Swing.</li></ul><p class="first"><b>Start here:</b> Hold the button on a tree trunk until you have a few logs, then open your bag (E) → Craft and make planks, hafts and a Maker's Bench.</p></div></details><details class="sy how"><summary><i>⛏</i><b>Mining &amp; Smithing</b><span>Stone Pick → Ore → Millstone: lode to dust → Kiln and fuel → Ingots, then alloys</span></summary><div class="sb"><div class="fl"><div class="fs"><i>⛏️</i><span>Stone Pick</span></div><b>➜</b><div class="fs"><i>🪨</i><span>Ore</span></div><b>➜</b><div class="fs"><i>⚙️</i><span>Millstone: lode to dust</span></div><b>➜</b><div class="fs"><i>🔥</i><span>Kiln and fuel</span></div><b>➜</b><div class="fs"><i>🧱</i><span>Ingots, then alloys</span></div></div><ul><li><b>The right pick.</b> Every ore asks for a pick of a certain metal or better. Coal takes any pick; copper, tin and iron need stone; gold and silver need iron; obsidian needs Embersteel. An item's page in this guide names the pick it needs.</li><li><b>Smelting.</b> A Kiln within 4 blocks of you smelts with fuel (coal, charcoal or sulfur dust): two lode make two ingots. Later, a Bellows Kiln on 10 ⟳ or an Electric Furnace on 6 ⚡ smelts with no fuel at all.</li><li><b>Grind first, get double.</b> A Millstone or Crusher grinds one lode into two dust, and two dust smelt into two ingots. So grinding before you smelt doubles most metals. A Crusher sometimes throws in an extra dust.</li><li><b>Alloys.</b> All in a Kiln: three copper and one tin make four Bronze; one iron and two coal make Steel; two copper and one zinc make three Brass. Each far realm adds its own metal, such as Embersteel, Moonsilver and Rosegold.</li><li><b>Finding ore.</b> The Ore Finder names the best ore within 16 blocks, how far away it is and which way. Your Mining skill grows as you dig and makes every pick quicker, up to a quarter faster.</li></ul><p class="first"><b>Start here:</b> Make a Stone Pick at the Maker's Bench (3 stone, 2 hafts), then a Kiln (8 stone) and set it down beside your bench.</p></div></details><details class="sy how"><summary><i>🌾</i><b>Farming &amp; Food</b><span>Seeds from tall grass → Hoe: Tilled Soil → Plant → Water within 4 → Harvest, bake</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🌾</i><span>Seeds from tall grass</span></div><b>➜</b><div class="fs"><i>🪓</i><span>Hoe: Tilled Soil</span></div><b>➜</b><div class="fs"><i>🌱</i><span>Plant</span></div><b>➜</b><div class="fs"><i>💧</i><span>Water within 4</span></div><b>➜</b><div class="fs"><i>🍞</i><span>Harvest, bake</span></div></div><ul><li><b>Seeds and soil.</b> Breaking tall grass sometimes gives Wheat Seeds. A Hoe turns grass or dirt into Tilled Soil; plant seeds on it. A ripe crop gives one or two of its harvest and one or two seeds back.</li><li><b>How fast it grows.</b> A crop ripens in two minutes, or in one if water lies within 4 blocks, level with the soil, when you plant it. Growth runs on the clock, so your fields keep growing while you are away.</li><li><b>Seasons.</b> In Mundus, Rubedo and Viriditas the season turns every seven days. Spring and summer grow a quarter faster, autumn a little slower, winter much slower. The other realms grow at one steady pace.</li><li><b>Hurry it along.</b> Compost (four plant fibre and a dirt, by hand) ripens one young crop on the spot. Ring a Growth Bell and every young crop within 9 blocks ripens; it rests a minute after. A charged Growth Sigil makes crops near it grow three times as fast.</li><li><b>Farms that tend themselves.</b> Set an ally to Farm here and it harvests ripe crops within 8 blocks and replants them. Every harvest also trains your Farming skill, which raises the chance of an extra crop, up to one in three.</li></ul><p class="first"><b>Start here:</b> Make a Hoe at the Maker's Bench (2 planks, 2 hafts), break tall grass for seeds, and till a strip of soil right beside water.</p></div></details><details class="sy how"><summary><i>⚔</i><b>Combat &amp; Armour</b><span>A weapon → Four armour pieces → Read the mark → Dash out (Q) → Combo finisher</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🗡️</i><span>A weapon</span></div><b>➜</b><div class="fs"><i>🛡️</i><span>Four armour pieces</span></div><b>➜</b><div class="fs"><i>⚠️</i><span>Read the mark</span></div><b>➜</b><div class="fs"><i>💨</i><span>Dash out (Q)</span></div><b>➜</b><div class="fs"><i>💥</i><span>Combo finisher</span></div></div><ul><li><b>Armour.</b> Wear a head, body, legs and feet piece. The body counts most, then legs, head and feet. Together armour can cut harm by up to four fifths. A Shield held up (right mouse) stops three quarters of a hit from the front.</li><li><b>Read the warning.</b> Before a creature's signature move, a glowing mark on the ground shows where it will land and fills as it comes. Dash out with Q: you cannot be hit while dashing. Hit a common creature as it winds up to break the move.</li><li><b>Combos.</b> Hits chain into a string: three with a sword, two with a heavy weapon. The last is a finisher that launches the foe. Dash to cancel a swing; dash through a hit as it lands for a perfect dodge and a double-damage counter.</li><li><b>Healing.</b> Health starts coming back on its own seven seconds after you were last hit, but only while your food bar is above three drumsticks. Standing within 4 blocks of a Bonfire or Brazier heals you too.</li><li><b>Practice.</b> Menu → 🥋 Combat Trial raises a floating arena where a coach teaches every move in about two minutes. Menu → ⚖ Difficulty sets how hard this world hits you.</li></ul><p class="first"><b>Start here:</b> Make a Stone Sword at the Maker's Bench (2 stone, 1 haft), then open Menu → 🥋 Combat Trial.</p></div></details><details class="sy how"><summary><i>🔥</i><b>Light &amp; Fire</b><span>Haft → Coal or charcoal → Torch → Bonfire → Lamp on charge</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🪵</i><span>Haft</span></div><b>➜</b><div class="fs"><i>⚫</i><span>Coal or charcoal</span></div><b>➜</b><div class="fs"><i>🔦</i><span>Torch</span></div><b>➜</b><div class="fs"><i>🔥</i><span>Bonfire</span></div><b>➜</b><div class="fs"><i>💡</i><span>Lamp on charge</span></div></div><ul><li><b>Fire you carry.</b> A haft and a piece of coal or charcoal make four torches by hand. Charcoal comes from a Kiln: three logs make two. Holding a torch or a lantern lights the way around you.</li><li><b>Fires that heal.</b> A Bonfire (four logs and four stone, by hand) burns forever. Stand within 4 blocks of a Bonfire or a Brazier and you heal. Right click either one with raw meat or fish to cook it.</li><li><b>Light with no upkeep.</b> Torches, Ember Lanterns, candles, neon and Light Strips glow on their own: no fuel, no power. Candles come from wax, and wax from honeycomb.</li><li><b>Lamps run on charge.</b> A Lamp lights only when 1 ⚡ reaches it by Cable or wire. Touch Signal Wire to it and it also obeys a Lever, Pulse Timer or Daylight Sensor. Ask an AI Terminal for "lights" to switch every lamp off or on.</li></ul><p class="first"><b>Start here:</b> Make torches by hand from a haft and a piece of coal, or build a Bonfire from four logs and four stone.</p></div></details><details class="sy how"><summary><i>pets</i><b>what is low</b><span>Water Wheel → Gearbox → Millstone → Bellows Kiln → Chest beside it</span></summary><div class="sb"><div class="fl"><div class="fs"><i>💧</i><span>Water Wheel</span></div><b>➜</b><div class="fs"><i>⚙️</i><span>Gearbox</span></div><b>➜</b><div class="fs"><i>🪨</i><span>Millstone</span></div><b>➜</b><div class="fs"><i>🔥</i><span>Bellows Kiln</span></div><b>➜</b><div class="fs"><i>📦</i><span>Chest beside it</span></div></div><ul><li><b>Turning power ⟳.</b> A Water Wheel turns 1.2 ⟳ for each water block around it, up to 16, and half again in a river. A Windmill wants open air and height: up to 16 ⟳. A Lava Engine takes 6 ⟳ per lava block it touches.</li><li><b>One network, one speed.</b> Everything touching, directly or through Gearboxes, shares one supply. A Millstone wants 6 ⟳, a Press 8, a Bellows Kiln 10. When the network makes less than its machines want, they all slow down together. A Battery Box stores spare turning for later.</li><li><b>Charge ⚡ is separate.</b> Charge travels only through Cable, or wire strung between Wire Connectors (copper reaches 12 blocks, steel 40). A Dynamo on 8 ⟳ makes 10 ⚡, a Combustion Generator burns coal for 12 ⚡, a Photovoltaic Cell drinks daylight. A Charge Bank keeps the spare.</li><li><b>Chests do the carrying.</b> A chest on top of a machine feeds it; a chest beside or under it catches what it makes. Without one, a machine holds 64 of its output and stops until you take it. Open a machine to fit modules: a Hopper Box holds 256.</li><li><b>Why has it stopped?.</b> Look at any machine: the line under your crosshair says what it is doing or what it needs. Stopped machines puff red sparks, short ones amber. Menu → 📱 Phone → Factory lists every stuck machine in the realm, nearest first.</li></ul><p class="first"><b>Start here:</b> Make a Water Wheel at the Maker's Bench (8 planks, 2 Wooden Gears, 4 hafts), set it in water and put a Millstone touching it; or press K and build 🎓 Lessons → Turning power.</p></div></details><details class="sy how"><summary><i>Circuit</i><b>sheet</b><span>Lever → Signal Wire → Inverter or gate → Lamp with charge</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🎚️</i><span>Lever</span></div><b>➜</b><div class="fs"><i>〰️</i><span>Signal Wire</span></div><b>➜</b><div class="fs"><i>🔁</i><span>Inverter or gate</span></div><b>➜</b><div class="fs"><i>💡</i><span>Lamp with charge</span></div></div><ul><li><b>A signal is a switch, not power.</b> Levers, Buttons, Pressure Plates, Daylight Sensors and Pulse Timers make a signal; Signal Wire carries it and glows when it is on. Anything touching the wire (a lamp, machine, turret or door) runs only while the signal is on. Lamps still need their 1 ⚡.</li><li><b>Sources.</b> A Lever stays as you flip it. A Button is on for a moment. A Pressure Plate is on while something stands on it. A Daylight Sensor is on by day. A Pulse Timer blinks every 1, 2, 4 or 8 seconds: right click to change it.</li><li><b>Gates have a front.</b> A gate reads its back and both sides and sends its answer out of its front: the side that faced you when you set it down. An Inverter turns one signal over. AND wants every input on, OR any one, XOR an odd number.</li><li><b>Memory and timing.</b> A Memory Cell flips each time a pulse reaches its back; a signal on a side clears it. A Signal Counter pulses once every 2 to 16 pulses (right click to set). A Sequencer runs eight steps you choose, on its own clock if its back is empty.</li><li><b>Seeing what it does.</b> Hold a Signal Probe to read any wire or gate. A Number Display shows the count, step or memory of a Counter, Sequencer or Memory Cell touching it. A Keypad sends a signal when someone enters its four-digit code.</li></ul><p class="first"><b>Start here:</b> Press K and build 🎓 Lessons → Signals, or make a Lever by hand (a haft and a stone) and run Signal Wire from it to a lamp that has charge.</p></div></details><details class="sy how"><summary><i>📦</i><b>Logistics</b><span>Chest → Pump Tube → Tubes → Sorting Tube → Machine or chest</span></summary><div class="sb"><div class="fl"><div class="fs"><i>📦</i><span>Chest</span></div><b>➜</b><div class="fs"><i>🧲</i><span>Pump Tube</span></div><b>➜</b><div class="fs"><i>🧪</i><span>Tubes</span></div><b>➜</b><div class="fs"><i>🔀</i><span>Sorting Tube</span></div><b>➜</b><div class="fs"><i>⚙️</i><span>Machine or chest</span></div></div><ul><li><b>Chests beside machines.</b> The first automation needs no tubes at all: a chest on top of a machine feeds it, and a chest beside or under it catches what it makes. A chest holds 27 different kinds of thing.</li><li><b>Tubes need a pump.</b> A tube line starts with a Pump Tube. It pulls one item a second out of the chest or machine it touches and sends it to the nearest machine that can use it, or else to a chest with room.</li><li><b>Sorting.</b> Hold an item and right click a Sorting Tube: from then on only that item passes it. Put a sorter at the start of each branch and every kind finds its own way.</li><li><b>Belts.</b> A Conveyor Belt runs the way you faced when you set it. It takes an item a second from a chest or machine behind it, carries two at a time, drops them into whatever is in front, and carries you too.</li><li><b>Storage that thinks.</b> A Vault Mind (2 ⚡) joins every chest within 24 blocks into one store you can search; each Vault Relay reaches 24 further. A Request Chest asks for up to four things, and a powered Drone Port within 48 blocks sends drones to fetch them.</li></ul><p class="first"><b>Start here:</b> Set a chest on top of a machine and another beside it; then press K and build 🎓 Lessons → Tubes.</p></div></details><details class="sy how"><summary><i>🤖</i><b>Automatons &amp; AI</b><span>Automaton Kit → Rule Card → Pick its job → Chest near its post → Thinking Core</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🤖</i><span>Automaton Kit</span></div><b>➜</b><div class="fs"><i>🃏</i><span>Rule Card</span></div><b>➜</b><div class="fs"><i>🎯</i><span>Pick its job</span></div><b>➜</b><div class="fs"><i>🧺</i><span>Chest near its post</span></div><b>➜</b><div class="fs"><i>🧠</i><span>Thinking Core</span></div></div><ul><li><b>Build one, teach it.</b> Hold an Automaton Kit and right click to set down a clockwork helper. Hold a Rule Card (Dig, Chop, Haul or Mend) and right click the helper to teach it. Right click it with an empty hand to choose its job.</li><li><b>Its post.</b> A job starts where the helper stands when you pick it. Dig makes a 5 by 5 pit, 24 deep, with a stair. Chop fells trees within 12 blocks and replants. Haul empties machines within 12. Mend puts back anything missing within 8.</li><li><b>Give it a chest.</b> Its pack holds 12 kinds of thing. A working automaton empties its pack into chests within 12 blocks of its post. With no chest and a full pack, it stops and asks you for one.</li><li><b>The Thinking Core.</b> On 6 ⚡ it reads every machine within 48 blocks and says which network is short, and by how much. Automatons within 32 blocks of it work twice as fast. It can also write a Realm Codex.</li><li><b>Terminals and drones.</b> An AI Terminal (3 ⚡) answers plain questions: how many iron, power, what is low, status. A Drone Kit gives you a Helper Drone that flies beside you and zaps what hunts you. Drone Port drones carry goods to Request Chests.</li></ul><p class="first"><b>Start here:</b> Make an Automaton Kit at the Maker's Bench (4 Iron Gears, 4 Steel Sheets, 2 Circuits), set it down, then teach it a Rule Card: Chop.</p></div></details><details class="sy how"><summary><i>🧱</i><b>Building &amp; Homes</b><span>Blocks → Dyes → Furniture → Bed and Home → Builder's Wand</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🧱</i><span>Blocks</span></div><b>➜</b><div class="fs"><i>🎨</i><span>Dyes</span></div><b>➜</b><div class="fs"><i>🪑</i><span>Furniture</span></div><b>➜</b><div class="fs"><i>🛏️</i><span>Bed and Home</span></div><b>➜</b><div class="fs"><i>🪄</i><span>Builder's Wand</span></div></div><ul><li><b>Placing.</b> Right click to place what you hold; hold the other button to break. Shift + right click places against a machine or belt instead of opening it. Glass, bricks and dressed stone come out of a Kiln.</li><li><b>Colour.</b> Dye colours wool, plaster and glass. Right click a block with a dye; Shift + right click floods up to 64 touching blocks of that kind. One dye covers eight blocks.</li><li><b>Home.</b> Right click a bed and you wake there after a fall. ⚡ Actions → Set home here marks Home; Go home takes you back from anywhere in that realm, then rests for 90 seconds.</li><li><b>The Builder's Wand.</b> R changes its mode. Fill and Clear work on a box between two corners you right click, up to 4096 blocks; Replace swaps touching blocks of one kind within 8. It builds with the last block you placed. Shift + right click undoes.</li><li><b>Blueprints.</b> In Select mode, mark a box with the wand and save it at a Blueprint Table (up to 32 blocks a side). Lay it down again anywhere, or turn it into a share code a friend can paste in.</li></ul><p class="first"><b>Start here:</b> Make a Bed at the Maker's Bench (3 wool, 3 planks), right click it, then choose ⚡ Actions → Set home here.</p></div></details><details class="sy how"><summary><i>📦</i><b>Kits &amp; Patterns</b><span>Pattern Stone → Two corners → Kit Crate → Deployment Kit → It unfolds</span></summary><div class="sb"><div class="fl"><div class="fs"><i>📐</i><span>Pattern Stone</span></div><b>➜</b><div class="fs"><i>🧱</i><span>Two corners</span></div><b>➜</b><div class="fs"><i>📦</i><span>Kit Crate</span></div><b>➜</b><div class="fs"><i>🎒</i><span>Deployment Kit</span></div><b>➜</b><div class="fs"><i>🏗️</i><span>It unfolds</span></div></div><ul><li><b>Building kits.</b> A Hut, Workshop, Watchtower, Market Stall, Farmstead or Tavern Kit raises a whole building. Hold it and right click open ground, and it rises in front of you.</li><li><b>Record your own.</b> Hold a Pattern Stone and right click one corner of something you built, then the opposite corner. It records up to 16 blocks each way and remembers twelve setups.</li><li><b>Packing takes the real blocks.</b> Right click the sky with the stone to open 📦 Kits &amp; Patterns. Packing uses one Kit Crate plus every block of the setup, taken from your bag. You can carry sixteen packed kits.</li><li><b>Setting it down.</b> Hold the Deployment Kit and right click the ground: the setup unfolds in front of you, layer by layer. Ready-made setups, such as a Windmill Yard or a Smelting Corner, pack the same way.</li><li><b>The Kit Library.</b> Press K for the Kit Library: homes, ships, farms, power and more, built where you stand from blocks in your bag. In Survival, missing blocks can be paid for in Essence, at about one and a half times their worth.</li></ul><p class="first"><b>Start here:</b> Make a Pattern Stone by hand from 1 flint and 2 clay (break gravel for flint), or press K to open the Kit Library.</p></div></details><details class="sy how"><summary><i>🛸</i><b>Vehicles &amp; Flight</b><span>A seat → Parts touching it → Engine and fuel → Wings or lift → Assemble, then F</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🪑</i><span>A seat</span></div><b>➜</b><div class="fs"><i>🧱</i><span>Parts touching it</span></div><b>➜</b><div class="fs"><i>⛽</i><span>Engine and fuel</span></div><b>➜</b><div class="fs"><i>🪽</i><span>Wings or lift</span></div><b>➜</b><div class="fs"><i>✈️</i><span>Assemble, then F</span></div></div><ul><li><b>What becomes the craft.</b> Set down a seat and build around it. Everything you placed that touches it, block to block, becomes the craft when you assemble it. Right click the seat to see what it would become before you commit.</li><li><b>Controls set the size.</b> Controls steer a set number of parts: 12 with just a seat, 32 with a Wooden Tiller, 96 with a Steering Wheel, 200 with a Control Board, 400 with an Aether Helm.</li><li><b>Driving, flying, hovering.</b> Wheels and an engine drive. Wings and a propeller fly once there is speed, so give it a runway. Gas Cells and Lift Crystals carry weight; if they carry all of it, it hovers with no runway (Space rises, Q sinks).</li><li><b>Fuel and weight.</b> Each engine burns its own fuel, filled from your bag when you board; Fuel Tanks hold more. The seat's sheet shows thrust to weight, and if it is too heavy to fly it says what speed it would need.</li><li><b>In and out.</b> F boards a craft beside you and leaves it again. G docks it back into blocks. A craft with a Jump Drive, and a Fusion Cell in your bag, jumps to the moon when it climbs above 230.</li></ul><p class="first"><b>Start here:</b> Make a Gyrocopter Kit at the Maker's Bench (6 planks, 4 copper ingots, 4 wool, 1 iron ingot), set it down, right click its seat and Assemble.</p></div></details><details class="sy how"><summary><i>🐎</i><b>Creatures &amp; Ranching</b><span>Lens → Its favourite food → Tamed → Creature Net → Care Pen</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🔍</i><span>Lens</span></div><b>➜</b><div class="fs"><i>🍎</i><span>Its favourite food</span></div><b>➜</b><div class="fs"><i>❤️</i><span>Tamed</span></div><b>➜</b><div class="fs"><i>🕸️</i><span>Creature Net</span></div><b>➜</b><div class="fs"><i>🏡</i><span>Care Pen</span></div></div><ul><li><b>Taming.</b> Hold the food a creature likes and right click it until the hearts fill: a sheep wants 2 wheat, a horse 3 wheat or apples, a wolf 3 meat, a lion 5. Sheep, chickens and goats join your herd.</li><li><b>Tame creatures.</b> Right click a tame creature with an empty hand. Herd animals switch between staying and following. Pets, allies and mounts open a sheet: Follow, Stay or Guard here, and allies can also Farm.</li><li><b>Breeding.</b> Feed two grown animals of the same kind their food while they stand close together, and a young one is born. It takes a trait from each parent, and sometimes something new.</li><li><b>The Ranch Post.</b> Once a day, every herd animal within 24 blocks of a Ranch Post leaves produce there: wool, eggs, milk. Its sheet shows each animal's speed and size, and can call the herd home.</li><li><b>Raise your own mount.</b> Catch a small creature, bird or butterfly with a Creature Net (it holds four) and put it in a Care Pen. Feed it six times, a little while apart, and it grows: birds into a Skywing, sheep into a War Ram.</li></ul><p class="first"><b>Start here:</b> Hold wheat and right click a sheep twice, then make a Ranch Post (6 planks, 2 hide, 2 hafts) where your herd will live.</p></div></details><details class="sy how"><summary><i>🏘</i><b>Towns &amp; People</b><span>Find a town → Fill requests → Gifts and friends → Claim Stone → Town Hall</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🏘️</i><span>Find a town</span></div><b>➜</b><div class="fs"><i>📜</i><span>Fill requests</span></div><b>➜</b><div class="fs"><i>🎁</i><span>Gifts and friends</span></div><b>➜</b><div class="fs"><i>🪨</i><span>Claim Stone</span></div><b>➜</b><div class="fs"><i>🏰</i><span>Town Hall</span></div></div><ul><li><b>Requests.</b> Every town asks for three things a day: two deliveries and a pest to drive off. Hold what they asked for and right click any of its folk. Each request pays gold and makes a friend.</li><li><b>Towns grow.</b> Fill 3 requests in a town and it builds a new house; at 8 another, at 15 a third. Menu → 👑 Kingdoms shows every town you know, its rank and its market. Higher ranks trade at kinder prices.</li><li><b>Friends.</b> Shift + right click a townsperson to give what you hold. A gift they love counts double. Become good enough friends and they make you a present.</li><li><b>Trade runs on Essence.</b> Traders buy for half what a thing is worth and sell for more, paid in and out of your Alchemical Tablet. Prices drift day to day, and a town that just bought a heap of something pays less for more.</li><li><b>Safe land.</b> No monster rises within 32 blocks of a Claim Stone, or near a town. A Town Hall founds your own town, with laws that can bar strangers from building or keep the peace.</li></ul><p class="first"><b>Start here:</b> Walk until you find a town, talk to its folk, and fill one of their requests.</p></div></details><details class="sy how"><summary><i>⚔</i><b>Adventure</b><span>Wander far → Delve or Rift → Warden or Guardian → Trophy → Great Athanor</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🧭</i><span>Wander far</span></div><b>➜</b><div class="fs"><i>🕳️</i><span>Delve or Rift</span></div><b>➜</b><div class="fs"><i>💀</i><span>Warden or Guardian</span></div><b>➜</b><div class="fs"><i>🏆</i><span>Trophy</span></div><b>➜</b><div class="fs"><i>⚗️</i><span>Great Athanor</span></div></div><ul><li><b>Delves.</b> Under some mossy arches a stair leads down into a Delve: four halls of foes and loot, richer the farther you are from where the world began, and a Warden in the last. The Warden drops a Vault Key and opens a portal home.</li><li><b>Sealed Vaults.</b> Hold a Vault Key and right click to learn which way its vault lies. A Sealed Vault is a chamber nothing can break; only its key opens it, and there is treasure inside.</li><li><b>The Rift.</b> A Rift Stone is used up to tear open a maze made fresh for that run, full of the hunters of every realm's night. Beat the Rift's keeper and your next run goes one level deeper.</li><li><b>Guardians.</b> Each realm has a Guardian in its lair. They fight in patterns (shockwaves to jump, charges, beams and dives) and grow faster when enraged. Each leaves a trophy that holds one colour of the Great Work.</li><li><b>Raider camps.</b> Out in the wild, far from towns, raider camps guard a chest among their tents. Break the totem at the heart of the camp and the raiders scatter.</li></ul><p class="first"><b>Start here:</b> Wander far from where you began and look for a mossy arch over a stair going down: that is a Delve.</p></div></details><details class="sy how"><summary><i>🧰</i><b>Gadgets &amp; Fun</b><span>Grappling Hook → Glider → Spyglass → Ore Finder → Leprechaun</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🪝</i><span>Grappling Hook</span></div><b>➜</b><div class="fs"><i>🪂</i><span>Glider</span></div><b>➜</b><div class="fs"><i>🔭</i><span>Spyglass</span></div><b>➜</b><div class="fs"><i>⛏️</i><span>Ore Finder</span></div><b>➜</b><div class="fs"><i>🌈</i><span>Leprechaun</span></div></div><ul><li><b>Getting about.</b> A Grappling Hook pulls you to a block up to 42 blocks away. A Glider anywhere in your bag opens when you hold jump while falling: look down to dive, up to float. Rocket Boots let you jump again in mid air.</li><li><b>Things that show you.</b> A Spyglass zooms in two steps and names what you see. The Ore Finder names the best ore within 16 blocks, how far and which way. A Pocket Workshop in your bag counts as a Maker's Bench and a Kiln wherever you are.</li><li><b>The Leprechaun.</b> Now and then a rainbow comes down nearby with a Leprechaun at its end. He stays about five minutes. Five gold ingots spin his Pot of Gold.</li><li><b>What the pot gives.</b> Each spin lands on something common 55% of the time, uncommon 25%, rare 12% (gadgets like the Glider or Grappling Hook), epic 6% (big tools), and legendary 2%.</li></ul><p class="first"><b>Start here:</b> Make an Ore Finder at the Maker's Bench (2 copper ingots, 1 iron ingot, 1 glass), hold it and right click.</p></div></details><details class="sy how"><summary><i>🎵</i><b>Music &amp; Sound</b><span>Lute → Note Block → Signal → Sequencer → Jukebox</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🪕</i><span>Lute</span></div><b>➜</b><div class="fs"><i>🎵</i><span>Note Block</span></div><b>➜</b><div class="fs"><i>〰️</i><span>Signal</span></div><b>➜</b><div class="fs"><i>⏱️</i><span>Sequencer</span></div><b>➜</b><div class="fs"><i>📻</i><span>Jukebox</span></div></div><ul><li><b>Playing by hand.</b> Hold a Lute, Flute, Hand Drum or Kazoo and right click to play. Look up for higher notes, down for lower. The notes always fit the realm you are in.</li><li><b>An audience.</b> Play near three or more townsfolk and they clap along, and someone tosses you a gold ingot, at most once every three minutes.</li><li><b>Note Blocks.</b> Right click a Note Block to step its note up (25 notes); right click it with a haft in hand to change its sound. It plays each time a signal beside it turns on.</li><li><b>Tunes on a clock.</b> A Sequencer has eight steps you switch on or off. With nothing wired to its back it steps on its own clock (a quarter, half or whole second). Note Blocks wired to its front play the pattern.</li><li><b>Jukebox and radio.</b> A Jukebox plays the realms' themes, composed as they play; you hear the nearest one within 56 blocks. A Radio needs no power, and a Radio Station can play your own music files.</li></ul><p class="first"><b>Start here:</b> Make a Lute at the Maker's Bench (4 planks, 1 wool), hold it and right click while looking up and down.</p></div></details><details class="sy how"><summary><i>✨</i><b>Alchemy &amp; Magic</b><span>Lens → School riddle → Wand and Vis → Essence Forge → Great Athanor</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🔍</i><span>Lens</span></div><b>➜</b><div class="fs"><i>🏛️</i><span>School riddle</span></div><b>➜</b><div class="fs"><i>🪄</i><span>Wand and Vis</span></div><b>➜</b><div class="fs"><i>✦</i><span>Essence Forge</span></div><b>➜</b><div class="fs"><i>⚗️</i><span>Great Athanor</span></div></div><ul><li><b>Aspects and schools.</b> Everything is made of aspects: Ignis is fire, Aqua water, Vita life, and nine more. A Lens shows them. Each realm's Mystery School asks for a thing with two named aspects; offer one and you learn its spells and hear where the next school lies.</li><li><b>Vis and wands.</b> Wand spells cost Vis, which fills by itself while a wand is in your bag: an Apprentice Wand holds 100, an Adept 200, an Archmage 400. An Aether Collector nearby fills it four times as fast. Hold R for the spell wheel; right click casts.</li><li><b>Essence, the other currency.</b> Essence lives in your Alchemical Tablet (up to 5000). An Essence Forge on 16 ⟳ makes about one a second: stand by it, open the tablet and press Fill. Show the tablet a thing to learn it, then make more from Essence.</li><li><b>Sigils.</b> A Growth, Ward or Travel Sigil needs eight Chalk Marks around it. Charge it with 30 Vis for 20 minutes, or keep it on 4 ⚡. A Ward Sigil hurts hostile creatures within 24 blocks; step on a Travel Sigil to jump to another.</li><li><b>The Great Work.</b> Each realm's Guardian holds one of seven colours. Dissolve its trophy in a Great Athanor to add that colour. The Athanor's sheet lists what else the Work asks for, starting with the Philosopher's Stone, which an Athanor makes from quicksilver on 10 ⚡.</li></ul><p class="first"><b>Start here:</b> Make a Lens (2 glass, 1 gold ingot) and an Apprentice Wand (2 hafts, 1 copper ingot, 1 glass) at the Maker's Bench, then ask townsfolk where the Mystery School lies.</p></div></details><details class="sy how"><summary><i>🌀</i><b>Realms &amp; Travel</b><span>Gate or T → Deep Lift → Time Portal → Skytrain Pass → Jump Drive</span></summary><div class="sb"><div class="fl"><div class="fs"><i>🌀</i><span>Gate or T</span></div><b>➜</b><div class="fs"><i>⬇️</i><span>Deep Lift</span></div><b>➜</b><div class="fs"><i>⏳</i><span>Time Portal</span></div><b>➜</b><div class="fs"><i>🚆</i><span>Skytrain Pass</span></div><b>➜</b><div class="fs"><i>🚀</i><span>Jump Drive</span></div></div><ul><li><b>The seven realms.</b> Walk into a Gate, or press T, to go on to the next realm; each realm keeps your place. Every realm has its own creatures, its own Mystery School and its own Guardian.</li><li><b>Below and beyond.</b> A Deep Lift set below height 24 drops you to the dwarves' Deep Capital. A Skytrain Pass, never used up, takes you to Neon City. A craft with a Jump Drive, and a Fusion Cell in your bag, jumps to the moon above 230.</li><li><b>Time Portals.</b> Install a Chronal Core, give it 40 ⚡, then set the dial: Ancient Egypt, the Modern Day or the Far Future. Each visit opens an era made fresh, so what you build there is gone the next time.</li><li><b>Written realms.</b> A running Thinking Core writes a Realm Codex from what you have built and found (2 Starmetal, 4 Microchips). A Codex Gate on 20 ⚡ opens it as a world of its own.</li><li><b>Getting around.</b> Stand by a Waystone to attune it. The Travel Map (Y) then steps you to any attuned Waystone for a little Essence, flies you there free by Sky Route within a realm, or crosses to another realm for more.</li></ul><p class="first"><b>Start here:</b> Press T, or walk into a Gate, to visit the next realm.</p></div></details></div>
-    <div style="margin-top:18px"><h2>Every system in the game</h2><p class="sub">Open an area to see what you can do. Everything here works in the game today.</p>
-<div class="sys">
-
-<details class="sy"><summary><i>🌍</i><b>Realms and the world</b><span>Seven home realms, and eleven more beyond them</span></summary><div class="sb"><ul>
-<li><b>The seven realms.</b> Mundus, Nigredo, Albedo, Rubedo, Viriditas, Citrinitas and Mortificatio, each with its own land and life. Walk into a Gate, or press T.</li>
-<li><b>Places beyond.</b> Three eras, Albedo's Moon, the Underworlds, the Aurum, the Rift, Neon City and more.</li>
-<li><b>Weather and climate.</b> Showers come and go, snow falls in the cold, and dry lands stay dry. About once an hour a thunderstorm rolls across the land.</li>
-<li><b>Seasons.</b> Each season lasts seven days and colours the land. Every fifth night is a Blood Moon.</li>
-<li><b>A land full of places.</b> Crashed airships, wizard towers, old mines, lost temples, bandit towers and four rare wonders. Most keep a chest, and each goes on your compass.</li>
-<li><b>Roads and sky forts.</b> Stone roads join the cities you find. Sky fortresses float over Mundus: climb the vine, beat the Sky Captain and break the totem.</li>
-<li><b>The deep world.</b> Great caverns with underground lakes, ravines, crystal geodes, ember chasms and frost grottos. Volcanoes sometimes erupt.</li>
-<li><b>Giants on the horizon.</b> Each open realm has something huge in the distance, like the PILLAR in Mundus, and great sky whales cross the far sky.</li>
-<li><b>Strange days.</b> The world does odd things: a fizzing gremlin, the Burger Baron, fairy rings, meteors and a Leprechaun with a Pot of Gold.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>🔥</i><b>Survival and the first hour</b><span>A camp, a cottage and a night to remember</span></summary><div class="sb"><ul>
-<li><b>The camp and First Light.</b> A new Survival world starts at a camp. First Light (top left) walks you through eight steps, from your bag to flying the Sky Raft.</li>
-<li><b>The Hearth.</b> In Mundus a cottage rises by where you wake, with beds, a bench, a kiln, a farm and supplies. Your home is set there.</li>
-<li><b>The first night.</b> Falling stars land nearby, and three waves of night creatures come for the Hearth. Hold each for a reward.</li>
-<li><b>Hearts and falling.</b> Ten hearts, and armour softens each blow. If you fall your bag is safe, and a ☠ marks the spot.</li>
-<li><b>Hunger.</b> The 🍗 bar empties as you walk and run. Hold food and right click to eat. Kept full, you heal faster.</li>
-<li><b>Light and fire.</b> Torches light the dark and a Bonfire burns forever, heals you while you stand by it, and cooks meat and fish.</li>
-<li><b>Home.</b> Set home here, then Go home from anywhere in that realm, from the 🏡 button, ⚡ Actions or the menu. You can keep a home in every realm.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>🧱</i><b>Building, kits and the Terraformer</b><span>Block by block, or a whole base at once</span></summary><div class="sb"><ul>
-<li><b>Break and place.</b> Break a block to collect it, then place it anywhere. Every world keeps your changes, and Creative gives you every block and free flight.</li>
-<li><b>The Builder's Wand.</b> Fill, replace or clear a whole box of blocks, or select one for a blueprint. R changes mode, and Shift with right click undoes.</li>
-<li><b>Blueprints.</b> Save a box at the Blueprint Table by name, then lay it down anywhere behind a glowing frame. In Survival you need the blocks it uses.</li>
-<li><b>The Kit Library.</b> Press K for ready-made ships, homes, labs, farms and landmarks. In Survival a kit uses the blocks in your bag, and Essence covers the rest.</li>
-<li><b>Mega kits.</b> Eleven kits on a huge scale, from a Nomad Citadel to a Star Cruiser that can jump to the Moon. Their machine lines are wired and ready to run.</li>
-<li><b>The Lessons shelf.</b> Kit Library → 🎓 Lessons builds four working setups for power, charge, signals and tubes, with signs and a checklist that fills itself in.</li>
-<li><b>Kits that teach and travel.</b> A card explains each kit as it goes up. Share your blueprints as a code or a file in Menu → 🧰 Kit Gallery.</li>
-<li><b>The Pattern Stone.</b> Right click two corners of something you built to record it, pack it in a Kit Crate, and set it down anywhere.</li>
-<li><b>The Terraformer.</b> A staff that raises, lowers, flattens and smooths the land. It can also capture a piece of land as a kit.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>⚙️</i><b>Machines and power</b><span>From a water wheel to a thinking factory</span></summary><div class="sb"><ul>
-<li><b>Turning power.</b> Water Wheels, Windmills and Lava Engines turn Gearboxes that drive Millstones, Sawmills, Presses and Bellows. Right click a machine to open it.</li>
-<li><b>The Electric Age.</b> Generators make charge, wires hang between posts, and Charge Banks store it. It runs Electric Furnaces, Crushers and the Quarry.</li>
-<li><b>Heavy power.</b> Fill a Reactor with rods and coolant, and watch the heat or it melts down. Geothermal and wireless power nodes do the rest.</li>
-<li><b>Chests that feed.</b> A chest on top feeds a machine, and a chest beside it catches what it makes. Your first automation, no tubes needed.</li>
-<li><b>Tubes and belts.</b> Pump and Sorting Tubes move items, Conveyor Belts carry them, and drones fill Request Chests.</li>
-<li><b>Signals and circuits.</b> Levers, sensors and timers switch lamps, doors and machines. Logic gates, counters, a Sequencer and a Keypad build real circuits.</li>
-<li><b>Machine Modules.</b> Three slots per machine for Speed Gears, Efficiency Coils, Hopper Boxes and one core. Rare modules hide in Delves.</li>
-<li><b>Thinking machines.</b> Teach clockwork automatons to dig, chop, haul or mend with Rule Cards. A Vault Mind turns your chests into one search box.</li>
-<li><b>Machines that explain themselves.</b> Look at any machine and one line says what it is doing or why it has stopped. Stopped machines send up a red spark.</li>
-<li><b>The Factory app.</b> On your phone, 🏭 Factory lists every stuck or starved machine in the realm, nearest first.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>⚒️</i><b>Items, crafting and forging</b><span>Benches, ores, gear and legendary sets</span></summary><div class="sb"><ul>
-<li><b>Crafting.</b> Open your bag (E) and pick Craft. A Maker's Bench or Kiln nearby, or a bench in your bag, unlocks the bigger recipes.</li>
-<li><b>Ores and metals.</b> Dozens of ores, from tin near the surface to ruby and jade in the deep, fired into bronze, steel and the realm metals.</li>
-<li><b>The catalogue.</b> Every block and item sits in a section and a group, with jump chips to find it fast. The 🆕 New shelf shows what has just arrived.</li>
-<li><b>The Anvil.</b> Forge weapons, tools and armour, from +1 up to a cap set by the metal. The finest gear can be forged further still.</li>
-<li><b>Fair weapons.</b> Each weapon kind has one strength: blades are fast, spears reach, hammers crack armour, bows hit harder from afar.</li>
-<li><b>Legendary sets.</b> Two or four pieces of a set give its bonus: heal in water, web your foes, raise jackal guards, or build up Heat in the Asterion Forgemaster.</li>
-<li><b>Relic and Mythic.</b> Legendary sets climb a ladder: Relic adds defence, and Mythic adds more, with a Mythic Shard from bosses in every piece.</li>
-<li><b>The Fitting Room.</b> Press I to try on any armour on a big 3D you, compare the defence and set bonus, then wear it. You can wear whole sets in one tap.</li>
-<li><b>Your Look.</b> Choose skin, hair, eyes and clothes. Wear the look of any armour you have collected over your real gear, or dye it.</li>
-<li><b>Loadouts.</b> Craft a Loadout Sigil to save your armour and hotbar into three kits and swap them in one tap. Creative also has a 🛡 Full sets tab.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>⚔️</i><b>Combat</b><span>Fast, readable and fair</span></summary><div class="sb"><ul>
-<li><b>Movement.</b> Dash (Q) and nothing can hurt you. Air dash, ground pound, wall hop, wall slide and ledge pull-up.</li>
-<li><b>Combos and finishers.</b> Hits chain into combos. A finisher on the ground launches the foe for an air juggle, and one in the air spikes it down.</li>
-<li><b>Flashy moves.</b> Dash-cancel a swing, slide-kick at a sprint, and pounce with claws. A perfect dodge slows the world and makes your next hit count double.</li>
-<li><b>Lock-on.</b> Press O, the middle mouse button or 🎯 to keep a foe framed.</li>
-<li><b>Monster families.</b> Each family has a signature move. A glowing mark shows where it will land, so dash out. Menu → Monster families shows them all.</li>
-<li><b>Guardians.</b> Each realm has a guardian with its own attack patterns, from the Drowned Bell to Titan Prime. Beat it for its trophy.</li>
-<li><b>Fair Fight.</b> Choose Peaceful, Easy, Normal, Hard or Brutal. Fierce foes glitter gold, are twice as tough, and drop Beast Cores.</li>
-<li><b>Skills to 100.</b> Mining, Woodcraft, Farming, Taming, Arcana, Engineering, Flight and Combat each level from 1 to 100, with fair bonuses.</li>
-<li><b>The Combat Trial.</b> Menu → Combat Trial: a coach in a floating arena teaches every move in about two minutes.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>✨</i><b>Magic</b><span>Schools, spells and the Great Work</span></summary><div class="sb"><ul>
-<li><b>The Mystery Schools.</b> Every realm hides a school. Answer its riddle at the Codex Stand and it teaches you its spells.</li>
-<li><b>Wands and sigils.</b> Apprentice, Adept and Archmage wands cast ten spells using Vis. Chalk sigils make crops grow, keep monsters away or link travel points.</li>
-<li><b>The Spell Wheel.</b> Hold R (or tap ✨) and your spells open in a ring. Point and let go.</li>
-<li><b>The Spell Tome.</b> Combine a shape (Bolt, Burst, Ward, Leap) with an aspect (Ember, Frost, Life, Storm, Void): twenty spells, six at a time.</li>
-<li><b>Essence.</b> Your Alchemical Tablet turns Essence into more of what it has learned. An Essence Forge makes it, and spells spend it.</li>
-<li><b>The Great Work.</b> Each guardian holds one of seven colours. Dissolve all seven trophies in the Great Athanor to finish the Work and open the way to the Aurum.</li>
-<li><b>The Second Work.</b> Then climb seven levels of Ascension, with harder nights and richer rewards. Open the Seventh Gate to face every guardian at once.</li>
-<li><b>Written realms.</b> A running Thinking Core writes a Realm Codex from what you have done. Step through the Codex Gate into a realm made from it.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>🦌</i><b>Creatures</b><span>A living wild, and friends to raise</span></summary><div class="sb"><ul>
-<li><b>Wildlife.</b> Deer, boar, bison, mammoths, sheep, otters, foxes, lions and many more, with creatures that belong to each realm.</li>
-<li><b>Hunters and prey.</b> Wolves hunt deer and lions hunt gazelles. When one animal bolts, its herd bolts with it. Herds raise young, and fish swim in schools.</li>
-<li><b>The living air.</b> Birds sing near trees, mostly at dawn and dusk. Butterflies fly by day, owls and fireflies by night, and leaves drift through the woods.</li>
-<li><b>Realm creatures.</b> Grave Borers hunt from under the ground, Old Titans sleep in the Titan Graves, and Void Rays swim the Rift.</li>
-<li><b>Taming and pets.</b> Feed a wolf raw meat or a fox berries and it follows and guards you. Pets and allies come with you through gates.</li>
-<li><b>A mount for every realm.</b> Horses, ash beetles, cloud rays, lions, stags, camels and bonehounds. Tame one with food and ride it with F.</li>
-<li><b>Ranch and breeding.</b> A Ranch Post keeps your herd and collects wool, eggs and milk. Breed two of a kind and the young take traits from each parent.</li>
-<li><b>Care Pens.</b> Catch a small creature in a Creature Net and raise it in a Care Pen. A bird grows into your Skywing, which is how you earn flight in Survival.</li>
-<li><b>The Bestiary.</b> Look at a creature through the Lens to fill in its page, with gold for every ten you study.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>👑</i><b>People, towns and kingdoms</b><span>From a camp to a Crown City</span></summary><div class="sb"><ul>
-<li><b>Folk and friendship.</b> Talk to townsfolk with right click, and give gifts with Shift and right click. At five hearts they give you a present.</li>
-<li><b>Traders and dwarves.</b> Every settlement has a trader. Dwarven holds keep a legend at their lectern, and the dwarves' Deep Capital waits underground.</li>
-<li><b>Living towns.</b> Folk work by day and sleep at night. Each town asks for three things a day and grows new houses as you help.</li>
-<li><b>Cities and peoples.</b> Walled cities of the Bloomfolk, the Deepsmiths and the Wind-Keepers. Bring an Elder what they ask and your kingdom learns their ways.</li>
-<li><b>Kingdom ranks.</b> Towns climb ten ranks, from Camp to Crown City. Big towns offer contracts, and linked towns pay tribute (Menu → Kingdoms).</li>
-<li><b>The Market Stall.</b> Set your own prices, and merchant caravans come by to buy. Each people pays more for what it loves.</li>
-<li><b>Festivals.</b> The Almanac tracks the seasons, and the first day of each is a festival. There are fireworks, a fishing derby, races and the Harvest Moon.</li>
-<li><b>Turrets and Claim Stones.</b> Turrets shoot what hunts you, never your pets or friends. No monster rises near a Claim Stone.</li>
-<li><b>Companions with jobs.</b> In Menu → Companions, each tamed creature can be a Guard, a Gatherer, a Scout or Lucky.</li>
-<li><b>Aurelia.</b> A city on a floating island high over Mundus. Stand in the column of light beneath it and the Sky Lift carries you up.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>🧭</i><b>Travel</b><span>Ride, glide, sail and fly</span></summary><div class="sb"><ul>
-<li><b>The Travel Map.</b> Press Y. Walk up to a Waystone to attune it, then Step there for a little Essence, take a free Sky Route, or Cross to another realm.</li>
-<li><b>Horses and Skywings.</b> Whistle your horse and gallop, or call a Skywing and climb, dive and surge.</li>
-<li><b>Gliding.</b> Carry a Glider anywhere in your bag and hold jump while falling. Look down to dive.</li>
-<li><b>Crafts you build.</b> Build around a Pilot's Seat and assemble something that drives, flies or floats. The Shipwright (Menu) shows what will fly.</li>
-<li><b>Boats and submarines.</b> Hulls float, sails go faster in a storm, and a Ballast Tank takes you under water.</li>
-<li><b>Ferries.</b> Every port you visit joins the ferry list in Menu → Ferry. Sail for a few gold, or for free with a Sea Pass.</li>
-<li><b>Time Portals.</b> Power one and fit a Chronal Core to visit Ancient Egypt, the Modern Day or the Far Future. Each era is made fresh on every visit.</li>
-<li><b>The Moon.</b> Fit a Jump Drive to a ship and climb high to reach Albedo's Moon. It has low gravity and craters, and you must watch your oxygen.</li>
-<li><b>Other doors.</b> A Deep Lift drops you to the Underworlds, a Skytrain Pass rides to Neon City, and the Warp Keystone steps you to places you know.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>🐾</i><b>Story and adventure</b><span>The Lycheetah, the PILLAR and the deep places</span></summary><div class="sb"><ul>
-<li><b>The Lycheetah's Path.</b> Press J for the Quest Log: six chapters from your first steps to the Great Work, with gold for every step.</li>
-<li><b>The Road to the PILLAR.</b> A campaign of eight great journeys, from the Hollow Sun to the Moon. Walk them all and the PILLAR answers you every night.</li>
-<li><b>The Lore Codex.</b> Menu → Lore holds thirteen cards about the Lycheetah and the broken world. Each one unlocks as you find its part of the world.</li>
-<li><b>The Storyteller.</b> Every world writes its own history, read at any lectern. The Storyteller sends something kind after hard times.</li>
-<li><b>The Clockwork Reach.</b> A Campaign Block opens a wound-down brass city. Win three Gear Hearts, solve the chimes and wind the Mainspring, alone or with a friend.</li>
-<li><b>Rifts.</b> A Rift Stone opens a maze of rooms that is new every time. Find the key and beat the Keeper to go deeper.</li>
-<li><b>Delves and keys.</b> Mossy arches lead down to four halls and a Warden. Its Vault Key points to a Sealed Vault full of treasure.</li>
-<li><b>The Hidden School.</b> An Explore Block opens onto islands in the sky. Four teachers there each ask a riddle and teach a gift.</li>
-<li><b>Deeds and Trails.</b> The Hall of Deeds tracks what you have done, with rewards, titles and ranks. Some deeds earn a glowing Trail.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>🌾</i><b>Farming</b><span>Fields, bees and harvest festivals</span></summary><div class="sb"><ul>
-<li><b>Tilling.</b> Use a Hoe on grass or dirt to make farmland.</li>
-<li><b>Five crops.</b> Wheat, ember fruit, lumen moss, rose hips and sun melons. You find their seeds in the wild plants of each realm.</li>
-<li><b>Growing.</b> A crop takes about two minutes to grow, and half that with water within four blocks. Crops grow faster in spring and summer.</li>
-<li><b>Helping it along.</b> Compost ripens a young crop on the spot, a Growth Bell rings crops ripe, and a Growth Sigil makes them grow three times as fast.</li>
-<li><b>Helpers.</b> A Farmer's Plot brings a farmer who plants and reaps. Allies and automatons can farm for you too.</li>
-<li><b>Bigger harvests.</b> The Farming skill and the Bloomfolk's knowledge give extra crops, and the Harvest Moon festival doubles them.</li>
-<li><b>Locusts.</b> Sometimes locusts come for your crops. Crops near a lantern or near you are safe.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>📱</i><b>The phone and help</b><span>A camera, a guide and someone to ask</span></summary><div class="sb"><ul>
-<li><b>The Smartphone.</b> Make one at a Maker's Bench, then right click it or use Menu → 📱 Phone. Nine apps, from Camera to Factory.</li>
-<li><b>Photo mode.</b> Frame a shot or a selfie (a pet Lycheetah nearby hops in), add stickers and a caption, then share it or keep it in the 🖼 Gallery.</li>
-<li><b>Lychee AI.</b> Ask how to make something, where a creature lives or how to beat it. It answers offline from the game's own knowledge.</li>
-<li><b>Five answers.</b> Every item says why you want it, what it needs, how to use it, what it connects to and what it leads to.</li>
-<li><b>The Field Guide.</b> Press B and pick a goal under "I want to…". It finds your next step and lets you craft it on the spot.</li>
-<li><b>Map and marks.</b> M opens the map: tap to set waypoints. L jumps to a view of the realm's landmarks.</li>
-<li><b>⚡ Actions.</b> One button opens every key as a button: roll, spells, ride, home, quests, camera, map and more.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>👥</i><b>Playing together</b><span>One shared world, across the room or the world</span></summary><div class="sb"><ul>
-<li><b>Room codes.</b> Press P and open a room to get a six-letter code. A friend anywhere types it under Join with a room code and is in.</li>
-<li><b>Join links.</b> A link with your room code in it joins as soon as the world is up.</li>
-<li><b>Invite codes.</b> You can also host from your device by sending an invite code and pasting back the reply code.</li>
-<li><b>One shared world.</b> Every block anyone breaks or places appears for everyone. A friend who arrives gets the whole world.</li>
-<li><b>See each other.</b> Bodies, armour, tools, horses, Skywings and crafts, with a name over every head. Press Enter to chat.</li>
-<li><b>Together on adventures.</b> Share the Clockwork Reach and Neon City, warp to a friend, and show off your Ascension colours next to your name.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>🎵</i><b>Music and sound</b><span>Songs the game composes as it plays</span></summary><div class="sb"><ul>
-<li><b>Realm themes.</b> Each realm has its own music, which takes turns with eight more themes. Combat music rises when something hunts you.</li>
-<li><b>The Jukebox.</b> Build one and pick a theme. Every song is composed by the game as it plays.</li>
-<li><b>Instruments.</b> Play a Lute, Flute or Hand Drum. Look up or down to change the note.</li>
-<li><b>The soundscape.</b> Wind rises with height, surf swells by the sea, birds sing at dawn, and rooms echo indoors.</li>
-<li><b>Note Blocks.</b> Tune them and wire them to signals or a Sequencer to play tunes.</li>
-</ul></div></details>
-
-<details class="sy"><summary><i>🎮</i><b>Settings, devices and access</b><span>PC, phone, controller and TV</span></summary><div class="sb"><ul>
-<li><b>Starts light and quiet.</b> The first launch is muted and on the lightest graphics. Nothing changes your settings behind your back.</li>
-<li><b>Seven Settings tabs.</b> Graphics, Sound, Camera, Game, Controls, Access and Worlds. Each opens with a line that says how things are set now.</li>
-<li><b>Graphics.</b> Five levels from Low to Max, Quick setup presets, view distance, leaves, sway and colour styles.</li>
-<li><b>Speed test.</b> Menu → ⏱ Speed test flies a 24-second loop. It tells you how your device runs the game and what to change.</li>
-<li><b>Battery saver.</b> On low battery, or when nobody touches anything for a while, the game slows its frame rate to last longer.</li>
-<li><b>Phone and touch.</b> Touch controls, an Interact button, a bag you can drag from, and a layout that fits any phone.</li>
-<li><b>Controller.</b> A gamepad drives play and every menu. Put any action on any button in Settings → Controls, or swap A and B in one tap.</li>
-<li><b>TV and console.</b> The game runs in TV and console browsers with a sofa-friendly first launch. Big text and light graphics come set up for you.</li>
-<li><b>Access.</b> Colour vision settings, sound captions that say where a sound comes from, big text and high contrast.</li>
-<li><b>Feedback.</b> Menu → ✉ Feedback builds a report with your device and settings to copy or share. The game also logs any errors it hits.</li>
-<li><b>World backups.</b> Menu → Back up this world saves your world as a file you can load on any device. Each world also keeps three backup slots.</li>
-</ul></div></details>
-
+<div class="w two">
+  <section id="start" class="reveal"><div class="k">No download, no install</div><h2 class="gold" style="font-size:clamp(28px,4vw,42px)">From here to your first night</h2>
+    <ol class="steps">
+      <li><b>Type your code</b> at the top and press Play. The game opens in this tab.</li>
+      <li><b>Start in Survival.</b> You wake by a dying fire, and First Light walks you through your first night.</li>
+      <li><b>Follow the Lycheetah's nose.</b> It smells the Bloom a few minutes from home and puts it on your compass.</li>
+      <li><b>Stuck?</b> Press B for the Field Guide, or ask Lychee AI on the in-game phone.</li>
+    </ol>
+    <details class="keys"><summary>Controls</summary><table>
+      <tr><th></th><th>Keyboard</th><th>Controller</th><th>Touch</th></tr>
+      <tr><td>Move · look</td><td>WASD · mouse</td><td>sticks</td><td>pad · drag</td></tr>
+      <tr><td>Run · jump · dash</td><td>Shift · Space · Q</td><td>· A · B</td><td>· ⤒ · 🤸</td></tr>
+      <tr><td>Use · break</td><td>right · left click</td><td>RT · LT</td><td>tap · hold</td></tr>
+      <tr><td>Bag · guide · menu</td><td>E · B · Esc</td><td>Y · · Start</td><td>buttons</td></tr>
+      <tr><td>Map · quests</td><td>M · J</td><td></td><td>buttons</td></tr>
+    </table><p class="more" style="padding:0 14px 12px">Slow device? Lower the view distance first. A TV or console browser that won't start: add <code>?console=1</code> to the address.</p></details>
+  </section>
+  <section id="news" class="reveal"><div class="k">Updated often</div><h2 class="gold" style="font-size:clamp(28px,4vw,42px)">What's new</h2>
+    <ul class="newsc"><li><b>🚀 Space, made whole</b><span>The Moon is somewhere to live now, not just to visit. A Launch Gantry (Maker's Bench) shows your launch checklist and builds the space parts: a Pressure Suit makes your air last about twice as long.</span></li><li><b>⚔️ Two new legendary sets</b><span>The Selene Warden, forged from Moon Rock, Moon Ice and Selene Lily: the Moon's air lasts far longer, falls stop hurting, and the Lunar Hush throws back foes when you are low; its glaive, Moonfall, sends a frost-light…</span></li><li><b>🧭 Exploration, made whole</b><span>The map is yours to uncover: it stays dark until you have walked there, and the landmarks in the dark stay hidden.</span></li></ul>
+    <p class="more">Found a bug? In the game: Menu → ✉ Feedback → Copy report, and send it to Lycheetah.</p>
+  </section>
 </div>
-<div class="nums">
-<div><b>18</b><span>realms to explore</span></div>
-<div><b>565</b><span>kinds of block</span></div>
-<div><b>704</b><span>items</span></div>
-<div><b>56</b><span>kits in the Kit Library</span></div>
-<div><b>597</b><span>deeds in the Hall of Deeds</span></div>
-<div><b>13</b><span>Lore Codex cards</span></div>
-</div>
-</div></div></details>
-</div></section>
 
-<div class="end"><div class="k">The forge is lit</div><h2 class="gold" style="font-size:clamp(30px,7vw,56px)">Enter the realms</h2><p><a class="ingot" href="#play">▶ Play Lycheetah Realms</a></p></div>
+<div class="end reveal"><div class="k">The forge is lit</div><h2 class="gold">Enter the realms</h2><p><a class="ingot" href="#play">▶ Play Lycheetah Realms</a></p></div>
 <footer><div class="w">FORGED BY LYCHEETAH · AN ORIGINAL, INDEPENDENT GAME · ALL RIGHTS RESERVED<br><a href="https://x.com/lycheetahlyc" target="_blank" rel="noopener">FOLLOW @LYCHEETAHLYC ON X</a> FOR THE CODE, NEWS AND UPDATES</div></footer>
 
 <script>
@@ -451,11 +170,8 @@ async function unlock(code){const n=norm(code);if(n.length<6){M('That code is to
     try{localStorage.setItem('realms_code',n);}catch(e){}
     document.open();document.write(html);document.close();return true;}
   catch(e){M('Could not start: '+(e&&e.message||e));return false;}}
-// open or close every system at once
-document.querySelectorAll('.sys').forEach(L=>{{const t=document.createElement('div');t.className='tools';t.innerHTML='<button type="button">Open all</button><button type="button">Close all</button>';L.before(t);const [a,z]=t.children;a.onclick=()=>L.querySelectorAll('details').forEach(d=>d.open=true);z.onclick=()=>L.querySelectorAll('details').forEach(d=>d.open=false);}});
-// the trailer plays here once site/trailer.mp4 is uploaded next to this page
-{const f=document.getElementById('film'),v=document.createElement('video');v.controls=true;v.playsInline=true;v.preload='metadata';v.poster='site/hero.jpg';
-  v.addEventListener('loadedmetadata',()=>{f.textContent='';f.appendChild(v);},{once:true});v.src='site/trailer.mp4';}
+// sections rise in as you reach them (everything shows at once where motion is reduced or the observer is missing)
+{const R=document.querySelectorAll('.reveal');if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion:reduce)').matches){const io=new IntersectionObserver(es=>{for(const e of es)if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}},{rootMargin:'0px 0px -8% 0px'});R.forEach(r=>io.observe(r));}else R.forEach(r=>r.classList.add('on'));}
 const Q=new URLSearchParams(location.search),h=new URLSearchParams(location.hash.slice(1)).get('k');if(h){history.replaceState(null,'',location.pathname+location.search);}
 let saved='';try{saved=localStorage.getItem('realms_code')||'';}catch(e){}
 document.getElementById('g').onclick=()=>unlock(document.getElementById('c').value);
