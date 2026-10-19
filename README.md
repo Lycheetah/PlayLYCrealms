@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.62** · updated 2026-10-19 · © Lycheetah, all rights reserved
+**Version 11.65** · updated 2026-10-19 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **⚔️ A matching weapon for every set:** Every set forged since the Mirror Knight now has its own weapon, with a right-click power in its spirit: the Mirror Blade (a ring of light), the Thunder Spear (three bolts of lightning), the Bloom Staff (a heal), the Sky Fan (a gust), the Cinder Axe (a ring of fire), the Lychee Mallet (BONK: foes bounce), the Cheetah Claws (a pounce), the Clockwork Wrench (a spark from foe to foe), the Starweaver Wand (a shower of starlight), the Duelist's Rapier (a lunge) and the Nocturne Scythe (dark rings). Full Sets in Creative now puts the right weapon in your hand with the armour.
+- **📜 The sets say what they do:** On the 🆕 New & Experimental shelf and in the set panel, every set's 4-piece line now names its own power: Mirror Knight's reflect, Thunderhide's lightning, Skyweave's double jump, the Duelist's riposte, the Nocturne's drinking and the rest. And sets that do not heal no longer say "heals 0/s".
+- **🐾 Pet gear:** Three collars for the creatures you have tamed, on the 🆕 New & Experimental shelf. Right click a tamed creature with one in hand, and every one of its kind you own wears it. The Guardian Collar halves the harm it takes. The Lychee Ribbon heals it half a heart a second. The Giant's Collar makes it grow half again as big, with half again its health.
 - **🪃 Weapons with a twist:** Three weapons you can watch fly, on the 🆕 New & Experimental shelf. The Boomerang Glaive spins out 14 blocks and comes back to your hand, cutting every foe it passes, going and coming. The Shock Net bursts where you aim and pins every foe under it for three seconds. The Lychee Launcher lobs a lychee in a high arc that bursts where it lands, 9 harm and a shove to everything close.
 - **🛻 The Garage, part two:** Two more vehicles in the 🚗 Cars tab of the Kit Library. The Lycheetah Hoverbike: a low pink bike on three hover pads with a gold crest, a headlamp and one jet; it floats, and it is very fast. The Monster Truck: a big red truck on four towers of wheels two blocks high, with a roll bar, twin engines and a truck bed.
 - **🧍 The Armour Stand:** With this many sets, they need somewhere to stand. Place an Armour Stand and it shows a wooden mannequin. Right click it with armour in hand and the piece goes on the stand, shown in full 3D. Right click it with anything else and you swap everything you wear with everything on the stand: a stand is a wardrobe too. Hold an Armour Stand and right click a stand to pick it back up.
-- **🎩 The Hat Stand:** Five hats on the 🆕 New & Experimental shelf, each worn on its own with its own look and one small gift. The Party Crown: every foe that falls to you goes out in confetti. The Chef's Toque: every meal heals two hearts more. The Lamp Helmet: below the sea line you see in the dark. The Horned Helm: every strike hits a tenth harder. The Propeller Beanie: hold jump in the air and float down slow.
-- **🦇 The Night Court:** A set and three weapons on the 🆕 New & Experimental shelf. The Nocturne set (a silver mask and a high-collared cape lined in red): every strike you land heals you for a sixth of its harm. The Thornfang Dagger heals you a third of every strike on its own. The Gravity Maul pulls every foe within 10 blocks in to you, then slams them all up. The Moonbow Crossbow fires one silver bolt through everything in a line 64 blocks long.
-- **🎈 The Toybox and the Gilded Duelist:** Four new toys on the 🆕 New & Experimental shelf: the Lychee Balloon floats you up for six seconds and lets you down soft; the Bubble Shield swallows the next three hits; the Thunder Drum dazes every foe within 9 blocks; the Lychee Rocket launches you forward in a burst of pink and gold fireworks. And one more set, the Gilded Duelist: a plumed hat, a doublet with a gold sash, breeches and buckled boots, and every fourth strike you land is a riposte for double harm.
 
 ---
 
