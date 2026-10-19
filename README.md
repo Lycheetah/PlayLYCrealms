@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.36** · updated 2026-10-18 · © Lycheetah, all rights reserved
+**Version 11.36** · updated 2026-10-19 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 

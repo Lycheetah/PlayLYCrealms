@@ -30,7 +30,8 @@ section{padding:64px 0 0}
 .trio{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.trio figure{margin:0;overflow:hidden;padding:0}.trio img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:13px 13px 0 0;display:block}
 .trio figcaption{padding:12px 16px 14px;color:var(--dim);font-size:15px;line-height:1.5}.trio figcaption b{display:block;color:var(--ink);font-family:Georgia,serif;font-size:19px;letter-spacing:.03em;margin-bottom:4px}
 .ind{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}.ind .plate{padding:18px}.ind i{font-style:normal;font-size:30px}.ind b{display:block;font-family:Georgia,serif;font-size:19px;color:var(--ink);margin:6px 0 4px}
-.ind span{color:var(--dim);line-height:1.5}.ind small{display:block;margin-top:10px;color:var(--gold,#f4d27a);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase}.ind .soon{opacity:.72}
+.ind span{color:var(--dim);line-height:1.5}.ind small{display:block;margin-top:10px;color:var(--gold,#f4d27a);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase}.ind .soon{opacity:.72}.ind .more{display:inline-block;margin-top:8px;font-size:13.5px;font-weight:600;text-decoration:none}.ind .more:hover{text-decoration:underline}
+.ency{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:18px 0 4px}.ency span{color:var(--dim);flex:1;min-width:220px}
 .duo{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.duo figure{margin:0;overflow:hidden;padding:0}.duo img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:13px 13px 0 0;display:block}.duo figcaption{padding:10px 14px 12px;color:var(--dim);font-size:14px}
 .firsth{counter-reset:f;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;list-style:none;padding:0}.firsth li{padding:18px 18px 16px;line-height:1.5;color:var(--dim)}.firsth li b{color:var(--ink)}
 .firsth li:before{counter-increment:f;content:counter(f);display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:rgba(244,210,122,.15);color:#f4d27a;font-weight:700;margin-bottom:10px}
@@ -120,12 +121,12 @@ footer{padding:30px 0 50px;color:#8a7d64;font-size:12px;letter-spacing:.08em;tex
     <p class="tag">A hand-forged voxel world with a cheetah at its heart: alien places built by hand, creatures you will meet nowhere else, and deep crafts you master one tier at a time.</p>
     <div class="play plate"><div class="row"><input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="YOUR CODE" aria-label="Your play code"><button id="g" type="button">▶ Play</button></div>
       <div id="m"></div><div class="hint">🔒 Type the play code from Lycheetah's launch post on X, <a href="https://x.com/lycheetahlyc" target="_blank" rel="noopener">@lycheetahlyc</a>. This device remembers it.</div></div>
-    <div class="facts"><span>Free</span><span>In your browser</span><span>PC · phone · controller</span><span>Early access · 2026-10-18</span></div>
+    <div class="facts"><span>Free</span><span>In your browser</span><span>PC · phone · controller</span><span>Early access · 2026-10-19</span></div>
   </div>
   <a class="scroll" href="#different">▼ See what makes it different</a>
 </header>
 
-<nav class="top"><div class="w"><span class="nm gold">Lycheetah Realms</span><span class="links"><a href="#different">Why it is different</a> &nbsp; <a href="#industries">What you do</a> &nbsp; <a href="#realms">Realms</a> &nbsp; <a href="#how">How to play</a> &nbsp; <a href="#news">New</a></span><a class="ingot" href="#play">▶ Play</a></div></nav>
+<nav class="top"><div class="w"><span class="nm gold">Lycheetah Realms</span><span class="links"><a href="#different">Why it is different</a> &nbsp; <a href="#industries">What you do</a> &nbsp; <a href="site/encyclopedia.html">Encyclopedia</a> &nbsp; <a href="#realms">Realms</a> &nbsp; <a href="#how">How to play</a> &nbsp; <a href="#news">New</a></span><a class="ingot" href="#play">▶ Play</a></div></nav>
 
 <section id="different"><div class="w">
   <div class="k">Not another block game</div><h2 class="gold">Places built by hand, from a myth</h2><p class="sub">Out in the realms stand the Myth Sites: places laid out block by block from the Lycheetah canon, each with a story, a puzzle and a gift you cannot get any other way.</p>
@@ -148,14 +149,15 @@ footer{padding:30px 0 50px;color:#8a7d64;font-size:12px;letter-spacing:.08em;tex
 <section id="industries"><div class="w">
   <div class="k">Deep by choice</div><h2 class="gold">Every craft is a whole line</h2><p class="sub">Each part of the game runs from your first hour to an end goal, in five tiers, with its own page in the in-game Field Guide (B). Start anywhere; go as deep as you like.</p>
   <div class="ind">
-    <div class="plate"><i>🌾</i><b>Farming &amp; Food</b><span>Seeds, a Watering Can, then a Cooking Pot by the fire: eight meals that each do something, from night eyes to a lighter step.</span><small>Plot → kitchen → homestead → machine farm</small></div>
-    <div class="plate"><i>🚗</i><b>Vehicles &amp; Mounts</b><span>Your horse and a saddle, rails and gliders, then crafts you build block by block: airships, walkers, jets, flying cities, and the Jump Drive to the Moon.</span><small>Ride → rails → engines → sky → beyond</small></div>
-    <div class="plate"><i>🧭</i><b>Exploration</b><span>The map stays dark until you go there. Spy a tower through the Spyglass, walk in, delve below, and fill your Atlas.</span><small>Wander → survey → chart → delve → the Atlas</small></div>
-    <div class="plate"><i>⚙️</i><b>Machines &amp; Power</b><span>Water wheels to factories, charge, circuits and tubes. Every machine tells you in one line why it has stopped.</span><small>Wheels → charge → logic → factories</small></div>
-    <div class="plate"><i>✨</i><b>Alchemy &amp; Magic</b><span>Wands, spells you write yourself, sigils, the Mystery Schools and the Great Work.</span><small>Wands → spells → schools → the Great Work</small></div>
-    <div class="plate"><i>⚔️</i><b>Combat</b><span>Combos, dashes and lock-on, legendary sets like the Hollowsun Dragonlord, and a Guardian for every realm.</span><small>Blades → sets → Guardians</small></div>
+    <div class="plate"><i>🌾</i><b>Farming &amp; Food</b><span>Seeds, a Watering Can, then a Cooking Pot by the fire: eight meals that each do something, from night eyes to a lighter step.</span><small>Plot → kitchen → homestead → machine farm</small><a class="more" href="site/encyclopedia.html#farm">Every piece in the Encyclopedia →</a></div>
+    <div class="plate"><i>🚗</i><b>Vehicles &amp; Mounts</b><span>Your horse and a saddle, rails and gliders, then crafts you build block by block: airships, walkers, jets, flying cities, and the Jump Drive to the Moon.</span><small>Ride → rails → engines → sky → beyond</small><a class="more" href="site/encyclopedia.html#craft">Every piece in the Encyclopedia →</a></div>
+    <div class="plate"><i>🧭</i><b>Exploration</b><span>The map stays dark until you go there. Spy a tower through the Spyglass, walk in, delve below, and fill your Atlas.</span><small>Wander → survey → chart → delve → the Atlas</small><a class="more" href="site/encyclopedia.html#adv">Every piece in the Encyclopedia →</a></div>
+    <div class="plate"><i>⚙️</i><b>Machines &amp; Power</b><span>Water wheels to factories, charge, circuits and tubes. Every machine tells you in one line why it has stopped.</span><small>Wheels → charge → logic → factories</small><a class="more" href="site/encyclopedia.html#power">Every piece in the Encyclopedia →</a></div>
+    <div class="plate"><i>✨</i><b>Alchemy &amp; Magic</b><span>Wands, spells you write yourself, sigils, the Mystery Schools and the Great Work.</span><small>Wands → spells → schools → the Great Work</small><a class="more" href="site/encyclopedia.html#magic">Every piece in the Encyclopedia →</a></div>
+    <div class="plate"><i>⚔️</i><b>Combat</b><span>Combos, dashes and lock-on, legendary sets like the Hollowsun Dragonlord, and a Guardian for every realm.</span><small>Blades → sets → Guardians</small><a class="more" href="site/encyclopedia.html#combat">Every piece in the Encyclopedia →</a></div>
     <div class="plate soon"><i>🚀</i><b>Space</b><span>Pressure suits, a base on the Moon, airlocks and a metal you can only forge up there.</span><small>Coming next</small></div>
   </div>
+  <p class="ency"><a class="ingot" href="site/encyclopedia.html">📖 Open the Encyclopedia</a><span>Every block, item, machine and creature: what it does, how it is made, what it goes into, where to find it.</span></p>
   <div class="duo">
     <figure class="plate"><img src="site/farm-pot.jpg" alt="The Cooking Pot" loading="lazy"><figcaption>The Cooking Pot: eight meals from your own crops.</figcaption></figure>
     <figure class="plate"><img src="site/map-fog.jpg" alt="The map, uncovered as you explore" loading="lazy"><figcaption>The map: only what you have walked or spotted.</figcaption></figure>
