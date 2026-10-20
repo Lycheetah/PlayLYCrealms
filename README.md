@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 14.4** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 14.7** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🕊 The sky up close:** The birds come down. Crows in Mundus, cranes in Albedo, flamingos in Rubedo and parrots in Viriditas land near you, fold their wings, peck and hop about, and take off together when you come too close. The Sunwing is remade (a crest, layered golden feathers, a fan of glowing tail plumes), and so is the Cloud Whale (its belly grooves, an eye, long fins, a two-lobed fluke and the cloud it rides), which now and then passes low.
+- **🐴 Barding for mounts:** Saddles make a mount quicker; Barding makes it tougher, and you can see it on the mount. Hide Barding takes a quarter off the harm to you and your mount while you ride, Iron Barding two fifths, Gilded Barding half. Each is made on the one before, at the Bench, and every mount of that kind you own wears it.
+- **🏕 The Camp Kit:** A camp wherever you stop: make a Camp Kit at the Bench (wool, planks, hafts and a little coal) and use it. A striped wool tent rises on a plank floor, with a bed inside (you wake there after a fall), a chest by it and a bonfire out front. It is a step on the Adventure path, after the first places in the wild.
 - **🏰 The Delve mode and the Daily Delve:** The second mode of 🎮 Play a Mode: the Delve. Straight from the title, no Rift Stone needed: ▶ a Rift of your own, made fresh, or 📅 the Daily Delve, one Rift for the whole day, the same for everyone who plays it. The card keeps your deepest depth today and ever; tomorrow there is a new one.
 - **⚔ The Arena:** The first mode of 🎮 Play a Mode is open: the Arena. A ring of sand under open sky, a stone wall with four gates, stepped stands in stone and red. Waves come in through the gates, each bigger and tougher than the last, with a champion every fifth wave. Win a wave and you get gold (and a Loot Bag every fifth) and a few seconds to breathe; step on the Gold Plate in the middle between waves and you leave with what you won. Fall in the ring and the run ends, but nothing is lost. Your best wave is kept, and there are three deeds to earn.
 - **⚙ The Clockwork Reach renewed:** Campaign Block 1 comes up to the Hollow Pillar's bar. Inside the Reach the line on screen is the Reach's own: the Gear Hearts you carry and the nearest tower still to climb, with how far and which way, then the way to the great tower in the plaza. Each tower tells its story as you reach it, and so does the plaza when the three hearts are in hand. Play a Mode shows the hearts and the Clockwork Heart.
-- **⚙ Three more lines:** The Press, the Saw and the Extractor evolve now. The Press becomes the Hydraulic Press (charge, three times as fast). The Saw becomes the Sawmill (charge: eight planks from a log, four hafts from planks, fast). The Extractor becomes the Centrifuge (more resin from every log). Open one and press ⬆ Evolve; what is inside stays.
-- **🤖 The first days, proven:** A bot now plays a brand-new Survival world the way a player would, through the game's own rules: it breaks real trees and stone with what it holds, crafts only what the bench or kiln in reach allows, builds and sets down a Kiln, smelts, hunts and cooks, from bare hands to an Iron Pick. On three different worlds it reached "Choose your path" every time. It found one snag on the way: cooking needed four raw meat at once. Now one raw meat and a fuel make a roast.
-- **📱 The phone pass:** Every screen made in the night was tried on a phone: the One Road, the tree screen, Choose your path, Evolve, the radio, the Power Meter. They fit. On a phone the banner now sits below the minimap and clear of the side buttons, a toast sits between it and the hotbar, and a radio shows its stations without the old track list under them.
 
 ---
 
