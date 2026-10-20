@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 17.2** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 17.4** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📱 Phone pass III:** On a phone the Sky Orrery's line now sits on the left under the quest line, beside the map, instead of across the top. A banner left waiting when you travel no longer turns up in the next place.
+- **🏝 One Island:** A fourth Challenge World on 🎮 Play a Mode: one small island in the open sky, and everything comes from it. Mine the Cobble Well: it gives stone that never runs out, now and then coal, iron, copper, gold, dirt, sand or clay, and the deeper it goes, the more ore comes up. Fell the oak, plant its saplings, fish the pond. Four goals on the badge.
 - **🎵 Music for the new places:** The Hollow Pillar, the Arena and the Sky Orrery each have a theme of their own. A running mode plays its own song at once: the Arena's waves, the Parkour Trials, the Build Battle, the Fishing Derby and any race. The Arena has a crowd now, roaring at every wave and louder still when a Champion falls. Every new song is on the jukebox.
 - **📜 The Seals on the Road:** The campaign is now a run of steps on the Adventure path: the Hollow Pillar, then the Sky Orrery (its Seal turns for one who holds the first fragment), then two of the seven Seal fragments in your bag. The tree screen and the Road's next step show them in order.
 - **📜 Chapter Two: the Sky Orrery:** The second fragment of the Lycheetah Seal. Above the clouds the first Lycheetahs built an orrery to watch the stars turn, and a keeper of the wind to guard it. Cross the Wind Bridge in the gusts, light the stars in the Star Tablet's order, and face the Gale Keeper in the Eye of the Storm. The Orrery Seal opens it, for one who holds the first fragment.
 - **🖥 Menus put right IV:** Every new thing on the right Field Guide page: the Barding and the Golden Oats with the saddles on Vehicles & Mounts, the Camp Kit and the Champion's Laurel on Exploration & Adventure, the Trophy Hall Kit with the Trophy Mount on Wild Craft. Before, they had fallen onto Mining.
-- **🐴 The Great mounts:** A mount can now be raised. Feed three Golden Oats (wheat and gold, at the Bench) to a mount you have tamed, and every mount of that kind you own grows into a Great one: a quarter bigger, a fifth faster, half again its health, with a gold line down its mane.
-- **🏁 Race the Hoops:** The second Chill mode: from 🎮 Play a Mode, 🏁 Race the Hoops sets a Race Post down in front of you and starts the race where you stand, on foot or on whatever you ride or fly: eight glowing hoops, a par, Bronze, Silver and Gold. The post goes again when the race is over, and your medals are counted on the card.
 
 ---
 
