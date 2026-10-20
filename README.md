@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.74** · updated 2026-10-19 · © Lycheetah, all rights reserved
+**Version 11.78** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🧰 Tools with a twist:** Two tools that change how you work. The Torch Launcher fires a torch onto any block you aim at, up to 32 blocks away: light a cave or a cliff without climbing it. The Road Layer lays a road of path stone ten blocks ahead of you, three wide, following the ground, and on a road you run faster.
+- **🎵 The Band:** Three instruments that play songs (the Lute, Flute and Hand Drum still play notes). The Troubadour's Mandolin plays the Song of Mending: for twenty seconds you and every tamed creature near you heal. Shepherd's Pan Pipes play the Song of the Wind: you run 30% faster. The Marching Drum plays the Song of Valour: your strikes hit a fifth harder.
+- **🌃 Three realm costumes:** Costumes from three of the realms, each with its own look on your body and one power. The Neon Courier (Neon City's glowing lines): at night you run 30% faster. The Ghost Shroud (Albedo's pale veil): one hit in four passes straight through you. The Moon Diver (a fishbowl helmet and a silver suit): every jump goes 35% higher.
+- **🗡 Held right, part three:** Every weapon and tool forged since the Velvet Syndicate, 26 of them, was checked in the hand. Two looked wrong and are redrawn: the Sky Fan is now a full spread of white feathers on wooden ribs, and the Shock Net sits folded in a launcher with a grip.
 - **🎈 The Garage, part three:** Two more vehicles in the 🚗 Cars tab. The Lychee Airship: a plank gondola under an envelope of balloons, with sails, a pedal rotor astern and lychee lanterns; it floats with no fuel. The Delivery Van: a box van with a cargo hold of four chests behind the cab, for carrying a whole harvest home.
 - **🔍 Every set has a body:** A check of every named armour set found one with no 3D look of its own: Hunter's Leathers. Now it has a hood with a feather, a jerkin with a strap and a quiver on the back, a knife at the belt and fur-topped boots. Every set now shows as itself when you press V.
-- **👗 The Wardrobe road:** A ninth Lycheetah's Road, for all the new armour and costumes: make an Armour Stand, wear a whole new costume, swap outfits at a stand, raise an Armoury Hall, and become a Wardrobe Master. A reward at every step, and the Lycheetah has something to say about each one. Open 🐆 The Roads in the Field Guide.
-- **🏆 Deeds for the new things:** Six new deeds, so each new thing is something to aim for: Dress-Up (wear three of the new costumes in full), Wardrobe Master (all sixteen, and a title), Broadside! (fire the Deck Cannon from a craft), Messages from the Sea (read five bottles), Big Friend (put a Giant's Collar on a tamed creature) and Quick Change (swap outfits at an Armour Stand).
-- **🏛 The Armoury Hall:** Use an Armoury Hall Kit and a hall rises in front of you: a plank floor, low stone walls with lamps, and ten Armour Stands in two rows, facing the door. In Creative they come dressed in the newest sets; in Survival they stand ready for yours. Also fixed: an area power that swept up a butterfly or a bee no longer stops there.
-- **🌊 The Deck Cannon:** The Pirate Sloop has something to fire now. The Deck Cannon fires one iron ball in a long arc that bursts where it lands, 16 harm and a shove to every foe within 4 blocks. Fire it from the deck of any craft you are aboard and it is a broadside: three balls at once.
 
 ---
 
