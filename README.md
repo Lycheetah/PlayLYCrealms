@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 15.8** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 16.1** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🧱 Build Battle:** The sixth mode of 🎮 Play a Mode, solo for now: draw a theme (a lighthouse, a tiny castle, a dragon's lair...), take five minutes on a fenced plot with a palette of blocks lent for the round, and three judges walk round it: the Lycheetah for the theme, the Dwarf for size and stonework, the Wanderer for variety and height.
+- **🎣 The Fishing Derby:** The first of the Chill modes, whenever you like, wherever there is water: three minutes on the clock and every fish you land adds its weight to your haul. Bronze at 6 kg, silver at 12, gold at 20, and your best haul kept. No rod? One is lent for the round.
+- **🏃 Parkour Trials:** Three courses in the Arena's open fields, from 🎮 Play a Mode: 🏃 the Dash Run (gaps that grow until only a running jump and an air dash will cross), 🧗 the Climb (ledges that rise, hurdles to clear), 🪂 the Glide (off a high tower to a pad far below; a glider is lent). Checkpoints, a clock, and gold, silver and bronze times.
 - **📱 The phone pass II:** Everything new since the last phone pass, checked on a phone. The Arena's Stall now opens high on the screen, clear of your hearts and hotbar; the Challenge badge sits just under the line on screen, however tall it is; and a charge card no longer talks about cable loss when nothing is being made.
 - **🖥 Menus put right III:** Every main panel audited on a PC and a phone. On a PC they all fit. On a phone, the bag's row of what you wear now wraps so every slot is on screen, and the Field Guide's scrolling tabs fade out at the edge instead of looking cut off.
 - **⚙ The first machines, unblocked:** A bot now plays on from the Iron Pick to the first machines, and it found two walls. Copper Cable needed rubber, which only a charged machine makes: now bare copper is enough (three ingots, four cables), and rubber is what Insulated Cable adds. And a Windmill's thatch only came from reeds: now wheat weaves it too.
-- **📻 The radio III:** Every station now has its own ident between songs: a bright arpeggio for Lycheetah Realms FM, two anvil strikes for Forge Beats, soft bells for Night Drift, a fiddle phrase for the Tavern, a three-note call for the Realm Themes. And the Realm Themes play the theme of the realm the radio stands in every other song.
-- **✂ Starforged and Lychee remade:** The last two flat sets get the Master Tailor's hand. Starforged: deep star-metal with a glowing crescent visor, a constellation on the breast, a comet crest and a nebula sash. The Lychee: the fruit itself as armour, bumpy pink-red rind, a crown of leaves, a white flesh trim and the seed set like a gem at the heart.
-- **✨ The wand line, shown:** Magic's three wands now look like their tier in your hand: the Apprentice Wand's wrapped ash and lilac crystal, the Adept Wand's silver fittings and a blue orb in silver claws, the Archmage Wand's gold-banded staff and a glowing sun-gem. And each wand's card shows the line: where it sits, and what comes next.
 
 ---
 
