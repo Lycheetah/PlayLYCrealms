@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 15.3** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 15.6** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **⚙ The first machines, unblocked:** A bot now plays on from the Iron Pick to the first machines, and it found two walls. Copper Cable needed rubber, which only a charged machine makes: now bare copper is enough (three ingots, four cables), and rubber is what Insulated Cable adds. And a Windmill's thatch only came from reeds: now wheat weaves it too.
+- **📻 The radio III:** Every station now has its own ident between songs: a bright arpeggio for Lycheetah Realms FM, two anvil strikes for Forge Beats, soft bells for Night Drift, a fiddle phrase for the Tavern, a three-note call for the Realm Themes. And the Realm Themes play the theme of the realm the radio stands in every other song.
+- **✂ Starforged and Lychee remade:** The last two flat sets get the Master Tailor's hand. Starforged: deep star-metal with a glowing crescent visor, a constellation on the breast, a comet crest and a nebula sash. The Lychee: the fruit itself as armour, bumpy pink-red rind, a crown of leaves, a white flesh trim and the seed set like a gem at the heart.
 - **✨ The wand line, shown:** Magic's three wands now look like their tier in your hand: the Apprentice Wand's wrapped ash and lilac crystal, the Adept Wand's silver fittings and a blue orb in silver claws, the Archmage Wand's gold-banded staff and a glowing sun-gem. And each wand's card shows the line: where it sits, and what comes next.
 - **🏹 Trophies:** Every kind of creature you hunt is written down, and a Trophy Mount shows one on your wall: set the plaque, right click it, and the head of a kind you have hunted hangs there, made from the creature itself and facing into the room. Right click again for the next kind.
 - **🌾 Machines for the field:** A farm that runs itself. The Seed Planter sows the empty farmland around it from a chest of seeds; the Rain Tower (made on a Sprinkler) waters 6 blocks with no water near; the Combine Harvester (made on a Harvester) picks 7 blocks and puts every seed back, so the Planter never runs dry.
-- **⚡ The Transformer and the Aether Cell:** A fourth way to send charge far: keep your cheap Copper Cable and put a Transformer on the line. One halves the whole line's cable loss, a second halves it again. And the Charge Bank evolves into the Aether Cell: four times the store, three times as fast.
-- **🌋 Challenge Worlds:** A new Survival world with one rule, from 🎮 Play a Mode: 💀 Hardcore (one life; fall and the run is over), 🎒 Nomad (no bed sets where you wake, no Home), or 🏁 the Race to Iron (a clock from the first step to an Iron Pick, and your best time kept). Your other worlds stay saved under 🌍 Worlds.
-- **⚔ The Arena II: the Stall, and waves with a twist:** Beat a wave and the Stall opens, and the next wave waits for you: a Healing Draught, a quiver of arrows, an Iron Skin for the next wave (half harm), then on to the next wave or out with your gold. From wave 3 the waves have a twist now and then: Armoured, Swarm, or Golden (double gold).
 
 ---
 
