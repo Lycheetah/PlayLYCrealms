@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.85** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 11.93** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
-- **🛡 Shields with a look:** Three shields on the 🆕 New & Experimental shelf. Hold one and keep right click held to raise it: a hit from the front is cut to a quarter, and each does one more thing when it takes a blow. The Thornback Shield, studded with iron spikes: the attacker takes 4 harm. The Bloom Shield, pink petals round a lychee boss: you heal half a heart. The Gust Shield, a wind-blue disc: the attacker is thrown far back.
-- **🎭 The Mask Rack:** Five masks on the 🆕 New & Experimental shelf, each worn on its own with its own look and one small gift. The Fox Mask: wild creatures do not run from you. The Owl Mask: at night you see in the dark. The Lychee Mask: every chest you find holds a lychee. The Golem Mask: you take a tenth less harm. The Jester Mask: one foe in five you beat leaves a Gift Box behind.
-- **☄️ Three more costumes:** Three more sets on the 🆕 New & Experimental shelf, each with its own look on your body. The Comet Rider (a star-tipped helmet and a midnight suit with a comet's tail): run, and a trail of stars streams off you as you run faster still. The Mushroom Monk (a wide red toadstool cap and a mossy robe): stand still and you heal half a heart a second. The Dune Nomad (a wrapped headscarf and a sand-coloured coat): foes more than 8 blocks off do not notice you.
-- **🚚 The Garage, part four:** Two more vehicles in the Kit Library, under 🚗 Cars. The Food Truck: a yellow kitchen on wheels with a kiln and a work bench in the back, a serving hatch under a striped awning and a lychee lantern on the roof. Drive it (or any craft with a kiln or a bonfire on board) and the raw meat and fish in your bag cook as you go. And the Tandem Bike: a long bike for two, one seat behind the other.
-- **🌈 Dyes on the new sets:** The Your Look dyes now colour the whole piece. Most of the new sets are drawn in shapes with colours of their own, so a dyed piece used to keep most of its old colour; now every shape takes a shade of the dye, dark parts dark and light parts light. What glows (gems, lamps, neon lines) and what is near black keeps its own colour, so a blue Mascot is still the Mascot.
-- **🎁 Gift Boxes:** A blue box tied with a gold ribbon, on the 🆕 New & Experimental shelf. Right click it and it bursts open in confetti, with one random thing from the Forge Day inside: a costume piece, a weapon, a toy or a kit. Playing together? Face a friend standing close and right click: the box goes into their bag still wrapped, and everyone sees who gave it to whom. Now and then a chest holds one too.
+- **⚠ It says why it will not start:** If the game ever fails while it starts, it now says so on the screen, with the error and where it happened, instead of sitting on "Forging the realms…". Send a photo of that message to Lycheetah and it can be fixed.
+- **🍭 The Sweet Shop:** Three treats on the 🆕 New & Experimental shelf, each made by hand: eat one and for sixty seconds it changes how you move, alongside any meal's effect. Bubble Gum: every jump goes higher. A Rocket Pop: you run faster. Gummy Wings: in the air you float down slow and land soft.
+- **🚁 The Garage, part five:** Two more flyers in the Kit Library, under 🚗 Cars. The Gyrocopter: a little open flyer with a long rotor overhead, twin engines and a pusher propeller; get up to speed and it lifts off. The Hot-Air Balloon: a wicker basket for two under a great envelope, with a burner in the middle; it rises slow and drifts where you steer it. And the Encyclopedia has a new 🚗 Garage page: every craft in the Cars tab, how it moves and how many blocks it takes.
+- **🎃 Three spooky costumes:** Three more sets on the 🆕 New & Experimental shelf, each with its own look on your body. The Pumpkin King (a carved pumpkin head that glows): at night, foes that come close take fright and run. The Scarecrow (a straw hat and a patched coat): stuffed with straw, you grow hungry at half the rate. The Bone Knight (a skull helm and bone plate): falls never hurt you.
+- **🧸 The Toybox, part two:** Three toys with a trick, on the 🆕 New & Experimental shelf. The Kite flies above you for thirty seconds, and while it is up you float down slow and land soft. Throw the Paper Plane and it glides 24 blocks; right click again and you hop to where it landed. Set the Spinning Top going at your feet, and foes that come near it go dizzy and stall.
+- **🏆 Deeds for the Forge Day:** Five more deeds for what the Forge Day added. Wardrobe Legend: wear every one of the new sets. The Whole Garage: build every kit in the Cars tab. Hat Trick: wear every hat and every mask. Night Visitors: beat both the Tailor of the Realms and the Smith of Sparks. Shieldbearer: block twenty hits with the new shields.
 
 ---
 
