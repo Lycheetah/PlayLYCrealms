@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 15.6** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 15.8** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📱 The phone pass II:** Everything new since the last phone pass, checked on a phone. The Arena's Stall now opens high on the screen, clear of your hearts and hotbar; the Challenge badge sits just under the line on screen, however tall it is; and a charge card no longer talks about cable loss when nothing is being made.
+- **🖥 Menus put right III:** Every main panel audited on a PC and a phone. On a PC they all fit. On a phone, the bag's row of what you wear now wraps so every slot is on screen, and the Field Guide's scrolling tabs fade out at the edge instead of looking cut off.
 - **⚙ The first machines, unblocked:** A bot now plays on from the Iron Pick to the first machines, and it found two walls. Copper Cable needed rubber, which only a charged machine makes: now bare copper is enough (three ingots, four cables), and rubber is what Insulated Cable adds. And a Windmill's thatch only came from reeds: now wheat weaves it too.
 - **📻 The radio III:** Every station now has its own ident between songs: a bright arpeggio for Lycheetah Realms FM, two anvil strikes for Forge Beats, soft bells for Night Drift, a fiddle phrase for the Tavern, a three-note call for the Realm Themes. And the Realm Themes play the theme of the realm the radio stands in every other song.
 - **✂ Starforged and Lychee remade:** The last two flat sets get the Master Tailor's hand. Starforged: deep star-metal with a glowing crescent visor, a constellation on the breast, a comet crest and a nebula sash. The Lychee: the fruit itself as armour, bumpy pink-red rind, a crown of leaves, a white flesh trim and the seed set like a gem at the heart.
 - **✨ The wand line, shown:** Magic's three wands now look like their tier in your hand: the Apprentice Wand's wrapped ash and lilac crystal, the Adept Wand's silver fittings and a blue orb in silver claws, the Archmage Wand's gold-banded staff and a glowing sun-gem. And each wand's card shows the line: where it sits, and what comes next.
-- **🏹 Trophies:** Every kind of creature you hunt is written down, and a Trophy Mount shows one on your wall: set the plaque, right click it, and the head of a kind you have hunted hangs there, made from the creature itself and facing into the room. Right click again for the next kind.
-- **🌾 Machines for the field:** A farm that runs itself. The Seed Planter sows the empty farmland around it from a chest of seeds; the Rain Tower (made on a Sprinkler) waters 6 blocks with no water near; the Combine Harvester (made on a Harvester) picks 7 blocks and puts every seed back, so the Planter never runs dry.
 
 ---
 
