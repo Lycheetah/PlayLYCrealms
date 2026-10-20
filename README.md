@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 16.6** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 17.2** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
-- **⚔ The Arena's champions:** Every tenth wave a named Champion walks in through the north gate: the Brass Colossus, the Bone King, the Cog Queen, and round again, tougher each time. Twice the size of its kind, a gold crown you can see across the ring, and a Champion's Laurel to keep when you beat it.
-- **✨ Spells that grow with the wand:** The wand in your hand is now the spell's strength. The Adept Wand: spells strike 1.4 times as hard, cost a tenth less Vis, and a Ward holds ten seconds longer. The Archmage Wand: 1.8 times as hard, a fifth less Vis, a Ward twenty seconds longer, and a ring of gold light on every cast.
-- **📻 The Lycheetah on the modes:** Eleven new lines for the host of Lycheetah Realms FM, on the Arena and its Stall, the Daily Delve, the Challenge Worlds, the Parkour Trials, the Fishing Derby, the Build Battle, the trophies, the Camp Kit and the crows. And the station idents can be heard in design/previews/radio-idents.mp3.
-- **🏹 The Trophy Hall:** A Trophy Hall Kit raises a hall in one use: a plank floor, stone walls and a roof, torches, and twelve Trophy Mounts round the inside walls, each already showing a kind you have hunted, the most hunted first. And Barding is checked on every mount kind.
-- **⚡ The first power, taught:** Where a new player looks: the Windmill's and the Water Wheel's cards now say they are a choice and what each needs, and the Machines path has the step everyone misses: a Dynamo set against a turning Gearbox, and a charge machine against the Dynamo, share charge by touching. No cable at all.
-- **🧱 Build Battle:** The sixth mode of 🎮 Play a Mode, solo for now: draw a theme (a lighthouse, a tiny castle, a dragon's lair...), take five minutes on a fenced plot with a palette of blocks lent for the round, and three judges walk round it: the Lycheetah for the theme, the Dwarf for size and stonework, the Wanderer for variety and height.
+- **🎵 Music for the new places:** The Hollow Pillar, the Arena and the Sky Orrery each have a theme of their own. A running mode plays its own song at once: the Arena's waves, the Parkour Trials, the Build Battle, the Fishing Derby and any race. The Arena has a crowd now, roaring at every wave and louder still when a Champion falls. Every new song is on the jukebox.
+- **📜 The Seals on the Road:** The campaign is now a run of steps on the Adventure path: the Hollow Pillar, then the Sky Orrery (its Seal turns for one who holds the first fragment), then two of the seven Seal fragments in your bag. The tree screen and the Road's next step show them in order.
+- **📜 Chapter Two: the Sky Orrery:** The second fragment of the Lycheetah Seal. Above the clouds the first Lycheetahs built an orrery to watch the stars turn, and a keeper of the wind to guard it. Cross the Wind Bridge in the gusts, light the stars in the Star Tablet's order, and face the Gale Keeper in the Eye of the Storm. The Orrery Seal opens it, for one who holds the first fragment.
+- **🖥 Menus put right IV:** Every new thing on the right Field Guide page: the Barding and the Golden Oats with the saddles on Vehicles & Mounts, the Camp Kit and the Champion's Laurel on Exploration & Adventure, the Trophy Hall Kit with the Trophy Mount on Wild Craft. Before, they had fallen onto Mining.
+- **🐴 The Great mounts:** A mount can now be raised. Feed three Golden Oats (wheat and gold, at the Bench) to a mount you have tamed, and every mount of that kind you own grows into a Great one: a quarter bigger, a fifth faster, half again its health, with a gold line down its mane.
+- **🏁 Race the Hoops:** The second Chill mode: from 🎮 Play a Mode, 🏁 Race the Hoops sets a Race Post down in front of you and starts the race where you stand, on foot or on whatever you ride or fly: eight glowing hoops, a par, Bronze, Silver and Gold. The post goes again when the race is over, and your medals are counted on the card.
 
 ---
 
