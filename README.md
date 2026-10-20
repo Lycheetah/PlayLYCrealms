@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.97** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 11.99** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🎒 A bag you can use:** The Creative bag gives its room to the items. On a laptop it used to show no items at all under its strips; now it uses the whole height of the screen, the empty "Hover an item" box and the empty Pin bar take no room, the Wearing panel is one slim row, and section headers no longer stack.
+- **📜 The Hollow Pillar (a preview):** Campaign Block 2 is taking shape: a Lycheetah temple carved under the PILLAR, in its own pocket realm. In Creative, the Hollow Pillar Seal (New & Experimental) takes you in and home again: walk the Antechamber, the Hall of Echoes, the Collapsed Library over its pit, the hidden Reliquary, the Sealed Vault and the Warden's Throne. Its trials (sealed doors, waves, plates, the Warden and a relic found nowhere else) come in the next updates.
 - **🗡 Held in 3D:** What you hold in first person is a real model now, held like a real one. Swords, blades, picks, axes, spades, spears, hammers, scythes and wands sit upright in a closed fist, leaning away, with a bevelled blade, a guard, a wrapped grip; guns, rays, gatlings, cannons and drills are aimed forward from a pistol grip; shields are held up as a plate with a rim and a boss. Every other thing you hold is smaller, finer and bevelled.
 - **✂ The Master Tailor:** Armour remade to a higher standard. Every chest piece in the realms now has sleeves to the wrist and a cuff, so no costume shows a bare shirt under it. And three sets are remade from the ground up, in real materials: the Dune Nomad (a layered turban, brass goggles, a veil, a red shawl and a belted duster), the Comet Rider (a glowing visor and a gold star crest, a silver breastplate with a comet across it, a starry half-cape) and the Moon Diver (an open bubble helmet, a chest panel of lights, a life-support pack, gloves and heavy boots).
 - **🩹 It starts on Firefox again:** Thanks to the new start-up message, Lycheetah's photo showed where the game was stopping on Firefox: drawing the picture of an item that was not there. Now an item the game cannot find gets a blank picture instead of stopping the game, and if anything else ever stops it, the message on the screen shows the whole trail.
 - **🎣 The Tackle Shop:** Three fishing rods with a trick each, on the 🆕 New & Experimental shelf. The Lure Rod: fish bite in a few seconds, and one catch in three brings a second fish. The Net Rod: cast into water and the net comes up with a fish at once, then it needs twenty seconds to dry. The Magma Rod fishes lava: obsidian, cinnabar, ember shards, now and then gold or a ruby.
-- **⚠ It says why it will not start:** If the game ever fails while it starts, it now says so on the screen, with the error and where it happened, instead of sitting on "Forging the realms…". Send a photo of that message to Lycheetah and it can be fixed.
-- **🍭 The Sweet Shop:** Three treats on the 🆕 New & Experimental shelf, each made by hand: eat one and for sixty seconds it changes how you move, alongside any meal's effect. Bubble Gum: every jump goes higher. A Rocket Pop: you run faster. Gummy Wings: in the air you float down slow and land soft.
 
 ---
 
