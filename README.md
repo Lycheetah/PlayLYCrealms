@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 13.6** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 13.9** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📱 The phone pass:** Every screen made in the night was tried on a phone: the One Road, the tree screen, Choose your path, Evolve, the radio, the Power Meter. They fit. On a phone the banner now sits below the minimap and clear of the side buttons, a toast sits between it and the hotbar, and a radio shows its stations without the old track list under them.
+- **🎵 The realm music, forged like the radio:** The music you hear everywhere, each realm's own theme when no radio is near, now plays on the radio's song engine, softly: an intro, verses, a chorus and an outro, a warm pad, a bell or plucked lead, the lightest drums. It still rests between songs, then another comes.
+- **🏹 Held in 3D, part two:** Bows, fishing rods and instruments are real models in your hand now, like the swords and tools: a bow with curved limbs and a taut string, a fishing rod with a cork handle, a reel and line guides, a lute with its sound hole, frets and pegs, a silver flute, a hand drum held up, and a kazoo.
 - **✂ Five sets remade:** The Master Tailor has remade five more sets to the new standard. The Ghost Shroud: a deep cowl with two cold eyes in the dark and a tattered robe. The Beekeeper: a wide hat with a mesh veil (and a bee on the brim), a cream smock, yellow wellingtons. The Briar Knight: dark iron wound with thorn vines and red roses. The Bone Knight: a skull helm with a green light in its sockets and a ribcage over black cloth. The Clockwork Knight: a brass dome with a porthole visor, a great gear on the chest, pipes, a gauge, pistons and steam vents.
 - **⚙ A card for every machine:** Seventy of the machines in the Field Guide had no "how to use it". Now every machine has one, written from the machine itself: what powers it (turning, charge or fuel), what it takes and what it makes, whether it works on its own, how much a store holds, and what it evolves into.
 - **⚡ Power fun, part two:** Set a Power Meter on a charge network and a gauge floats over it: green for the charge used, blue for spare, amber for what the cable loses, flashing red when the network is short. A machine on a short network flickers as it runs, so a brown-out is something you see across the room. The ⚙ Machines path gains a step to read your network.
-- **🖥 The menus put right, part two:** The Quest Log opens on your Road, and the old Lycheetah's Path (six chapters, 25 steps) is folded away under 📜 The older quests: still counting, no longer shouting. The Field Guide's side loses Start Here and the Roads, which said the same things a third and fourth way, and gains 🌳 The five trees at the top.
-- **🖥 The menus put right, part one:** Every "what next" now says the same thing: the pause menu, the Field Guide's first page and the Quest Log all show the Road's next step, with a button to it. A toast no longer sits on a banner. Creative no longer shows a quest line. And the first night speaks of your camp, not a Hearth you do not have.
-- **🏆 Deeds on the trees:** One action used to be announced by up to five systems at once. Now a path step is announced once, by the Road; its deed is still written down and still pays, quietly. The Hall of Deeds is grouped by the five paths and the world beyond them, with an honest count: the deeds that are deeds, not the path steps (those live on the trees, Shift+J). And the old discipline pages no longer promise steps for versions that never came.
 
 ---
 
