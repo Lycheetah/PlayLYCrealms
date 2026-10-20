@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 16.1** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 16.4** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📻 The Lycheetah on the modes:** Eleven new lines for the host of Lycheetah Realms FM, on the Arena and its Stall, the Daily Delve, the Challenge Worlds, the Parkour Trials, the Fishing Derby, the Build Battle, the trophies, the Camp Kit and the crows. And the station idents can be heard in design/previews/radio-idents.mp3.
+- **🏹 The Trophy Hall:** A Trophy Hall Kit raises a hall in one use: a plank floor, stone walls and a roof, torches, and twelve Trophy Mounts round the inside walls, each already showing a kind you have hunted, the most hunted first. And Barding is checked on every mount kind.
+- **⚡ The first power, taught:** Where a new player looks: the Windmill's and the Water Wheel's cards now say they are a choice and what each needs, and the Machines path has the step everyone misses: a Dynamo set against a turning Gearbox, and a charge machine against the Dynamo, share charge by touching. No cable at all.
 - **🧱 Build Battle:** The sixth mode of 🎮 Play a Mode, solo for now: draw a theme (a lighthouse, a tiny castle, a dragon's lair...), take five minutes on a fenced plot with a palette of blocks lent for the round, and three judges walk round it: the Lycheetah for the theme, the Dwarf for size and stonework, the Wanderer for variety and height.
 - **🎣 The Fishing Derby:** The first of the Chill modes, whenever you like, wherever there is water: three minutes on the clock and every fish you land adds its weight to your haul. Bronze at 6 kg, silver at 12, gold at 20, and your best haul kept. No rod? One is lent for the round.
 - **🏃 Parkour Trials:** Three courses in the Arena's open fields, from 🎮 Play a Mode: 🏃 the Dash Run (gaps that grow until only a running jump and an air dash will cross), 🧗 the Climb (ledges that rise, hurdles to clear), 🪂 the Glide (off a high tower to a pad far below; a glider is lent). Checkpoints, a clock, and gold, silver and bronze times.
-- **📱 The phone pass II:** Everything new since the last phone pass, checked on a phone. The Arena's Stall now opens high on the screen, clear of your hearts and hotbar; the Challenge badge sits just under the line on screen, however tall it is; and a charge card no longer talks about cable loss when nothing is being made.
-- **🖥 Menus put right III:** Every main panel audited on a PC and a phone. On a PC they all fit. On a phone, the bag's row of what you wear now wraps so every slot is on screen, and the Field Guide's scrolling tabs fade out at the edge instead of looking cut off.
-- **⚙ The first machines, unblocked:** A bot now plays on from the Iron Pick to the first machines, and it found two walls. Copper Cable needed rubber, which only a charged machine makes: now bare copper is enough (three ingots, four cables), and rubber is what Insulated Cable adds. And a Windmill's thatch only came from reeds: now wheat weaves it too.
 
 ---
 
