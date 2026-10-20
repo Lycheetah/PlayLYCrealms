@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.93** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 11.95** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🩹 It starts on Firefox again:** Thanks to the new start-up message, Lycheetah's photo showed where the game was stopping on Firefox: drawing the picture of an item that was not there. Now an item the game cannot find gets a blank picture instead of stopping the game, and if anything else ever stops it, the message on the screen shows the whole trail.
+- **🎣 The Tackle Shop:** Three fishing rods with a trick each, on the 🆕 New & Experimental shelf. The Lure Rod: fish bite in a few seconds, and one catch in three brings a second fish. The Net Rod: cast into water and the net comes up with a fish at once, then it needs twenty seconds to dry. The Magma Rod fishes lava: obsidian, cinnabar, ember shards, now and then gold or a ruby.
 - **⚠ It says why it will not start:** If the game ever fails while it starts, it now says so on the screen, with the error and where it happened, instead of sitting on "Forging the realms…". Send a photo of that message to Lycheetah and it can be fixed.
 - **🍭 The Sweet Shop:** Three treats on the 🆕 New & Experimental shelf, each made by hand: eat one and for sixty seconds it changes how you move, alongside any meal's effect. Bubble Gum: every jump goes higher. A Rocket Pop: you run faster. Gummy Wings: in the air you float down slow and land soft.
 - **🚁 The Garage, part five:** Two more flyers in the Kit Library, under 🚗 Cars. The Gyrocopter: a little open flyer with a long rotor overhead, twin engines and a pusher propeller; get up to speed and it lifts off. The Hot-Air Balloon: a wicker basket for two under a great envelope, with a burner in the middle; it rises slow and drifts where you steer it. And the Encyclopedia has a new 🚗 Garage page: every craft in the Cars tab, how it moves and how many blocks it takes.
 - **🎃 Three spooky costumes:** Three more sets on the 🆕 New & Experimental shelf, each with its own look on your body. The Pumpkin King (a carved pumpkin head that glows): at night, foes that come close take fright and run. The Scarecrow (a straw hat and a patched coat): stuffed with straw, you grow hungry at half the rate. The Bone Knight (a skull helm and bone plate): falls never hurt you.
-- **🧸 The Toybox, part two:** Three toys with a trick, on the 🆕 New & Experimental shelf. The Kite flies above you for thirty seconds, and while it is up you float down slow and land soft. Throw the Paper Plane and it glides 24 blocks; right click again and you hop to where it landed. Set the Spinning Top going at your feet, and foes that come near it go dizzy and stall.
-- **🏆 Deeds for the Forge Day:** Five more deeds for what the Forge Day added. Wardrobe Legend: wear every one of the new sets. The Whole Garage: build every kit in the Cars tab. Hat Trick: wear every hat and every mask. Night Visitors: beat both the Tailor of the Realms and the Smith of Sparks. Shieldbearer: block twenty hits with the new shields.
 
 ---
 
