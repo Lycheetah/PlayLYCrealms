@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 14.2** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 14.4** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🏰 The Delve mode and the Daily Delve:** The second mode of 🎮 Play a Mode: the Delve. Straight from the title, no Rift Stone needed: ▶ a Rift of your own, made fresh, or 📅 the Daily Delve, one Rift for the whole day, the same for everyone who plays it. The card keeps your deepest depth today and ever; tomorrow there is a new one.
+- **⚔ The Arena:** The first mode of 🎮 Play a Mode is open: the Arena. A ring of sand under open sky, a stone wall with four gates, stepped stands in stone and red. Waves come in through the gates, each bigger and tougher than the last, with a champion every fifth wave. Win a wave and you get gold (and a Loot Bag every fifth) and a few seconds to breathe; step on the Gold Plate in the middle between waves and you leave with what you won. Fall in the ring and the run ends, but nothing is lost. Your best wave is kept, and there are three deeds to earn.
 - **⚙ The Clockwork Reach renewed:** Campaign Block 1 comes up to the Hollow Pillar's bar. Inside the Reach the line on screen is the Reach's own: the Gear Hearts you carry and the nearest tower still to climb, with how far and which way, then the way to the great tower in the plaza. Each tower tells its story as you reach it, and so does the plaza when the three hearts are in hand. Play a Mode shows the hearts and the Clockwork Heart.
 - **⚙ Three more lines:** The Press, the Saw and the Extractor evolve now. The Press becomes the Hydraulic Press (charge, three times as fast). The Saw becomes the Sawmill (charge: eight planks from a log, four hafts from planks, fast). The Extractor becomes the Centrifuge (more resin from every log). Open one and press ⬆ Evolve; what is inside stays.
 - **🤖 The first days, proven:** A bot now plays a brand-new Survival world the way a player would, through the game's own rules: it breaks real trees and stone with what it holds, crafts only what the bench or kiln in reach allows, builds and sets down a Kiln, smelts, hunts and cooks, from bare hands to an Iron Pick. On three different worlds it reached "Choose your path" every time. It found one snag on the way: cooking needed four raw meat at once. Now one raw meat and a fuel make a roast.
 - **📱 The phone pass:** Every screen made in the night was tried on a phone: the One Road, the tree screen, Choose your path, Evolve, the radio, the Power Meter. They fit. On a phone the banner now sits below the minimap and clear of the side buttons, a toast sits between it and the hotbar, and a radio shows its stations without the old track list under them.
-- **🎵 The realm music, forged like the radio:** The music you hear everywhere, each realm's own theme when no radio is near, now plays on the radio's song engine, softly: an intro, verses, a chorus and an outro, a warm pad, a bell or plucked lead, the lightest drums. It still rests between songs, then another comes.
-- **🏹 Held in 3D, part two:** Bows, fishing rods and instruments are real models in your hand now, like the swords and tools: a bow with curved limbs and a taut string, a fishing rod with a cork handle, a reel and line guides, a lute with its sound hole, frets and pegs, a silver flute, a hand drum held up, and a kazoo.
 
 ---
 
