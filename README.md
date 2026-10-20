@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 17.8** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 18.0** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📱 Phone pass IV:** The newest screens checked on a phone: the Sunken Bell's line and the tide's call, One Island's badge, the Settings cards, and Build Battle with friends. The friends' panel now sits on the left under the map on a small screen, clear of the side buttons.
+- **👥 Build Battle with friends:** In a room with friends, the Build Battles card has 👥 With friends. It happens where you stand, so everyone sees everyone's build. You draw a theme, each friend who joins gets a fenced plot beside yours, and the palette is lent to all. When the five minutes are up the judges score every plot, then everyone votes for the best build that is not their own.
 - **🖥 Settings on a phone:** Settings was checked on a phone screen, part by part: everything can be reached, nothing runs off the edge, and every button is big enough for a finger. Each card's heading now has room above it, so on a small screen it no longer reads as part of the card before.
 - **🥣 Field Porridge:** A farmer's first meal from the field alone: three wheat in the Cooking Pot by a fire, and you are 🍞 Full for three minutes (your hunger drains half as fast). Before, every meal with an effect needed meat, an egg or honey.
 - **📜 Chapter Three: the Sunken Bell:** The third fragment of the Lycheetah Seal waits in a temple under the sea. Make the Bell Seal (it turns for one who holds Fragment II). Cross the Tide Hall between tides, ring the three bells in the order the Bell Tablet gives, and face the Tide Warden under the glass dome. The first clear gives the Tide Bell, found nowhere else.
 - **⚔ The champions, each made:** The Arena's champions are no longer just their kind made bigger. The Brass Colossus wears great pauldrons, a crested helm and a furnace burning in its chest. The Bone King wears a crimson cape and carries a bone staff with a green flame, and its eyes burn green. The Cog Queen wears a halo of gears and a skirt of copper teeth, with a wind-up key in her back that turns as she walks.
-- **📱 Phone pass III:** On a phone the Sky Orrery's line now sits on the left under the quest line, beside the map, instead of across the top. A banner left waiting when you travel no longer turns up in the next place.
-- **🏝 One Island:** A fourth Challenge World on 🎮 Play a Mode: one small island in the open sky, and everything comes from it. Mine the Cobble Well: it gives stone that never runs out, now and then coal, iron, copper, gold, dirt, sand or clay, and the deeper it goes, the more ore comes up. Fell the oak, plant its saplings, fish the pond. Four goals on the badge.
 
 ---
 
