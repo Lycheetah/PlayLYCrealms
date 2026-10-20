@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 14.7** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 15.3** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
-- **🕊 The sky up close:** The birds come down. Crows in Mundus, cranes in Albedo, flamingos in Rubedo and parrots in Viriditas land near you, fold their wings, peck and hop about, and take off together when you come too close. The Sunwing is remade (a crest, layered golden feathers, a fan of glowing tail plumes), and so is the Cloud Whale (its belly grooves, an eye, long fins, a two-lobed fluke and the cloud it rides), which now and then passes low.
-- **🐴 Barding for mounts:** Saddles make a mount quicker; Barding makes it tougher, and you can see it on the mount. Hide Barding takes a quarter off the harm to you and your mount while you ride, Iron Barding two fifths, Gilded Barding half. Each is made on the one before, at the Bench, and every mount of that kind you own wears it.
-- **🏕 The Camp Kit:** A camp wherever you stop: make a Camp Kit at the Bench (wool, planks, hafts and a little coal) and use it. A striped wool tent rises on a plank floor, with a bed inside (you wake there after a fall), a chest by it and a bonfire out front. It is a step on the Adventure path, after the first places in the wild.
-- **🏰 The Delve mode and the Daily Delve:** The second mode of 🎮 Play a Mode: the Delve. Straight from the title, no Rift Stone needed: ▶ a Rift of your own, made fresh, or 📅 the Daily Delve, one Rift for the whole day, the same for everyone who plays it. The card keeps your deepest depth today and ever; tomorrow there is a new one.
-- **⚔ The Arena:** The first mode of 🎮 Play a Mode is open: the Arena. A ring of sand under open sky, a stone wall with four gates, stepped stands in stone and red. Waves come in through the gates, each bigger and tougher than the last, with a champion every fifth wave. Win a wave and you get gold (and a Loot Bag every fifth) and a few seconds to breathe; step on the Gold Plate in the middle between waves and you leave with what you won. Fall in the ring and the run ends, but nothing is lost. Your best wave is kept, and there are three deeds to earn.
-- **⚙ The Clockwork Reach renewed:** Campaign Block 1 comes up to the Hollow Pillar's bar. Inside the Reach the line on screen is the Reach's own: the Gear Hearts you carry and the nearest tower still to climb, with how far and which way, then the way to the great tower in the plaza. Each tower tells its story as you reach it, and so does the plaza when the three hearts are in hand. Play a Mode shows the hearts and the Clockwork Heart.
+- **✨ The wand line, shown:** Magic's three wands now look like their tier in your hand: the Apprentice Wand's wrapped ash and lilac crystal, the Adept Wand's silver fittings and a blue orb in silver claws, the Archmage Wand's gold-banded staff and a glowing sun-gem. And each wand's card shows the line: where it sits, and what comes next.
+- **🏹 Trophies:** Every kind of creature you hunt is written down, and a Trophy Mount shows one on your wall: set the plaque, right click it, and the head of a kind you have hunted hangs there, made from the creature itself and facing into the room. Right click again for the next kind.
+- **🌾 Machines for the field:** A farm that runs itself. The Seed Planter sows the empty farmland around it from a chest of seeds; the Rain Tower (made on a Sprinkler) waters 6 blocks with no water near; the Combine Harvester (made on a Harvester) picks 7 blocks and puts every seed back, so the Planter never runs dry.
+- **⚡ The Transformer and the Aether Cell:** A fourth way to send charge far: keep your cheap Copper Cable and put a Transformer on the line. One halves the whole line's cable loss, a second halves it again. And the Charge Bank evolves into the Aether Cell: four times the store, three times as fast.
+- **🌋 Challenge Worlds:** A new Survival world with one rule, from 🎮 Play a Mode: 💀 Hardcore (one life; fall and the run is over), 🎒 Nomad (no bed sets where you wake, no Home), or 🏁 the Race to Iron (a clock from the first step to an Iron Pick, and your best time kept). Your other worlds stay saved under 🌍 Worlds.
+- **⚔ The Arena II: the Stall, and waves with a twist:** Beat a wave and the Stall opens, and the next wave waits for you: a Healing Draught, a quiver of arrows, an Iron Skin for the next wave (half harm), then on to the next wave or out with your gold. From wave 3 the waves have a twist now and then: Armoured, Swarm, or Golden (double gold).
 
 ---
 
