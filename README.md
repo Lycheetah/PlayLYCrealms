@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 17.4** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 17.6** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📜 Chapter Three: the Sunken Bell:** The third fragment of the Lycheetah Seal waits in a temple under the sea. Make the Bell Seal (it turns for one who holds Fragment II). Cross the Tide Hall between tides, ring the three bells in the order the Bell Tablet gives, and face the Tide Warden under the glass dome. The first clear gives the Tide Bell, found nowhere else.
+- **⚔ The champions, each made:** The Arena's champions are no longer just their kind made bigger. The Brass Colossus wears great pauldrons, a crested helm and a furnace burning in its chest. The Bone King wears a crimson cape and carries a bone staff with a green flame, and its eyes burn green. The Cog Queen wears a halo of gears and a skirt of copper teeth, with a wind-up key in her back that turns as she walks.
 - **📱 Phone pass III:** On a phone the Sky Orrery's line now sits on the left under the quest line, beside the map, instead of across the top. A banner left waiting when you travel no longer turns up in the next place.
 - **🏝 One Island:** A fourth Challenge World on 🎮 Play a Mode: one small island in the open sky, and everything comes from it. Mine the Cobble Well: it gives stone that never runs out, now and then coal, iron, copper, gold, dirt, sand or clay, and the deeper it goes, the more ore comes up. Fell the oak, plant its saplings, fish the pond. Four goals on the badge.
 - **🎵 Music for the new places:** The Hollow Pillar, the Arena and the Sky Orrery each have a theme of their own. A running mode plays its own song at once: the Arena's waves, the Parkour Trials, the Build Battle, the Fishing Derby and any race. The Arena has a crowd now, roaring at every wave and louder still when a Champion falls. Every new song is on the jukebox.
 - **📜 The Seals on the Road:** The campaign is now a run of steps on the Adventure path: the Hollow Pillar, then the Sky Orrery (its Seal turns for one who holds the first fragment), then two of the seven Seal fragments in your bag. The tree screen and the Road's next step show them in order.
-- **📜 Chapter Two: the Sky Orrery:** The second fragment of the Lycheetah Seal. Above the clouds the first Lycheetahs built an orrery to watch the stars turn, and a keeper of the wind to guard it. Cross the Wind Bridge in the gusts, light the stars in the Star Tablet's order, and face the Gale Keeper in the Eye of the Storm. The Orrery Seal opens it, for one who holds the first fragment.
-- **🖥 Menus put right IV:** Every new thing on the right Field Guide page: the Barding and the Golden Oats with the saddles on Vehicles & Mounts, the Camp Kit and the Champion's Laurel on Exploration & Adventure, the Trophy Hall Kit with the Trophy Mount on Wild Craft. Before, they had fallen onto Mining.
 
 ---
 
