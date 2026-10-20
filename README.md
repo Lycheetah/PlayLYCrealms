@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 12.0** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 12.2** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🕊 Each sky its own:** Every realm had the same sky: a dragon nearly always wheeling over you and airships crossing it. Now each realm has its own life in the air. Geese in a V and crows over Mundus, owls and fireflies at night; white cranes and the great Cloud Whale over Albedo; flamingos, circling vultures and bats over Rubedo, the dragons' home; parrots and butterflies in Viriditas; the golden Sunwings over Citrinitas. Embers drift in Nigredo and soul wisps in Mortificatio. Dragons and airships are rare now: when you see one, it is a moment.
+- **🎮 Play a Mode:** A third way in from the title. Beside Survival and Creative, 🎮 Play a Mode opens a sheet of adventures: the Campaign, with the Clockwork Reach and the Hollow Pillar, what you have done in each and the relic you won; press Play and your Survival world opens and walks you straight in. The modes being forged (the Arena, Delve, Parkour Trials, Challenge Worlds, Build Battles and the chill modes) have their cards waiting.
 - **📜 Campaign Block 2: The Hollow Pillar:** Chapter One of the Lycheetah's story. Craft the Hollow Pillar Seal and step into the temple the first Lycheetahs carved under the PILLAR. Read the tablets and pull the lever; hold the Hall of Echoes through three waves; find the wall in the Collapsed Library that is not like the others; step the Sealed Vault's plates in the right order; and face the Hollow Warden on his throne, in three phases. The first clear gives the Fang of the First, found nowhere else, and the first fragment of the Seal. Each time you enter, the temple is new.
 - **🎒 A bag you can use:** The Creative bag gives its room to the items. On a laptop it used to show no items at all under its strips; now it uses the whole height of the screen, the empty "Hover an item" box and the empty Pin bar take no room, the Wearing panel is one slim row, and section headers no longer stack.
 - **📜 The Hollow Pillar (a preview):** Campaign Block 2 is taking shape: a Lycheetah temple carved under the PILLAR, in its own pocket realm. In Creative, the Hollow Pillar Seal (New & Experimental) takes you in and home again: walk the Antechamber, the Hall of Echoes, the Collapsed Library over its pit, the hidden Reliquary, the Sealed Vault and the Warden's Throne. Its trials (sealed doors, waves, plates, the Warden and a relic found nowhere else) come in the next updates.
 - **🗡 Held in 3D:** What you hold in first person is a real model now, held like a real one. Swords, blades, picks, axes, spades, spears, hammers, scythes and wands sit upright in a closed fist, leaning away, with a bevelled blade, a guard, a wrapped grip; guns, rays, gatlings, cannons and drills are aimed forward from a pistol grip; shields are held up as a plate with a rim and a boss. Every other thing you hold is smaller, finer and bevelled.
-- **✂ The Master Tailor:** Armour remade to a higher standard. Every chest piece in the realms now has sleeves to the wrist and a cuff, so no costume shows a bare shirt under it. And three sets are remade from the ground up, in real materials: the Dune Nomad (a layered turban, brass goggles, a veil, a red shawl and a belted duster), the Comet Rider (a glowing visor and a gold star crest, a silver breastplate with a comet across it, a starry half-cape) and the Moon Diver (an open bubble helmet, a chest panel of lights, a life-support pack, gloves and heavy boots).
-- **🩹 It starts on Firefox again:** Thanks to the new start-up message, Lycheetah's photo showed where the game was stopping on Firefox: drawing the picture of an item that was not there. Now an item the game cannot find gets a blank picture instead of stopping the game, and if anything else ever stops it, the message on the screen shows the whole trail.
 
 ---
 
