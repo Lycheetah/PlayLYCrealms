@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 11.81** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 11.85** · updated 2026-10-20 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🛡 Shields with a look:** Three shields on the 🆕 New & Experimental shelf. Hold one and keep right click held to raise it: a hit from the front is cut to a quarter, and each does one more thing when it takes a blow. The Thornback Shield, studded with iron spikes: the attacker takes 4 harm. The Bloom Shield, pink petals round a lychee boss: you heal half a heart. The Gust Shield, a wind-blue disc: the attacker is thrown far back.
+- **🎭 The Mask Rack:** Five masks on the 🆕 New & Experimental shelf, each worn on its own with its own look and one small gift. The Fox Mask: wild creatures do not run from you. The Owl Mask: at night you see in the dark. The Lychee Mask: every chest you find holds a lychee. The Golem Mask: you take a tenth less harm. The Jester Mask: one foe in five you beat leaves a Gift Box behind.
+- **☄️ Three more costumes:** Three more sets on the 🆕 New & Experimental shelf, each with its own look on your body. The Comet Rider (a star-tipped helmet and a midnight suit with a comet's tail): run, and a trail of stars streams off you as you run faster still. The Mushroom Monk (a wide red toadstool cap and a mossy robe): stand still and you heal half a heart a second. The Dune Nomad (a wrapped headscarf and a sand-coloured coat): foes more than 8 blocks off do not notice you.
+- **🚚 The Garage, part four:** Two more vehicles in the Kit Library, under 🚗 Cars. The Food Truck: a yellow kitchen on wheels with a kiln and a work bench in the back, a serving hatch under a striped awning and a lychee lantern on the roof. Drive it (or any craft with a kiln or a bonfire on board) and the raw meat and fish in your bag cook as you go. And the Tandem Bike: a long bike for two, one seat behind the other.
 - **🌈 Dyes on the new sets:** The Your Look dyes now colour the whole piece. Most of the new sets are drawn in shapes with colours of their own, so a dyed piece used to keep most of its old colour; now every shape takes a shade of the dye, dark parts dark and light parts light. What glows (gems, lamps, neon lines) and what is near black keeps its own colour, so a blue Mascot is still the Mascot.
 - **🎁 Gift Boxes:** A blue box tied with a gold ribbon, on the 🆕 New & Experimental shelf. Right click it and it bursts open in confetti, with one random thing from the Forge Day inside: a costume piece, a weapon, a toy or a kit. Playing together? Face a friend standing close and right click: the box goes into their bag still wrapped, and everyone sees who gave it to whom. Now and then a chest holds one too.
-- **🧵 The Tailor of the Realms:** Once you own an Armour Stand, some nights a visitor comes for your wardrobe: the Tailor of the Realms, tall in a plum coat and a top hat, a measuring tape round his neck and shears in hand. He hunts you, and he hits hard. Beat him and he drops gold and one piece of a costume, at random, from the new sets. A deed for beating him, too.
-- **🧰 Tools with a twist:** Two tools that change how you work. The Torch Launcher fires a torch onto any block you aim at, up to 32 blocks away: light a cave or a cliff without climbing it. The Road Layer lays a road of path stone ten blocks ahead of you, three wide, following the ground, and on a road you run faster.
-- **🎵 The Band:** Three instruments that play songs (the Lute, Flute and Hand Drum still play notes). The Troubadour's Mandolin plays the Song of Mending: for twenty seconds you and every tamed creature near you heal. Shepherd's Pan Pipes play the Song of the Wind: you run 30% faster. The Marching Drum plays the Song of Valour: your strikes hit a fifth harder.
-- **🌃 Three realm costumes:** Costumes from three of the realms, each with its own look on your body and one power. The Neon Courier (Neon City's glowing lines): at night you run 30% faster. The Ghost Shroud (Albedo's pale veil): one hit in four passes straight through you. The Moon Diver (a fishbowl helmet and a silver suit): every jump goes 35% higher.
 
 ---
 
