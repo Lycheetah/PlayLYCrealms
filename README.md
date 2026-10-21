@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 21.2** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 21.5** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🕊 Challenge Worlds: The Gentle Road:** A sixth Challenge World: no weapons. Your blows do no harm, and a blade, a bow, a gun, a wand or a staff in your hand will not swing, draw, fire or cast. Live by traps and turrets, pets and allies, walls and light, and your wits. Live to the tenth day and the road is walked.
+- **🎨 Aurum and sylvan, remade whole:** The next two sets drawn whole on the body. Aurum is the Great Work's gold: a sun-crowned helm with a ruby brow, the Work's seven colours ringed about a gold sun on the chest, sunburst pauldrons. Sylvan is the green realm's: a hood of leaves with antler-twigs and a firefly, a jerkin of bark plates laced with vine, leaf pauldrons and root-shod boots.
+- **⏱ The Sealkeeper's Trials:** Once the Seal is whole, each chapter from Two to Seven gains a ⏱ Trial on Play a Mode: the chapter again, the warden half as strong again, and a clock running while you are inside. Clear it and your time is kept; beat your best and the Seal knows it. Pass every Trial for the title Trialkeeper.
 - **🏆 The campaign's own page:** The Hall of Deeds now opens on your journey through the campaign, under your rank: the seven chapters in order, what you have done in each (cleared, how often, the relic it gave), the fragments you hold, and, once the Seal is whole, the Sealkeeper's line.
 - **⚔ The Arena IV: the wardens:** The chapters' wardens join the Arena's champions, each once you have beaten it in its own chapter: the Tide Warden, the Ember Smith, the Frost Matron and the Storm Herald, crowned and walking in every tenth wave. Each keeps its move, marked on the sand first: a wave to jump, a ring of fire, falling icicles, bolts from the sky.
 - **🌾 Crops in the dark:** The plan asked for something to grow in a Long Night. Tested first: nothing needed to. Crops grow on time, not on sunlight, so wheat planted at midnight in a Long Night ripens as it would by day (a little slower in winter, as everywhere). Now the game says so: when a Long Night begins, and on the Farming path's first step.
-- **⚙ The machine panel on a phone:** Open a machine on a phone and the work comes first now: what is going in, what is coming out, Take. Its evolution line and its modules fold into one line each that opens, instead of standing nearly a screen tall above the work.
-- **📻 Night Watch:** A new station on the radio, on the air from dusk to dawn: five slow songs for the dark (the lamp in the window, an owl on the ridge, four hundred stars), and the Lycheetah keeping watch with you between them. By day it is off the air; in a Long Night, it never stops.
-- **🏝 The room's Challenge Worlds:** Playing together, the room now hears your best Race to Iron time and the most nights you have lived through in a Long Night, along with your best wave. The Challenge Worlds card names the room's fastest race and longest night, and when a friend beats your race time, you hear of it.
 
 ---
 
