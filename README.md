@@ -4,7 +4,7 @@
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
-💬 **Join the Discord:** https://discord.gg/bS3METnJ5 · 🎬 **The trailer:** on the site, or [site/trailer.mp4](site/trailer.mp4)
+📘 **[The Book of Lycheetah Realms](GAME.md)**: the whole game, from the first fire to the Moon · 💬 **Join the Discord:** https://discord.gg/bS3METnJ5 · 🎬 **The trailer:** on the site, or [site/trailer.mp4](site/trailer.mp4)
 
 ## Play
 
@@ -16,7 +16,7 @@ It runs in a modern browser on **PC**, **phone and tablet**, and **TV and consol
 
 ## Your first hour
 
-- **Start in Survival** in a new world. A camp is waiting with a bedroll, a bench and a chest, and **First Light** (top left) walks you through eight steps: cut logs, make planks, build a bench, craft tools, and survive the first night.
+- **Start in Survival** in a new world. **The first days** (top left) walk you through fourteen steps: logs, planks and a bench, your first tools, food, shelter, the first night and iron. Then the road splits into five paths (Machines, Farming, Hunting, Magic, Adventure), each a tree of steps you can open with Shift+J.
 - **Press B** for the handbook, and **E** for your bag and crafting (the 📜 Guide tab shows what to do next).
 - **Night is dangerous.** Stay near the Hearth, keep torches lit, and greet the dawn.
 - Lost? Ask **Lychee AI** on the in-game phone (make a Smartphone at a Maker's Bench), or type **/guide** after pressing Enter.
