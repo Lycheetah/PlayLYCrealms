@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 20.1** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 20.3** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📱 Phone pass VI:** The newest places checked on a phone: the Frozen Choir's, the Storm Spire's and the Heart's lines, the room's Arena board, the jukebox, the Hall of Deeds, the Anvil Press and the Seal Road map. One thing ran under the map: a Challenge World's badge. On a phone it now wraps and stops short, like the chapters' lines.
+- **📜 Chapter Seven: the Seal made whole:** The campaign's end. With all six fragments, the Heart Seal opens the place the Lycheetah Seal was made: wake the six pedestals, walk the Echo Road (the Foundry's fire, the Choir's ice, the Storm's wind), and face the Unsealed, what the Seal was made to hold. Beat it and the seventh fragment is yours: the Seal made whole, and the title Sealkeeper.
 - **📜 Chapter Six: the Storm Spire:** The sixth fragment of the Lycheetah Seal waits on a spire above the clouds, in a sky that never settles. Make the Storm Seal (it turns for one who holds Fragment V). Brace against the wind on the Gale Walk, carry the storm's spark from a struck plate to three Lightning Rods, and face the Storm Herald on the Thunderhead. The first clear gives the Storm Feather, found nowhere else.
 - **🧭 The Seal Road map:** The Adventure tree now opens on the whole campaign at a glance: seven fragments of the Lycheetah Seal along one road, each with its chapter's name. The fragments you hold are lit gold, the next one glows where the road goes on, and the chapters still being forged wait in the dark. Tap a chapter to play it.
 - **🔩 The Anvil Press:** The Iron Gear is in two dozen machines, and it was only ever made by hand: four iron ingots and a Stone Gear. Now a new line makes them. The Anvil Press, on a turning network, beats each iron sheet into a gear: a quarter of the metal. It evolves into the Drop Forge, on charge: three times as fast, two gears from a steel sheet.
 - **🖥 Menus put right, part six:** The Hall of Deeds, checked on a phone. The titles you can wear were a whole screen of buttons before a single deed: now they fold into one line under your rank. And a deed not yet earned shows its medal, greyed, instead of a dot.
-- **🐆 The Lycheetah on the new places:** The radio's host has new lines for what came after: One Island, the Build Battle with friends, the room's Arena board, the Long Night and the champions' moves. And the Seal Road station plays the Frozen Choir's theme, with its tablets read between songs.
-- **🎵 Every song in its place:** The jukebox's panel was one long wall of song names. Now the songs stand in groups (the realms, the chapters and places, the modes, songs for any jukebox), and under each name a line says where it plays.
 
 ---
 
