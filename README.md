@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 23.7** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 24.0** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🏹 A bounty on the screen:** Read the Hunter's Lodge's bounty and it stays on screen under your road's line ("🏹 Bounty · Rabbit 2 of 3") until you claim it, on a phone too.
+- **🎨 Infernal and lattice, remade whole:** The two late sets drawn whole: infernal plate with horns, ember eyes and molten cracks that glow; lattice armour of crystal panels in a platinum grid, a diamond visor and its logic chip lit at the heart.
+- **⚔ The Ring's banners stay in the ring:** Leave the Arena before a wave's banner had its turn and it no longer shows up at home; the banner for the wave you reached still does.
 - **🖥 Menus put right, part ten:** The Hall of Deeds' tab gives the same count as the Hall itself now: the deeds that are deeds, not every path step.
 - **🎨 Cobalt and deepsilver, remade whole:** Two more armour sets drawn whole: cobalt cut in facets like its ore, with silver trim and glowing blue studs; deepsilver a deep delver's, a round helm with a lantern on the brow and a plate of ribbed shell.
 - **🤝 The ring for friends, proven by two:** Played by two real games over a room: the friend sees the ring open and joins, the waves wait for each other, and both hear the party's end. A ring no one joins is now simply a run of your own.
-- **🏆 The party on the board:** When a ring for friends ends, its wave and its names are told to the room: the Arena's board keeps the room's best party under the solo bests, and the Arena's card names it.
-- **🧪 A potion within reach:** The Athanor now distils Quintessence from honeycomb too, so a potion can be brewed from home: a Mending Philter from a Sun Melon, honey, Quintessence and glass. The step says where each part comes from.
-- **🎵 The Ring on the jukebox:** The Arena station's six songs play on a jukebox too, in a group of their own, ⚔ The Ring, after the modes.
 
 ---
 
