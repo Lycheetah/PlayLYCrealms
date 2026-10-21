@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 18.2** · updated 2026-10-20 · © Lycheetah, all rights reserved
+**Version 18.9** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
-- **🧭 A school you can find:** When a townsperson tells you where a Mystery School lies, it is pinned ★ on your compass and map with its name, however far, and the pin goes once you answer its riddle. The Farming path now says how quick an Apiary is: near three flowers, a comb every half minute of daylight.
-- **🏹 A hunter's road:** Leather can now be tanned by hand at the Bench (two hides and two plant fibre), so a hunter reaches the Hunter's Leathers and the Lodge without building a mill first. The Press is still the better deal. A pebble you pick up stays a pebble (flint one time in four), so the bola can finally be made.
-- **📱 Phone pass IV:** The newest screens checked on a phone: the Sunken Bell's line and the tide's call, One Island's badge, the Settings cards, and Build Battle with friends. The friends' panel now sits on the left under the map on a small screen, clear of the side buttons.
-- **👥 Build Battle with friends:** In a room with friends, the Build Battles card has 👥 With friends. It happens where you stand, so everyone sees everyone's build. You draw a theme, each friend who joins gets a fenced plot beside yours, and the palette is lent to all. When the five minutes are up the judges score every plot, then everyone votes for the best build that is not their own.
-- **🖥 Settings on a phone:** Settings was checked on a phone screen, part by part: everything can be reached, nothing runs off the edge, and every button is big enough for a finger. Each card's heading now has room above it, so on a small screen it no longer reads as part of the card before.
-- **🥣 Field Porridge:** A farmer's first meal from the field alone: three wheat in the Cooking Pot by a fire, and you are 🍞 Full for three minutes (your hunger drains half as fast). Before, every meal with an effect needed meat, an egg or honey.
+- **🎨 Copper and iron, remade whole:** The first armour nearly everyone wears is drawn whole on the body now. Copper is a first smith's work: a riveted cap with a nose guard, a scale breastplate on leather, shoulder pads, the green of old copper in the creases. Iron is a knight's: a great helm with a T-visor and a crest, a ridged breastplate over a quilted collar, layered pauldrons, a plated skirt, knee cops and sabatons.
+- **🏝 One Island II:** The Island Sieve (four planks and two hafts) turns the dirt an island piles up into what it lacks: sand, gravel, clay, seeds, flint, now and then a lump of iron or copper ore or a sapling. And the island's goals are deeds in the Hall now: Iron from Stone, The Island Grows, and Sifter.
+- **📻 The Seal Road on the radio:** A new station, 📜 The Seal Road: the chapters' own themes (the Clockwork Reach, the Hollow Pillar, the Sky Orrery, the Sunken Bell, the Ember Foundry) and a song for the Seal made whole. Between songs the Lycheetah reads from the chapters' tablets.
+- **🖥 Menus put right V:** The Play a Mode cards now sit in line: every card in a row as tall as the tallest, its buttons along the bottom. The Kingdom Market's row style had been leaking in.
+- **🗡 Held in 3D III:** The wands are real models in your hand now, and each looks its tier: the Spark Wand a plain stick, the Apprentice's a turned shaft and a small gem, the Adept's silver bands and a bigger gem, the Archmage's a long black shaft with gold bands and a gem held in three prongs. The relics of the Seal are held as themselves too: the Tide Bell, the Ember Hammer, the Orrery Lens.
+- **⚔ The champions' own moves:** Each of the Arena's champions now fights as itself, and every move is shown a moment before it lands. The Brass Colossus's chest flares, then a blast of fire rolls out in front of it. The Bone King raises his staff and two of the dead climb out of the sand. The Cog Queen's key spins, then she rushes at the spot where you stood.
 
 ---
 
