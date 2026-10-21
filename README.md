@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 22.7** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 22.9** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🐾 Pets in the chapters:** A tamed companion comes into every chapter of the Seal with you (the Sunken Bell too, now), is named as it comes in, and bites three times as hard against the Seal's keepers. New deed: Never Alone.
+- **🖥 Menus put right IX:** The Settings on a phone: the row of tabs sits flush at the top as you scroll (no half-cut words above it), and on a touch screen the Controls tab folds its keyboard keys under one line.
 - **⚔ A ring for friends:** In a room, the Arena's card has 👥 With friends: open the ring, friends join, and you go in together. Each of you sees the others' waves, and a cleared wave waits for a friend still fighting, so you climb side by side. New deed: Side by Side.
 - **⚔ The Ring on the radio:** An eighth station: ⚔ The Ring, the Arena's own. Six songs for the sand, the crowd roaring between them, and a host who calls the champions by name, with your best wave and the champions you have beaten.
 - **🔫 Held in 3D, part five:** The last things held as their icon pushed out into blocks are real models now: six guns (the Pump Shotgun, the Laser Rifle, the Token Stream SMG, the Prism and Cascade Cannons, the Flamethrower), the gadgets (buckets, the Grappling Hook, the Spyglass, the Magnet, the Home Compass, the nets, the Fire Drill, the Wraith Lantern, the Weathered Map) and the odd weapons, down to the Rubber Chicken.
 - **⏱ Chapter One in the Trials:** The Hollow Pillar joins the Sealkeeper's Trials: once the Seal is whole, its card in Play a Mode has a ⏱ Trial too, the Hollow Warden is half as strong again, and your best time is kept. All seven chapters now have a Trial, and the Trialkeeper asks for all seven.
-- **📻 The radio tunes again:** Tap a station on the radio and its panel now shows the station, its song and ⏭ Next song (it used to stop at "Pick a station"). Night Watch has its own owl, and the radio's card no longer shows empty song headings.
-- **🖥 Menus put right VIII:** The Craft tab on a phone: the Craft buttons line up at the right edge, and a ✅ Ready now switch at the top of the list shows only what you can make now, out of more than a thousand recipes.
 
 ---
 
