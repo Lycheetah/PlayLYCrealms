@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 20.6** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 20.9** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **⚙ The machine panel on a phone:** Open a machine on a phone and the work comes first now: what is going in, what is coming out, Take. Its evolution line and its modules fold into one line each that opens, instead of standing nearly a screen tall above the work.
+- **📻 Night Watch:** A new station on the radio, on the air from dusk to dawn: five slow songs for the dark (the lamp in the window, an owl on the ridge, four hundred stars), and the Lycheetah keeping watch with you between them. By day it is off the air; in a Long Night, it never stops.
+- **🏝 The room's Challenge Worlds:** Playing together, the room now hears your best Race to Iron time and the most nights you have lived through in a Long Night, along with your best wave. The Challenge Worlds card names the room's fastest race and longest night, and when a friend beats your race time, you hear of it.
 - **🖥 Menus put right, part seven:** On a phone, the Field Guide's tab row now scrolls to keep the open tab in view (the Hall of Deeds read "Hall of…", cut off at the edge), and the narrow search box says "🔎 Search" instead of a hint cut off halfway.
 - **🗡 Held in 3D IV: the campaign's relics:** The relics of the campaign, held as themselves: the Choir Shard a tall splinter of ice bright at its point, the Storm Feather a long quill with its vanes, the Lycheetah Seal a gold ring set with seven stones, and each fragment of the Seal a cut shard of its colour.
 - **🎨 Moonsilver and rose gold, remade whole:** The realms' own metals, drawn whole on the body. Moonsilver is the night's: a winged helm with a crescent crest and a glowing moonstone, a crescent on the heart and a scatter of stars. Rose gold is the garden's: a crown of petals over a fine face guard, a rose on the heart, petal pauldrons and a thorned vine up the legs.
-- **📱 Phone pass VI:** The newest places checked on a phone: the Frozen Choir's, the Storm Spire's and the Heart's lines, the room's Arena board, the jukebox, the Hall of Deeds, the Anvil Press and the Seal Road map. One thing ran under the map: a Challenge World's badge. On a phone it now wraps and stops short, like the chapters' lines.
-- **📜 Chapter Seven: the Seal made whole:** The campaign's end. With all six fragments, the Heart Seal opens the place the Lycheetah Seal was made: wake the six pedestals, walk the Echo Road (the Foundry's fire, the Choir's ice, the Storm's wind), and face the Unsealed, what the Seal was made to hold. Beat it and the seventh fragment is yours: the Seal made whole, and the title Sealkeeper.
-- **📜 Chapter Six: the Storm Spire:** The sixth fragment of the Lycheetah Seal waits on a spire above the clouds, in a sky that never settles. Make the Storm Seal (it turns for one who holds Fragment V). Brace against the wind on the Gale Walk, carry the storm's spark from a struck plate to three Lightning Rods, and face the Storm Herald on the Thunderhead. The first clear gives the Storm Feather, found nowhere else.
 
 ---
 
