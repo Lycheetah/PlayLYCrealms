@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 23.1** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 23.3** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🧪 A potion within reach:** The Athanor now distils Quintessence from honeycomb too, so a potion can be brewed from home: a Mending Philter from a Sun Melon, honey, Quintessence and glass. The step says where each part comes from.
+- **🎵 The Ring on the jukebox:** The Arena station's six songs play on a jukebox too, in a group of their own, ⚔ The Ring, after the modes.
 - **🐑 A tamed sheep counts:** The Farming path's "Tame one" says to feed a wild creature what it likes until it is yours. A sheep fed its wheat, or a chicken its seeds, now counts, as well as a pet.
 - **🔮 Held in 3D, part six:** The last three things held as a staircase of blocks are models now: the Oracle Lens (a brass scope with a green eye), the Mawbell (a brass bell with its grin-bone clapper) and the Bell Seal (a gold seal with a round of sea glass).
 - **🐾 Pets in the chapters:** A tamed companion comes into every chapter of the Seal with you (the Sunken Bell too, now), is named as it comes in, and bites three times as hard against the Seal's keepers. New deed: Never Alone.
 - **🖥 Menus put right IX:** The Settings on a phone: the row of tabs sits flush at the top as you scroll (no half-cut words above it), and on a touch screen the Controls tab folds its keyboard keys under one line.
-- **⚔ A ring for friends:** In a room, the Arena's card has 👥 With friends: open the ring, friends join, and you go in together. Each of you sees the others' waves, and a cleared wave waits for a friend still fighting, so you climb side by side. New deed: Side by Side.
-- **⚔ The Ring on the radio:** An eighth station: ⚔ The Ring, the Arena's own. Six songs for the sand, the crowd roaring between them, and a host who calls the champions by name, with your best wave and the champions you have beaten.
 
 ---
 
