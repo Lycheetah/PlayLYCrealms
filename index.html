@@ -40,6 +40,11 @@ button{cursor:pointer}
 .top .w{display:flex;gap:6px 22px;align-items:center;padding-top:10px;padding-bottom:10px}
 .top a{color:var(--ink);text-decoration:none;font-weight:600;font-size:14.5px}.top a:hover{color:var(--gold)}
 .top .nm{font:700 15px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;margin-right:8px}
+.lead{max-width:860px;color:var(--ink);opacity:.9;line-height:1.55}.wide{width:100%;display:block;margin:16px 0 0;border-radius:14px;border:1px solid var(--line)}
+.paths5{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:16px}.paths5 div{padding:14px;border-radius:12px;background:#1a1510;border:1px solid var(--line)}.paths5 b{display:block;color:var(--gold);margin-bottom:6px;font-size:17px}.paths5 span{font-size:14px;opacity:.85;line-height:1.45}
+@media (max-width:900px){.paths5{grid-template-columns:1fr 1fr}}@media (max-width:520px){.paths5{grid-template-columns:1fr}}
+.disc{margin:14px 0 0;font:700 15px system-ui}.disc a{color:#c8ccff;text-decoration:none;padding:6px 12px;border:1px solid rgba(120,130,255,.5);border-radius:10px;background:rgba(88,101,242,.16);display:inline-block;margin:4px 2px}
+#trailer .trl{width:100%;max-width:960px;display:block;margin:14px auto 0;border-radius:14px;border:1px solid rgba(255,210,120,.35);background:#000;aspect-ratio:16/9}
 .top .ingot{margin-left:auto;padding:7px 18px;font-size:14px;box-shadow:none}
 /* the showcase: big pictures, few words */
 .show{padding:110px 0 0}
@@ -82,15 +87,22 @@ footer{padding:30px 0 50px;color:var(--faint);font-size:12px;letter-spacing:.08e
   <div class="w">
     <div class="k">⚒ A hand-forged voxel adventure</div>
     <h1 class="gold">Lycheetah</h1>
-    <div class="rl">Realms · v24.5</div>
+    <div class="rl">Realms · v24.6</div>
     <p class="tag">Alien places built by hand. Creatures you will meet nowhere else. Crafts that run from your first fire to a base on the Moon.</p>
     <div class="play"><div class="row"><input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="YOUR CODE" aria-label="Your play code"><button id="g" type="button">▶ Play</button></div>
       <div id="m"></div><div class="hint">🔒 The play code is in Lycheetah's launch post on X, <a href="https://x.com/lycheetahlyc" target="_blank" rel="noopener">@lycheetahlyc</a>. This device remembers it.</div></div>
     <div class="facts"><span>Free</span><span>In your browser</span><span>PC · phone · controller</span><span>Early access · 2026-10-21</span></div>
+    <p class="disc"><a href="https://discord.gg/bS3METnJ5" target="_blank" rel="noopener">💬 Join the Discord</a> &nbsp; <a href="#trailer">🎬 Watch the trailer</a></p>
   </div>
 </header>
 
-<nav class="top"><div class="w"><span class="nm gold">Lycheetah Realms</span><span class="links"><a href="#myth">The world</a> &nbsp; <a href="#lines">What you do</a> &nbsp; <a href="#realms">Realms</a> &nbsp; <a href="site/encyclopedia.html">Encyclopedia</a> &nbsp; <a href="#start">Play</a> &nbsp; <a href="#news">New</a></span><a class="ingot" href="#play">▶ Play</a></div></nav>
+<nav class="top"><div class="w"><span class="nm gold">Lycheetah Realms</span><span class="links"><a href="#trailer">Trailer</a> &nbsp; <a href="#myth">The world</a> &nbsp; <a href="#paths">Paths</a> &nbsp; <a href="#friends">Friends</a> &nbsp; <a href="#lines">What you do</a> &nbsp; <a href="#realms">Realms</a> &nbsp; <a href="site/encyclopedia.html">Encyclopedia</a> &nbsp; <a href="#start">Play</a> &nbsp; <a href="#news">New</a> &nbsp; <a href="https://discord.gg/bS3METnJ5" target="_blank" rel="noopener">Discord</a></span><a class="ingot" href="#play">▶ Play</a></div></nav>
+
+<section class="show" id="trailer"><div class="w reveal">
+  <div class="k">The trailer</div><h2 class="gold">Seventy seconds of the realms</h2>
+  <video class="trl" controls preload="none" playsinline poster="site/trailer-poster.jpg"><source src="site/trailer.mp4" type="video/mp4"></video>
+  <p class="more">On a phone? <a href="site/trailer-vertical.mp4">The tall cut</a>, made for a phone screen.</p>
+</div></section>
 
 <section class="show" id="myth"><div class="w sc reveal">
   <div class="pic"><img src="site/myth-bloom.jpg" alt="The Lycheetah Bloom, a crater filled with pink blossoms" loading="lazy"><div class="thumbs"><img src="site/myth-maw.jpg" alt="The Laughing Maw" loading="lazy"><img src="site/myth-mirror.jpg" alt="The Mirror Well" loading="lazy"></div></div>
@@ -112,6 +124,31 @@ footer{padding:30px 0 50px;color:var(--faint);font-size:12px;letter-spacing:.08e
     <p>A Mirror Knight who sends a quarter of every hit back. Thunderhide that calls lightning on whoever strikes you. Skyweave for a second jump in mid-air, a Pirate Captain who finds more gold in every chest, a Cheetah Ranger who runs like the wind, and a giant Lychee Mascot that makes your foes stop and laugh. Every set has its own look on your body, its own weapon, and an Armour Stand to show it off at home.</p>
     <div class="chips"><a href="site/encyclopedia.html">🛡 See every set in the Encyclopedia</a></div></div>
 </div></section>
+<section class="show" id="armoury-night"><div class="w reveal">
+  <div class="k">Remade, piece by piece</div><h2 class="gold">Armour drawn whole, not painted on</h2>
+  <p class="lead">Every set is built out of its own parts: cobalt cut in facets like its ore, a deep delver's lantern helm, infernal plate with molten cracks that glow, crystal lattice in a platinum grid, a hazmat suit with its back tank, a powered exo frame, a sunburst on Solar gold, suits for the sky and the Moon, a miner's lamp, a raider's war paint and two crowns.</p>
+  <img class="wide" src="site/armoury-night.jpg" alt="Thirteen armour sets and pieces worn: cobalt, deepsilver, infernal, lattice, hazmat, exo, solar, the pressure and vacuum suits, a miner's helm, a raider mask and two crowns" loading="lazy">
+</div></section>
+
+<section class="show" id="paths"><div class="w reveal">
+  <div class="k">Choose your road</div><h2 class="gold">Five paths, each to its capstone</h2>
+  <p class="lead">After the first days the road splits five ways, and each path is a tree of steps you can see. Every step is one a player can take: a test bot walks them from a fresh home, the way you would, and it walks Machines, Farming and Hunting end to end.</p>
+  <div class="paths5">
+    <div><b>⚙ Machines</b><span>A water wheel to a reactor: gearboxes, charge, steam, sorting, silicon and logic chips. 20 steps.</span></div>
+    <div><b>🌾 Farming</b><span>Seeds to a Harvest Feast: bees, herds, a Rain Tower, golden prize crops. 17 steps.</span></div>
+    <div><b>🏹 Hunting</b><span>A sling to a Fierce foe: the Lens, the Lodge's daily bounty, trophies on the wall. 15 steps.</span></div>
+    <div><b>✨ Magic</b><span>The Lens to the Great Work: a school's riddle, spells of your own, potions, sigils. 11 steps.</span></div>
+    <div><b>🧭 Adventure</b><span>Places in the wild, raider camps, the seven chapters of the Seal, other realms, the Moon. 28 steps.</span></div>
+  </div>
+</div></section>
+
+<section class="show" id="friends"><div class="w sc r reveal">
+  <div class="pic"><img src="site/friends-ring.jpg" alt="Two players in the Arena's ring, the host waiting for a friend's wave" loading="lazy"><div class="thumbs"><img src="site/friends-board.jpg" alt="The room's board on a phone: the best waves and the best party" loading="lazy"></div></div>
+  <div class="txt"><div class="k">Better together</div><h2 class="gold">A ring for friends</h2>
+    <p>Open a room and your friends join from their own browsers, no account needed. Fight the Arena's waves side by side, each wave waiting for the friend still fighting theirs, and the room's board keeps everyone's best wave and the best party. Build Battles are there to share too.</p>
+    <div class="chips"><a href="https://discord.gg/bS3METnJ5" target="_blank" rel="noopener">💬 Find players on the Discord</a></div></div>
+</div></section>
+
 <section class="show" id="forgeday"><div class="w sc r reveal">
   <div class="pic"><img src="site/forge-hall.jpg" alt="An Armoury Hall: ten costumes on armour stands between glowing lamps" loading="lazy"><div class="thumbs"><img src="site/forge-mascot.jpg" alt="The Lychee Mascot costume, in pink and dyed blue" loading="lazy"><img src="site/forge-garage.jpg" alt="The Pirate Sloop at sea" loading="lazy"><img src="site/forge-band.jpg" alt="A mandolin, pan pipes and a marching drum" loading="lazy"></div></div>
   <div class="txt"><div class="k">The Forge Day</div><h2 class="gold">Dress up, drive off, play a song</h2>
@@ -162,8 +199,8 @@ footer{padding:30px 0 50px;color:var(--faint);font-size:12px;letter-spacing:.08e
     </table><p class="more" style="padding:0 14px 12px">Slow device? Lower the view distance first. A TV or console browser that won't start: add <code>?console=1</code> to the address.</p></details>
   </section>
   <section id="news" class="reveal"><div class="k">Updated often</div><h2 class="gold" style="font-size:clamp(28px,4vw,42px)">What's new</h2>
-    <ul class="newsc"><li><b>🎨 Solar and the space suits, remade whole</b><span>The Solar set's cuirass and greaves drawn whole, a sunburst lit at the heart; the Pressure Suit puffy and quilted with a chest pack; the Vacuum Suit sleek, with a life-support pack and lines of blue light.</span></li><li><b>🧭 A realm seen in the first days counts</b><span>Cross to another realm during the first days and the Adventure path's "Another realm" counts it now; and the tree screen's locked steps no longer end in two full stops.</span></li><li><b>🎨 The single pieces, remade whole</b><span>Six pieces of no set drawn whole: the Miner's Helm and its lamp, the Raider Mask, Rocket Boots with their flame, the Starweave Cloak, the Aurum Crown and the Hollow Crown.</span></li></ul>
-    <p class="more">Found a bug? In the game: Menu → ✉ Feedback → Copy report, and send it to Lycheetah.</p>
+    <ul class="newsc"><li><b>💬 The Discord</b><span>The Lycheetah Realms Discord is open: Menu → ✉ Feedback has the way in, and a bug report goes in #bug-reports.</span></li><li><b>🎨 Solar and the space suits, remade whole</b><span>The Solar set's cuirass and greaves drawn whole, a sunburst lit at the heart; the Pressure Suit puffy and quilted with a chest pack; the Vacuum Suit sleek, with a life-support pack and lines of blue light.</span></li><li><b>🧭 A realm seen in the first days counts</b><span>Cross to another realm during the first days and the Adventure path's "Another realm" counts it now; and the tree screen's locked steps no longer end in two full stops.</span></li></ul>
+    <p class="more">Found a bug? In the game: Menu → ✉ Feedback → Copy report, and paste it in <a href="https://discord.gg/bS3METnJ5" target="_blank" rel="noopener">the Discord</a>'s #bug-reports.</p>
   </section>
 </div>
 
