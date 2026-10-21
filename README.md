@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 21.5** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 22.1** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
-- **🕊 Challenge Worlds: The Gentle Road:** A sixth Challenge World: no weapons. Your blows do no harm, and a blade, a bow, a gun, a wand or a staff in your hand will not swing, draw, fire or cast. Live by traps and turrets, pets and allies, walls and light, and your wits. Live to the tenth day and the road is walked.
-- **🎨 Aurum and sylvan, remade whole:** The next two sets drawn whole on the body. Aurum is the Great Work's gold: a sun-crowned helm with a ruby brow, the Work's seven colours ringed about a gold sun on the chest, sunburst pauldrons. Sylvan is the green realm's: a hood of leaves with antler-twigs and a firefly, a jerkin of bark plates laced with vine, leaf pauldrons and root-shod boots.
-- **⏱ The Sealkeeper's Trials:** Once the Seal is whole, each chapter from Two to Seven gains a ⏱ Trial on Play a Mode: the chapter again, the warden half as strong again, and a clock running while you are inside. Clear it and your time is kept; beat your best and the Seal knows it. Pass every Trial for the title Trialkeeper.
-- **🏆 The campaign's own page:** The Hall of Deeds now opens on your journey through the campaign, under your rank: the seven chapters in order, what you have done in each (cleared, how often, the relic it gave), the fragments you hold, and, once the Seal is whole, the Sealkeeper's line.
-- **⚔ The Arena IV: the wardens:** The chapters' wardens join the Arena's champions, each once you have beaten it in its own chapter: the Tide Warden, the Ember Smith, the Frost Matron and the Storm Herald, crowned and walking in every tenth wave. Each keeps its move, marked on the sand first: a wave to jump, a ring of fire, falling icicles, bolts from the sky.
-- **🌾 Crops in the dark:** The plan asked for something to grow in a Long Night. Tested first: nothing needed to. Crops grow on time, not on sunlight, so wheat planted at midnight in a Long Night ripens as it would by day (a little slower in winter, as everywhere). Now the game says so: when a Long Night begins, and on the Farming path's first step.
+- **🌋 The Challenge Worlds' page:** Under the campaign in the Hall of Deeds, the six Challenge Worlds now stand together: each world with its deeds as small medals (earned or greyed), your best Race to Iron time and your longest Long Night, and the world you are in now with its badge.
+- **🎨 Hide and bone, remade whole:** The Hunting path's first armour, drawn whole on the body. Hide: a hood with ears and a fur trim that frames the face, a stitched tunic with a laced front and a fur collar, wrapped leggings, fur-cuffed boots. Bone: a beast's skull for a helm, horns and teeth, ribs over hide with a spine down the middle, vertebra pauldrons, bone splints and clawed boots.
+- **🦴 Bones in the gravel:** The Hunting path's bot walked again, now wearing what it makes: 10 of 15 steps from home. It found one wall at the very first step: bone shards came only from a few big beasts, and only when they dropped any. Now an old bone turns up in gravel now and then.
+- **⚙ The Gear Works:** The parts line grows a third machine. The Gear Works takes ingots straight to gears (no Press between), quickly, a steel sheet into three Iron Gears, and a spare now and then; but it wants a great deal of charge. Open the Drop Forge and press ⬆ Evolve.
+- **🎵 The chapters on the jukebox:** The jukebox's 📜 group now opens with the campaign's seven themes in order, each named for its chapter ("Chapter Five · plays in The Frozen Choir"), and the other places follow.
+- **🐆 The Lycheetah after the Seal:** When the Seal is whole the world goes on, and so does the Lycheetah. The radio's host has new things to say between songs once you hold the Lycheetah Seal, and the first time you come home with it, the Lycheetah meets you with a word of its own.
 
 ---
 
