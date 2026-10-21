@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 22.1** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 22.3** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📻 The radio tunes again:** Tap a station on the radio and its panel now shows the station, its song and ⏭ Next song (it used to stop at "Pick a station"). Night Watch has its own owl, and the radio's card no longer shows empty song headings.
+- **🖥 Menus put right VIII:** The Craft tab on a phone: the Craft buttons line up at the right edge, and a ✅ Ready now switch at the top of the list shows only what you can make now, out of more than a thousand recipes.
 - **🌋 The Challenge Worlds' page:** Under the campaign in the Hall of Deeds, the six Challenge Worlds now stand together: each world with its deeds as small medals (earned or greyed), your best Race to Iron time and your longest Long Night, and the world you are in now with its badge.
 - **🎨 Hide and bone, remade whole:** The Hunting path's first armour, drawn whole on the body. Hide: a hood with ears and a fur trim that frames the face, a stitched tunic with a laced front and a fur collar, wrapped leggings, fur-cuffed boots. Bone: a beast's skull for a helm, horns and teeth, ribs over hide with a spine down the middle, vertebra pauldrons, bone splints and clawed boots.
 - **🦴 Bones in the gravel:** The Hunting path's bot walked again, now wearing what it makes: 10 of 15 steps from home. It found one wall at the very first step: bone shards came only from a few big beasts, and only when they dropped any. Now an old bone turns up in gravel now and then.
 - **⚙ The Gear Works:** The parts line grows a third machine. The Gear Works takes ingots straight to gears (no Press between), quickly, a steel sheet into three Iron Gears, and a spare now and then; but it wants a great deal of charge. Open the Drop Forge and press ⬆ Evolve.
-- **🎵 The chapters on the jukebox:** The jukebox's 📜 group now opens with the campaign's seven themes in order, each named for its chapter ("Chapter Five · plays in The Frozen Choir"), and the other places follow.
-- **🐆 The Lycheetah after the Seal:** When the Seal is whole the world goes on, and so does the Lycheetah. The radio's host has new things to say between songs once you hold the Lycheetah Seal, and the first time you come home with it, the Lycheetah meets you with a word of its own.
 
 ---
 
