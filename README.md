@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 20.9** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 21.2** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🏆 The campaign's own page:** The Hall of Deeds now opens on your journey through the campaign, under your rank: the seven chapters in order, what you have done in each (cleared, how often, the relic it gave), the fragments you hold, and, once the Seal is whole, the Sealkeeper's line.
+- **⚔ The Arena IV: the wardens:** The chapters' wardens join the Arena's champions, each once you have beaten it in its own chapter: the Tide Warden, the Ember Smith, the Frost Matron and the Storm Herald, crowned and walking in every tenth wave. Each keeps its move, marked on the sand first: a wave to jump, a ring of fire, falling icicles, bolts from the sky.
+- **🌾 Crops in the dark:** The plan asked for something to grow in a Long Night. Tested first: nothing needed to. Crops grow on time, not on sunlight, so wheat planted at midnight in a Long Night ripens as it would by day (a little slower in winter, as everywhere). Now the game says so: when a Long Night begins, and on the Farming path's first step.
 - **⚙ The machine panel on a phone:** Open a machine on a phone and the work comes first now: what is going in, what is coming out, Take. Its evolution line and its modules fold into one line each that opens, instead of standing nearly a screen tall above the work.
 - **📻 Night Watch:** A new station on the radio, on the air from dusk to dawn: five slow songs for the dark (the lamp in the window, an owl on the ridge, four hundred stars), and the Lycheetah keeping watch with you between them. By day it is off the air; in a Long Night, it never stops.
 - **🏝 The room's Challenge Worlds:** Playing together, the room now hears your best Race to Iron time and the most nights you have lived through in a Long Night, along with your best wave. The Challenge Worlds card names the room's fastest race and longest night, and when a friend beats your race time, you hear of it.
-- **🖥 Menus put right, part seven:** On a phone, the Field Guide's tab row now scrolls to keep the open tab in view (the Hall of Deeds read "Hall of…", cut off at the edge), and the narrow search box says "🔎 Search" instead of a hint cut off halfway.
-- **🗡 Held in 3D IV: the campaign's relics:** The relics of the campaign, held as themselves: the Choir Shard a tall splinter of ice bright at its point, the Storm Feather a long quill with its vanes, the Lycheetah Seal a gold ring set with seven stones, and each fragment of the Seal a cut shard of its colour.
-- **🎨 Moonsilver and rose gold, remade whole:** The realms' own metals, drawn whole on the body. Moonsilver is the night's: a winged helm with a crescent crest and a glowing moonstone, a crescent on the heart and a scatter of stars. Rose gold is the garden's: a crown of petals over a fine face guard, a rose on the heart, petal pauldrons and a thorned vine up the legs.
 
 ---
 
