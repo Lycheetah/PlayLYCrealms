@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 18.9** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 19.1** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📜 Chapter Five: the Frozen Choir:** The fifth fragment of the Lycheetah Seal waits in the white country where the Seal was sung. Make the Frost Seal (it turns for one who holds Fragment IV). Cross the Thin Ice Hall before the floor breaks under you, sing the choir's tunes back on its pillars of ice, and face the Frost Matron. The first clear gives the Choir Shard, found nowhere else.
+- **📱 Phone pass V:** The newest screens checked on a phone: the Play a Mode sheet, the Ember Foundry's line and the anvil's flare, the champions' tips, the school's pin. The chapters' lines on a phone now stop short of the map; they ran into it before.
 - **🎨 Copper and iron, remade whole:** The first armour nearly everyone wears is drawn whole on the body now. Copper is a first smith's work: a riveted cap with a nose guard, a scale breastplate on leather, shoulder pads, the green of old copper in the creases. Iron is a knight's: a great helm with a T-visor and a crest, a ridged breastplate over a quilted collar, layered pauldrons, a plated skirt, knee cops and sabatons.
 - **🏝 One Island II:** The Island Sieve (four planks and two hafts) turns the dirt an island piles up into what it lacks: sand, gravel, clay, seeds, flint, now and then a lump of iron or copper ore or a sapling. And the island's goals are deeds in the Hall now: Iron from Stone, The Island Grows, and Sifter.
 - **📻 The Seal Road on the radio:** A new station, 📜 The Seal Road: the chapters' own themes (the Clockwork Reach, the Hollow Pillar, the Sky Orrery, the Sunken Bell, the Ember Foundry) and a song for the Seal made whole. Between songs the Lycheetah reads from the chapters' tablets.
 - **🖥 Menus put right V:** The Play a Mode cards now sit in line: every card in a row as tall as the tallest, its buttons along the bottom. The Kingdom Market's row style had been leaking in.
-- **🗡 Held in 3D III:** The wands are real models in your hand now, and each looks its tier: the Spark Wand a plain stick, the Apprentice's a turned shaft and a small gem, the Adept's silver bands and a bigger gem, the Archmage's a long black shaft with gold bands and a gem held in three prongs. The relics of the Seal are held as themselves too: the Tide Bell, the Ember Hammer, the Orrery Lens.
-- **⚔ The champions' own moves:** Each of the Arena's champions now fights as itself, and every move is shown a moment before it lands. The Brass Colossus's chest flares, then a blast of fire rolls out in front of it. The Bone King raises his staff and two of the dead climb out of the sand. The Cog Queen's key spins, then she rushes at the spot where you stood.
 
 ---
 
