@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 19.6** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 20.1** · updated 2026-10-21 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -70,12 +70,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📜 Chapter Six: the Storm Spire:** The sixth fragment of the Lycheetah Seal waits on a spire above the clouds, in a sky that never settles. Make the Storm Seal (it turns for one who holds Fragment V). Brace against the wind on the Gale Walk, carry the storm's spark from a struck plate to three Lightning Rods, and face the Storm Herald on the Thunderhead. The first clear gives the Storm Feather, found nowhere else.
+- **🧭 The Seal Road map:** The Adventure tree now opens on the whole campaign at a glance: seven fragments of the Lycheetah Seal along one road, each with its chapter's name. The fragments you hold are lit gold, the next one glows where the road goes on, and the chapters still being forged wait in the dark. Tap a chapter to play it.
+- **🔩 The Anvil Press:** The Iron Gear is in two dozen machines, and it was only ever made by hand: four iron ingots and a Stone Gear. Now a new line makes them. The Anvil Press, on a turning network, beats each iron sheet into a gear: a quarter of the metal. It evolves into the Drop Forge, on charge: three times as fast, two gears from a steel sheet.
+- **🖥 Menus put right, part six:** The Hall of Deeds, checked on a phone. The titles you can wear were a whole screen of buttons before a single deed: now they fold into one line under your rank. And a deed not yet earned shows its medal, greyed, instead of a dot.
+- **🐆 The Lycheetah on the new places:** The radio's host has new lines for what came after: One Island, the Build Battle with friends, the room's Arena board, the Long Night and the champions' moves. And the Seal Road station plays the Frozen Choir's theme, with its tablets read between songs.
 - **🎵 Every song in its place:** The jukebox's panel was one long wall of song names. Now the songs stand in groups (the realms, the chapters and places, the modes, songs for any jukebox), and under each name a line says where it plays.
-- **🌑 Challenge Worlds: The Long Night:** A fifth Challenge World on Play a Mode: the sun never rises. Under the moon and stars the night's creatures walk every hour, and the only light is the light you set. The badge counts the nights and your lights. Live through seven nights, and the dawn comes.
-- **⚔ The Arena III: the room's board:** Playing together, the room now keeps an Arena board: everyone's best wave, side by side, at the side of the screen in the Arena. When a friend passes your best, you hear of it, and the Play a Mode card names the room's best. A new deed: Top of the Board.
-- **🤖 The Seal Road, walked by a bot:** A bot walked the Adventure path by the game's own rules and made each chapter's Seal from home. One wall it found: the Frost Seal asked for snowballs, and snow lies only on the high peaks and in the snow lands. Now a Water Bucket from any lake does instead.
-- **🎨 Steel and ember, remade whole:** After copper and iron, the next two sets on the road. Steel is a master armourer's work: a pointed visor and a red plume, a fluted breastplate with brass rivets, great round pauldrons, winged knee cops, pointed sabatons. Embersteel is black from the forge with the fire still in its seams: a horned helm with a crest of flame, a burning heart, spikes of flame on the shoulders, soles of embers.
-- **📜 Chapter Five: the Frozen Choir:** The fifth fragment of the Lycheetah Seal waits in the white country where the Seal was sung. Make the Frost Seal (it turns for one who holds Fragment IV). Cross the Thin Ice Hall before the floor breaks under you, sing the choir's tunes back on its pillars of ice, and face the Frost Matron. The first clear gives the Choir Shard, found nowhere else.
 
 ---
 
