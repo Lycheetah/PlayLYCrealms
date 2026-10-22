@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 24.6** · updated 2026-10-21 · © Lycheetah, all rights reserved
+**Version 24.7** · updated 2026-10-22 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🎨 The Nanoweave Suit and the Crown of the Seventh:** The Nanoweave Suit a dark hex weave with cyan nano-lines that glow; the Crown of the Seventh a gold crown of seven points, each tipped with a lit gem in one realm's colour.
 - **💬 The Discord:** The Lycheetah Realms Discord is open: Menu → ✉ Feedback has the way in, and a bug report goes in #bug-reports. The trailer is on the play site.
 - **🎨 Solar and the space suits, remade whole:** The Solar set's cuirass and greaves drawn whole, a sunburst lit at the heart; the Pressure Suit puffy and quilted with a chest pack; the Vacuum Suit sleek, with a life-support pack and lines of blue light.
 - **🧭 A realm seen in the first days counts:** Cross to another realm during the first days and the Adventure path's "Another realm" counts it now; and the tree screen's locked steps no longer end in two full stops.
 - **🎨 The single pieces, remade whole:** Six pieces of no set drawn whole: the Miner's Helm and its lamp, the Raider Mask, Rocket Boots with their flame, the Starweave Cloak, the Aurum Crown and the Hollow Crown.
 - **🖥 Menus put right, part eleven:** The Bestiary no longer draws seventy cards of "❔ Unknown": the creatures still to find are one card, and the ones you know sit tighter. The Lodge says "1 bounty".
-- **🎨 Hazmat and exo, remade whole:** The Machines path's two suits drawn whole: hazmat with a wide clear visor, cheek filters, hazard stripes and a back tank; exo a powered frame with a blue lens bar, a glowing core, pistons and knee actuators.
 
 ---
 
