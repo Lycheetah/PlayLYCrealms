@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 27.1** · updated 2026-10-23 · © Lycheetah, all rights reserved
+**Version 27.7** · updated 2026-10-23 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
-- **🎓 The Lycheetah's Tour:** New here? Take the tour: a few minutes on one path, the Lycheetah at your side. Walk, break a log, make planks, climb a tower and glide to a floating isle, then walk a hall of wonders: a Brass Galleon, a Sky Citadel, an Iron Foundry, each one a kit you can build. Nothing you do touches your world.
-- **📖 The Field Guide on a phone:** On a phone the Field Guide's twenty-odd sections were a strip you had to slide sideways, three in view. Now it is one button, the section you are in with ▾: tap it and every section drops down, two to a row, with how far along each you are.
-- **🧭 The next step, in sight:** Your next step is a gold pill just above your hearts, where your eyes are, and it is a button: tap it and Show me takes you to how. On a phone the pill, the line under the crosshair and the messages stack neatly instead of covering each other.
-- **👁 What you are looking at:** The game now tells you, under the crosshair, when it is worth saying: what a thing is the first time you see it, what a block needs before you can take it, that a crop is ripe, and what right click does on a bench, a kiln, a chest or a bed.
-- **📱 The phone, part one:** On a phone the Creative bag scrolls now, however you swipe: it used to take a resting thumb for picking an item up. Every panel scrolls more smoothly. The Creative list has more room, the right-hand buttons are down to four, and the touch buttons show only when they can do something.
-- **🧭 The Quest Log, the controls, the Almanac:** The Quest Log is a road now: how far you are, what you have done, the step you are on in gold with 🌳 Show me, and where the road goes. The controls card (H) is key caps in four groups, and the Almanac is a board of tiles.
+- **⚖ What is better than what:** A tool, a weapon or armour's card now says ⬆ better or ⬇ worse than what you have, shows the ladder it is on, and names the next step and what it takes. Pick up something better than your best and the game says so.
+- **🤝 Playing together, for real:** In a shared world everyone now sees the same creatures: each one is run by the player nearest it, and passes on as you move. Strike a friend's wolf and the blow lands; the kill is yours. A friend's craft is solid: stand on its deck, bump its hull. And the tour's camp log breaks again.
+- **🦾 The mechs:** A Mech Cockpit (a seat in a steel cage) and four arms: the Drill Arm bores a 3×3 tunnel, the Power Claw strikes and shoves, the Saw Arm fells a whole tree, the Arm Cannon fires a shell that bursts. Walker Legs under it and it walks. Hold ⛏ while you pilot and every arm works. The 🦾 Iron Strider is ready in the Kit Library.
+- **☰ The menu, cut down:** The ☰ menu showed sixty-six buttons at once. Now each door (You, Travel, Know, Game) shows five, the five you use most, and ＋ more opens the rest in place. 🔎 Find anything still reaches every one.
+- **📱 The phone's own words:** On a phone the game now speaks in your buttons: ⛏ and ✋, not left and right click; no keys in brackets; the Field Guide's first page names 🎒 Bag, 📖 Guide, 🗺 Map and ☰ Menu. And 🎁 Give: face a townsperson while holding something and a Give button comes up, so phones can make friends too.
+- **🔎 The item card that knows:** Tap anything in your bag: its card now says what it is for, how to use it, how to get more, and what it goes into, with its numbers (tier, uses, damage, defence, healing). Tap an icon in Goes into and the Field Guide opens on it.
 
 ---
 

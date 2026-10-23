@@ -1,6 +1,6 @@
 # ⚒ The Book of Lycheetah Realms
 
-**Version 27.1** · 2026-10-23 · © Lycheetah, all rights reserved
+**Version 27.7** · 2026-10-23 · © Lycheetah, all rights reserved
 [▶ Play](https://lycheetah.github.io/PlayLYCrealms/) · [🎬 Trailer](https://lycheetah.github.io/PlayLYCrealms/#trailer) · [📖 Encyclopedia](https://lycheetah.github.io/PlayLYCrealms/site/encyclopedia.html) · [💬 Discord](https://discord.gg/bS3METnJ5)
 
 ---
