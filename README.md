@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 27.0** · updated 2026-10-23 · © Lycheetah, all rights reserved
+**Version 27.1** · updated 2026-10-23 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🎓 The Lycheetah's Tour:** New here? Take the tour: a few minutes on one path, the Lycheetah at your side. Walk, break a log, make planks, climb a tower and glide to a floating isle, then walk a hall of wonders: a Brass Galleon, a Sky Citadel, an Iron Foundry, each one a kit you can build. Nothing you do touches your world.
 - **📖 The Field Guide on a phone:** On a phone the Field Guide's twenty-odd sections were a strip you had to slide sideways, three in view. Now it is one button, the section you are in with ▾: tap it and every section drops down, two to a row, with how far along each you are.
 - **🧭 The next step, in sight:** Your next step is a gold pill just above your hearts, where your eyes are, and it is a button: tap it and Show me takes you to how. On a phone the pill, the line under the crosshair and the messages stack neatly instead of covering each other.
 - **👁 What you are looking at:** The game now tells you, under the crosshair, when it is worth saying: what a thing is the first time you see it, what a block needs before you can take it, that a crop is ripe, and what right click does on a bench, a kiln, a chest or a bed.
 - **📱 The phone, part one:** On a phone the Creative bag scrolls now, however you swipe: it used to take a resting thumb for picking an item up. Every panel scrolls more smoothly. The Creative list has more room, the right-hand buttons are down to four, and the touch buttons show only when they can do something.
 - **🧭 The Quest Log, the controls, the Almanac:** The Quest Log is a road now: how far you are, what you have done, the step you are on in gold with 🌳 Show me, and where the road goes. The controls card (H) is key caps in four groups, and the Almanac is a board of tiles.
-- **🖥 The menu, four doors:** The ☰ menu is remade: ▶ Resume and 🔎 Find anything at the top (type home, map, furnace), then four doors, You, Travel, Know and Game, each a short list. A new Interface size setting scales the whole interface, and the Creative bag can be a list.
 
 ---
 
