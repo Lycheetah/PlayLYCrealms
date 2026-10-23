@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 25.2** · updated 2026-10-22 · © Lycheetah, all rights reserved
+**Version 26.2** · updated 2026-10-23 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
-- **☁ The archipelagos:** Archipelagos float in the skies of Mundus and Viriditas now: a great Anchor Isle with Skyroot trees, a Wind Vane and a chest, and smaller isles round it, some joined by bridges, the rest for your glider.
-- **☁ The archipelagos:** Archipelagos float in the skies of Mundus and Viriditas now: a great Anchor Isle with Skyroot trees, a Wind Vane and a chest, and smaller isles round it, some joined by bridges, the rest for your glider.
-- **🪂 Thermals and the flying ladder:** Warm air rises over lava and hot sand: glide into it and you are carried up. Two new ways to fly: the Windweave Glider, which rides thermals best, and Aether Wings: tap Space in the air to beat them three times.
-- **🦅 The Roc-Rider, the Tempest Glaive and the Stormcatcher:** The Roc-Rider set: wings on your back, a glide with no glider, and a dive that lands in a shockwave. The Tempest Glaive: a gale and chained lightning. The Stormcatcher: a lightning spire that runs on the wind and catches storms.
-- **🌬 The wind:** Each realm has a wind of its own now, stronger the higher you go, with gusts. Gliders ride it, sails and wind spirits push harder with it behind, and a flying craft drifts on it. Build a Wind Vane (Bench) to read it.
-- **🎮 Modes you can leave:** Every mode has a way out now: 🚪 Leave at the top of the ☰ menu and 🏠 Back to your own world on the title, from a Challenge World, a chapter, the Arena, Parkour, a Build Battle or the Rift. Pick another mode while you are in one and you step out first.
+- **🌈 The rainbow bridge:** When a storm passes near an archipelago, sometimes a rainbow stands up from the Anchor Isle and comes down on one of its lone isles. It is solid: walk up it and over the gap before it fades, three minutes later.
+- **🦅 Gale Hawks and Squall Imps:** Glide or fly high near the archipelagos and Gale Hawks come at you out of the wind, now and then dropping a Roc Plume. In a storm, Squall Imps ride the clouds, and up close their gusts shove you back. And the Roc now flies.
+- **🖥 Menus put right XIV:** The craft list shows its pictures again: some browsers left every recipe and ingredient a blank square. The TV page is three clear cards and a row of controller keys, not a wall of text, and the Lore shows what you have found first, with the rest as a grid of clues.
+- **🖥 Menus put right XIII:** The bag shows what you wear as a paper doll: four tiles with each piece's picture, or the slot's faint outline when it is empty, and four clear buttons under them. On a phone the hotbar is one row of nine, the map's buttons are one row you slide, the legend folds away, and every move on the moves page is its own card.
+- **🦅 The Roc:** A fifth thing on the Anchor Isles: a roc's nest, a great ring of sticks with a chest in it. The Roc guards it, a Fierce foe that comes down on you. Take its egg, set it beside something warm, and ten minutes later a Roc hatches: yours to ride, the fastest flier in the realms.
+- **❄ The High Thin:** Above the Cloud Sea the air is cold: dress warm or the frost bites. Jet streams run fast through the high sky, the aurora hangs there by night and fills your Vis, and stars fall: walk to one for a Star Shard. A Barometer warns of storms.
 
 ---
 
