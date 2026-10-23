@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 26.6** · updated 2026-10-23 · © Lycheetah, all rights reserved
+**Version 26.7** · updated 2026-10-23 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📱 The phone, part one:** On a phone the Creative bag scrolls now, however you swipe: it used to take a resting thumb for picking an item up. Every panel scrolls more smoothly. The Creative list has more room, the right-hand buttons are down to four, and the touch buttons show only when they can do something.
 - **🧭 The Quest Log, the controls, the Almanac:** The Quest Log is a road now: how far you are, what you have done, the step you are on in gold with 🌳 Show me, and where the road goes. The controls card (H) is key caps in four groups, and the Almanac is a board of tiles.
 - **🖥 The menu, four doors:** The ☰ menu is remade: ▶ Resume and 🔎 Find anything at the top (type home, map, furnace), then four doors, You, Travel, Know and Game, each a short list. A new Interface size setting scales the whole interface, and the Creative bag can be a list.
 - **🎮 Modes that land where you meant:** Picking a mode from Creative, or from the title before your world was open, brought you up in your own Survival world instead of the mode: the reload forgot what you picked. Now it remembers. And on the play site, changing mode or leaving a challenge no longer drops you on the front page: it goes straight back into the game.
 - **🪶 The Sky tree:** A sixth tree on the tree screen: 🪶 The Sky, eighteen steps from your first glider to the Roc, through the archipelagos, the Cloud Sea and the High Thin. Two new deeds at the top: Seven Skies and Sky-Born. The Field Guide has a 🌤 The Sky button that opens it.
 - **🌈 The rainbow bridge:** When a storm passes near an archipelago, sometimes a rainbow stands up from the Anchor Isle and comes down on one of its lone isles. It is solid: walk up it and over the gap before it fades, three minutes later.
-- **🦅 Gale Hawks and Squall Imps:** Glide or fly high near the archipelagos and Gale Hawks come at you out of the wind, now and then dropping a Roc Plume. In a storm, Squall Imps ride the clouds, and up close their gusts shove you back. And the Roc now flies.
 
 ---
 
