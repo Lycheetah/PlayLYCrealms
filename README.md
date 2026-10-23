@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 27.8** · updated 2026-10-23 · © Lycheetah, all rights reserved
+**Version 28.0** · updated 2026-10-23 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🗿 The Iron Colossus:** A rogue war-mech four times your height walks the Mortificatio wastes: 2,400 strong, it stomps (a red ring shows where), fires salvos (a red mark where each shell lands) and charges when it is hurt. Bring a mech. It leaves its 🔥 Colossus Core: +100 hull. And titans are true bosses now: bigger, stronger, a stomp of their own and a bar.
+- **🚀 Mechs III:** Mechs leave the ground: a 🚀 Jump Jet makes Space leap (higher with more), held in the air it slows your fall. The 🪝 Grapple Arm fires a cable 32 blocks along your aim and hauls the mech to it. And the 🪝 Skyhook Scout is a third kit.
 - **🦾 Mechs II:** Mechs now have a hull: Mech Plates add to it, and while there is hull the blows meant for you land on it (a bar over your hearts shows it). Two new arms: the 🔥 Flamer Arm and the 🛡 Shield Arm. A 🔧 Mech Bay mends what parks near it. And the 🔥 Ember Warden is a second kit.
 - **⚖ What is better than what:** A tool, a weapon or armour's card now says ⬆ better or ⬇ worse than what you have, shows the ladder it is on, and names the next step and what it takes. Pick up something better than your best and the game says so.
 - **🤝 Playing together, for real:** In a shared world everyone now sees the same creatures: each one is run by the player nearest it, and passes on as you move. Strike a friend's wolf and the blow lands; the kill is yours. A friend's craft is solid: stand on its deck, bump its hull. And the tour's camp log breaks again.
 - **🦾 The mechs:** A Mech Cockpit (a seat in a steel cage) and four arms: the Drill Arm bores a 3×3 tunnel, the Power Claw strikes and shoves, the Saw Arm fells a whole tree, the Arm Cannon fires a shell that bursts. Walker Legs under it and it walks. Hold ⛏ while you pilot and every arm works. The 🦾 Iron Strider is ready in the Kit Library.
-- **☰ The menu, cut down:** The ☰ menu showed sixty-six buttons at once. Now each door (You, Travel, Know, Game) shows five, the five you use most, and ＋ more opens the rest in place. 🔎 Find anything still reaches every one.
-- **📱 The phone's own words:** On a phone the game now speaks in your buttons: ⛏ and ✋, not left and right click; no keys in brackets; the Field Guide's first page names 🎒 Bag, 📖 Guide, 🗺 Map and ☰ Menu. And 🎁 Give: face a townsperson while holding something and a Give button comes up, so phones can make friends too.
 
 ---
 
