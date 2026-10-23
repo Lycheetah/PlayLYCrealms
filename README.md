@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 26.2** · updated 2026-10-23 · © Lycheetah, all rights reserved
+**Version 26.4** · updated 2026-10-23 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🎮 Modes that land where you meant:** Picking a mode from Creative, or from the title before your world was open, brought you up in your own Survival world instead of the mode: the reload forgot what you picked. Now it remembers. And on the play site, changing mode or leaving a challenge no longer drops you on the front page: it goes straight back into the game.
+- **🪶 The Sky tree:** A sixth tree on the tree screen: 🪶 The Sky, eighteen steps from your first glider to the Roc, through the archipelagos, the Cloud Sea and the High Thin. Two new deeds at the top: Seven Skies and Sky-Born. The Field Guide has a 🌤 The Sky button that opens it.
 - **🌈 The rainbow bridge:** When a storm passes near an archipelago, sometimes a rainbow stands up from the Anchor Isle and comes down on one of its lone isles. It is solid: walk up it and over the gap before it fades, three minutes later.
 - **🦅 Gale Hawks and Squall Imps:** Glide or fly high near the archipelagos and Gale Hawks come at you out of the wind, now and then dropping a Roc Plume. In a storm, Squall Imps ride the clouds, and up close their gusts shove you back. And the Roc now flies.
 - **🖥 Menus put right XIV:** The craft list shows its pictures again: some browsers left every recipe and ingredient a blank square. The TV page is three clear cards and a row of controller keys, not a wall of text, and the Lore shows what you have found first, with the rest as a grid of clues.
 - **🖥 Menus put right XIII:** The bag shows what you wear as a paper doll: four tiles with each piece's picture, or the slot's faint outline when it is empty, and four clear buttons under them. On a phone the hotbar is one row of nine, the map's buttons are one row you slide, the legend folds away, and every move on the moves page is its own card.
-- **🦅 The Roc:** A fifth thing on the Anchor Isles: a roc's nest, a great ring of sticks with a chest in it. The Roc guards it, a Fierce foe that comes down on you. Take its egg, set it beside something warm, and ten minutes later a Roc hatches: yours to ride, the fastest flier in the realms.
-- **❄ The High Thin:** Above the Cloud Sea the air is cold: dress warm or the frost bites. Jet streams run fast through the high sky, the aurora hangs there by night and fills your Vis, and stars fall: walk to one for a Star Shard. A Barometer warns of storms.
 
 ---
 
