@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 30.9** · updated 2026-10-24 · © Lycheetah, all rights reserved
+**Version 31.5** · updated 2026-10-24 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
-- **⛈ The Storm Titan:** A second true boss, high in the sky: a titan of cloud and lightning, 3,000 strong. Dodge its blue rings, strike when it comes down to draw breath, and take its Storm Core for your ship.
-- **🤝 A shared ship:** Stand on a friend's craft and it carries you now: walk the deck as it flies. Take a post (⚡ Actions · ⚓ Take a post): Rigger, Gunner or Lookout, and their ship has your work, as if they had hired you.
-- **🏁 The Regatta:** Race the Windborn: hail a Clan Master from the helm of a flying craft and enter the Regatta. Three clan ships race you round eight hoops in the air; first through the last hoop takes the Regatta Cup.
-- **🏴‍☠️ Sky events:** High in a clan sky, things happen now: a Black Squall sloop comes alongside and its imps board you; a red flare rises over an Anchor Isle where a sailor is stranded; a Cloud Whale goes down and leaves a treasure where it fell.
-- **🧑‍✈️ A crew of your own:** From Deckhand, a Clan Master lends you crew for a daily wage: a Navigator who holds your course, a Gunner, a Rigger who mends the hull, a Cook and a Lookout. They stand on your deck and work.
-- **💰 The sky trade:** Every Windborn flotilla keeps a market: three goods cheap, three wanted dear. Bring your ship alongside, load crates into its hold, sail to another flotilla and sell them where they are wanted.
+- **⛺ Small places:** Between the bigger places: shrines, old wells, graveyards, lookouts, abandoned camps and cairns. On the water: sunken and beached wrecks, islets, lighthouses, fishing jetties and drowned towers.
+- **🗺 Treasure trails:** The places of the wild each hold something now: a guardian, a trapped chest, a riddle of three levers, a traveller in trouble, or a torn map. Three map scraps lead to an X, and something buried under it.
+- **🗝 The deep delves:** Delves go deeper: two or three floors of rooms and corridors, each drawn from its own seed. Watch the floor, the walls and the ceiling. On the last floor a Keeper guards the key to the Warden's gate.
+- **🧹 A clear screen:** Messages come one at a time, in one place at the top, and wait while a banner speaks. The middle of the screen stays clear. On a phone the buttons sit neatly round Jump, and ⚡ Actions is back.
+- **🏙 Great cities:** The cities of the peoples are cities now: walls with towers and gatehouses, streets lit by lamps, a market, homes, workshops, a temple, a keep, and a crowd of townsfolk. Outside the walls: wheat, a rice paddy, sugar cane on a canal and a pumpkin patch.
+- **🧭 A fuller world:** Every realm has its places now: ruins, wonders, camps, delves and the rest, in the caverns of Nigredo and Mortificatio and on the isles of Albedo and Citrinitas too. More of them, built where the ground is right, and seen from further off.
 
 ---
 
