@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 29.6** · updated 2026-10-24 · © Lycheetah, all rights reserved
+**Version 29.9** · updated 2026-10-24 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📦 The cargo hold:** The chests built into a craft are its hold now: open it aboard (Y · This craft, or ⚡ Actions · 📦 The hold), take a stack out or stow one in without landing. What you carry weighs, so a full hold flies lower.
+- **⛵ Every craft a hull:** Ships, karts and airships have a hull now: crashes, hard landings and blows cost it, armour blocks add to it, and with none left the craft limps and smokes. Mend it from the Shipwright (Y) with iron or planks, or park by a Mech Bay.
+- **🌿 More life:** Deer, goats and horses keep together in herds and bolt together. Flocks of crows and songbirds come down near you and take off when you come close. And the land has a voice: songbirds at dawn, crickets, frogs and owls by night, each realm its own.
 - **🚉 Station boards:** At a Railhold, a board shows each line: where it goes, and whether the train is boarding (leaves in 14 s) or due (in 2:42). In a town with a zeppelin route, it shows the zeppelin's next call too.
 - **🦾 The Mech Gauntlet:** Start a race while you pilot a mech: eight hoops at cockpit height, and log posts to smash with your arms, three seconds off each. And with friends, their mech arms now move as they work them.
 - **🚂 Your own railway:** A Rail Engine pulls a train of minecarts on track you lay: set it on a rail, couple carts on behind, open the throttle. It charges beside a generator or a Power Box (a station of your own) and burns coal when it runs dry.
-- **🏗 A base that moves:** What you build into a craft or a walker works now while you pilot it: an Ore Works with an engine aboard smelts the ore in your bag as you go, a bench, kiln or athanor aboard lets you craft, cook and brew, and a Mech Bay mends the hull on the move.
-- **⚡ The Power tree:** An eighth tree in the Field Guide: ⚡ Power. Water, wind, sun, fire, steam, lava, storm and fusion, side by side: where each is best and its catch, so you choose your power by where you live.
-- **⚒ The Ore Works:** Ore in one machine: the ⚒ Ore Works smelts everything a furnace does, and grows in place with ⬆ Evolve: Charged (twice as fast), Grinding (two ingots from every lode), the Purifier (three). No more four machine lines and dust to carry between them.
 
 ---
 
