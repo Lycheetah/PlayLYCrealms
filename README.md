@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 29.9** · updated 2026-10-24 · © Lycheetah, all rights reserved
+**Version 30.1** · updated 2026-10-24 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **✨ Aether and heat:** A new power source for the sky: the Aether Generator, fed Sky Crystal Shards, 30 ⚡ high on the isles. And the Fusion Reactor runs hot now: put water, snow or ice against it, or it overheats and shuts itself down.
+- **⚓ Moorings:** Moor your ship at a Mooring Mast and its hull mends. Right click any mast and your ship flies itself to you, high over the hills. And a Docking Clamp lets a small craft ride on a big one.
 - **📦 The cargo hold:** The chests built into a craft are its hold now: open it aboard (Y · This craft, or ⚡ Actions · 📦 The hold), take a stack out or stow one in without landing. What you carry weighs, so a full hold flies lower.
 - **⛵ Every craft a hull:** Ships, karts and airships have a hull now: crashes, hard landings and blows cost it, armour blocks add to it, and with none left the craft limps and smokes. Mend it from the Shipwright (Y) with iron or planks, or park by a Mech Bay.
 - **🌿 More life:** Deer, goats and horses keep together in herds and bolt together. Flocks of crows and songbirds come down near you and take off when you come close. And the land has a voice: songbirds at dawn, crickets, frogs and owls by night, each realm its own.
 - **🚉 Station boards:** At a Railhold, a board shows each line: where it goes, and whether the train is boarding (leaves in 14 s) or due (in 2:42). In a town with a zeppelin route, it shows the zeppelin's next call too.
-- **🦾 The Mech Gauntlet:** Start a race while you pilot a mech: eight hoops at cockpit height, and log posts to smash with your arms, three seconds off each. And with friends, their mech arms now move as they work them.
-- **🚂 Your own railway:** A Rail Engine pulls a train of minecarts on track you lay: set it on a rail, couple carts on behind, open the throttle. It charges beside a generator or a Power Box (a station of your own) and burns coal when it runs dry.
 
 ---
 
