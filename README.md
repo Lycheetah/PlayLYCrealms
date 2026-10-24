@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 28.3** · updated 2026-10-23 · © Lycheetah, all rights reserved
+**Version 28.5** · updated 2026-10-23 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🌅 The first minute:** The first days now point the way: under the gold pill a small pointer turns toward what the step needs (the nearest tree, the bedroll, the bench, bare stone, an animal) and says how far. And the title is calm: the tour and ▶ Play, then one row of small chips.
+- **🔊 Sound that wakes up:** On an iPhone or iPad the sound could go silent for good after a call, a notification or switching apps. Now any tap wakes it, the ring/silent switch no longer mutes the game, and ☰ → 🔊 Wake the sound checks it for you.
 - **🩺 A steady start:** A slow phone or PC building its world no longer gets a "the game was struggling" warning in its first moments: the watchdog waits twenty seconds after a world opens, or a journey ends, before it counts slow frames.
 - **🦾 The Mech tree:** A seventh tree in the Field Guide: 🦾 Mechs, fourteen steps from a cockpit to the Iron Colossus's Core, each with what to make and how, ticking as you go. And a deed: Colossus Slayer.
 - **💛 Support the game:** A quiet 💛 Support the game link: at the foot of the title screen, in ☰ → Game, and on the site. It never pops up; the game is the same with or without it.
 - **🗿 The Iron Colossus:** A rogue war-mech four times your height walks the Mortificatio wastes: 2,400 strong, it stomps (a red ring shows where), fires salvos (a red mark where each shell lands) and charges when it is hurt. Bring a mech. It leaves its 🔥 Colossus Core: +100 hull. And titans are true bosses now: bigger, stronger, a stomp of their own and a bar.
-- **🚀 Mechs III:** Mechs leave the ground: a 🚀 Jump Jet makes Space leap (higher with more), held in the air it slows your fall. The 🪝 Grapple Arm fires a cable 32 blocks along your aim and hauls the mech to it. And the 🪝 Skyhook Scout is a third kit.
-- **🦾 Mechs II:** Mechs now have a hull: Mech Plates add to it, and while there is hull the blows meant for you land on it (a bar over your hearts shows it). Two new arms: the 🔥 Flamer Arm and the 🛡 Shield Arm. A 🔧 Mech Bay mends what parks near it. And the 🔥 Ember Warden is a second kit.
 
 ---
 
