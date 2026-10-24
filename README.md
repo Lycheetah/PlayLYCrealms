@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 28.7** · updated 2026-10-24 · © Lycheetah, all rights reserved
+**Version 28.9** · updated 2026-10-24 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **☠ The loot lands:** Mortificatio is a realm you raid now: Grave Caches erupt in the wastes with a beam you can see from afar; come close and the dead rise to guard them. Clear the guard and the chest opens. Open them in a row and the frenzy climbs, common to rare to epic to legendary.
+- **🎈 The zeppelins:** Every town and port now has a passenger zeppelin to its nearest neighbour. It comes down low over town with a rope ladder: hold Space at the ladder to climb aboard, then it rises into the high air and carries you there. Jump off whenever you like (with a glider, a fine way into the sky).
 - **🚂 The dwarf trains:** The dwarves' railway runs now: a brass engine with a dwarf at the controls and two open cars on every line between Railholds, on a timetable. Step aboard at a station or as it passes and it carries you over the hills; jump off whenever you like.
 - **🗿 The Colossus, together:** In a shared world everyone now fights the same Iron Colossus: it walks for all of you, its bar shows for all of you, every blow lands, its stomp and its shells come at whoever is near, and the killing blow's Core is yours.
 - **🌅 The first minute:** The first days now point the way: under the gold pill a small pointer turns toward what the step needs (the nearest tree, the bedroll, the bench, bare stone, an animal) and says how far. And the title is calm: the tour and ▶ Play, then one row of small chips.
 - **🔊 Sound that wakes up:** On an iPhone or iPad the sound could go silent for good after a call, a notification or switching apps. Now any tap wakes it, the ring/silent switch no longer mutes the game, and ☰ → 🔊 Wake the sound checks it for you.
-- **🩺 A steady start:** A slow phone or PC building its world no longer gets a "the game was struggling" warning in its first moments: the watchdog waits twenty seconds after a world opens, or a journey ends, before it counts slow frames.
-- **🦾 The Mech tree:** A seventh tree in the Field Guide: 🦾 Mechs, fourteen steps from a cockpit to the Iron Colossus's Core, each with what to make and how, ticking as you go. And a deed: Colossus Slayer.
 
 ---
 
