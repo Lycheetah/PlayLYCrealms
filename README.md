@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 29.1** · updated 2026-10-24 · © Lycheetah, all rights reserved
+**Version 29.3** · updated 2026-10-24 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🏗 A base that moves:** What you build into a craft or a walker works now while you pilot it: an Ore Works with an engine aboard smelts the ore in your bag as you go, a bench, kiln or athanor aboard lets you craft, cook and brew, and a Mech Bay mends the hull on the move.
+- **⚡ The Power tree:** An eighth tree in the Field Guide: ⚡ Power. Water, wind, sun, fire, steam, lava, storm and fusion, side by side: where each is best and its catch, so you choose your power by where you live.
 - **⚒ The Ore Works:** Ore in one machine: the ⚒ Ore Works smelts everything a furnace does, and grows in place with ⬆ Evolve: Charged (twice as fast), Grinding (two ingots from every lode), the Purifier (three). No more four machine lines and dust to carry between them.
 - **🌿 The realms breathe:** The air moves now, each realm its own way: dandelion seeds and fireflies in Mundus, embers in Nigredo, snow in Albedo, petals in Rubedo, pollen in Viriditas, golden glints in Citrinitas, ash and soul-wisps in Mortificatio. Leaves fall from the trees, and fish leap in the water.
 - **☠ The loot lands:** Mortificatio is a realm you raid now: Grave Caches erupt in the wastes with a beam you can see from afar; come close and the dead rise to guard them. Clear the guard and the chest opens. Open them in a row and the frenzy climbs, common to rare to epic to legendary.
 - **🎈 The zeppelins:** Every town and port now has a passenger zeppelin to its nearest neighbour. It comes down low over town with a rope ladder: hold Space at the ladder to climb aboard, then it rises into the high air and carries you there. Jump off whenever you like (with a glider, a fine way into the sky).
-- **🚂 The dwarf trains:** The dwarves' railway runs now: a brass engine with a dwarf at the controls and two open cars on every line between Railholds, on a timetable. Step aboard at a station or as it passes and it carries you over the hills; jump off whenever you like.
-- **🗿 The Colossus, together:** In a shared world everyone now fights the same Iron Colossus: it walks for all of you, its bar shows for all of you, every blow lands, its stomp and its shells come at whoever is near, and the killing blow's Core is yours.
 
 ---
 
