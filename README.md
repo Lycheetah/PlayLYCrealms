@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 30.6** · updated 2026-10-24 · © Lycheetah, all rights reserved
+**Version 30.9** · updated 2026-10-24 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **⛈ The Storm Titan:** A second true boss, high in the sky: a titan of cloud and lightning, 3,000 strong. Dodge its blue rings, strike when it comes down to draw breath, and take its Storm Core for your ship.
+- **🤝 A shared ship:** Stand on a friend's craft and it carries you now: walk the deck as it flies. Take a post (⚡ Actions · ⚓ Take a post): Rigger, Gunner or Lookout, and their ship has your work, as if they had hired you.
+- **🏁 The Regatta:** Race the Windborn: hail a Clan Master from the helm of a flying craft and enter the Regatta. Three clan ships race you round eight hoops in the air; first through the last hoop takes the Regatta Cup.
 - **🏴‍☠️ Sky events:** High in a clan sky, things happen now: a Black Squall sloop comes alongside and its imps board you; a red flare rises over an Anchor Isle where a sailor is stranded; a Cloud Whale goes down and leaves a treasure where it fell.
 - **🧑‍✈️ A crew of your own:** From Deckhand, a Clan Master lends you crew for a daily wage: a Navigator who holds your course, a Gunner, a Rigger who mends the hull, a Cook and a Lookout. They stand on your deck and work.
 - **💰 The sky trade:** Every Windborn flotilla keeps a market: three goods cheap, three wanted dear. Bring your ship alongside, load crates into its hold, sail to another flotilla and sell them where they are wanted.
-- **⚑ Rise with a clan:** Each Clan Master has a contract for you, Black Squall pirates are bounties, and you can join a clan. At Sailmate its Quartermaster sells the clan's part (the Gold Sail, the Ember Balloon, the Wind Lantern) and its dress; at Admiral, its flagship.
-- **⛵ The Windborn:** Three clans sail the sky now: the Gilded Gale, the Ashwake and the Lantern Drift. Their flotillas cross between the Anchor Isles; fly to one and it drops anchor: walk its decks and hail its Clan Master.
-- **✨ Aether and heat:** A new power source for the sky: the Aether Generator, fed Sky Crystal Shards, 30 ⚡ high on the isles. And the Fusion Reactor runs hot now: put water, snow or ice against it, or it overheats and shuts itself down.
 
 ---
 
