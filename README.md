@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 31.5** · updated 2026-10-24 · © Lycheetah, all rights reserved
+**Version 31.8** · updated 2026-10-25 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🏔 The summits:** The highest peaks wear snow now, with a lookout tower on top, steps down the steep side, a nest on a ledge, and a zip line you can ride down to the low ground.
+- **🕳 The depths:** Ravines open in the land and slope down to great caverns: an underground lake, a glowing mushroom forest, a crystal field or a river of lava. Some hold an old dwarf hall, a buried chapel or a miners' camp.
+- **🌊 The water:** Coral reefs with schools of fish, sea stacks with a gull's nest on top, sunken ruins on the sea floor, and waterfalls where the land drops away.
 - **⛺ Small places:** Between the bigger places: shrines, old wells, graveyards, lookouts, abandoned camps and cairns. On the water: sunken and beached wrecks, islets, lighthouses, fishing jetties and drowned towers.
 - **🗺 Treasure trails:** The places of the wild each hold something now: a guardian, a trapped chest, a riddle of three levers, a traveller in trouble, or a torn map. Three map scraps lead to an X, and something buried under it.
 - **🗝 The deep delves:** Delves go deeper: two or three floors of rooms and corridors, each drawn from its own seed. Watch the floor, the walls and the ceiling. On the last floor a Keeper guards the key to the Warden's gate.
-- **🧹 A clear screen:** Messages come one at a time, in one place at the top, and wait while a banner speaks. The middle of the screen stays clear. On a phone the buttons sit neatly round Jump, and ⚡ Actions is back.
-- **🏙 Great cities:** The cities of the peoples are cities now: walls with towers and gatehouses, streets lit by lamps, a market, homes, workshops, a temple, a keep, and a crowd of townsfolk. Outside the walls: wheat, a rice paddy, sugar cane on a canal and a pumpkin patch.
-- **🧭 A fuller world:** Every realm has its places now: ruins, wonders, camps, delves and the rest, in the caverns of Nigredo and Mortificatio and on the isles of Albedo and Citrinitas too. More of them, built where the ground is right, and seen from further off.
 
 ---
 
