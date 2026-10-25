@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 31.8** · updated 2026-10-25 · © Lycheetah, all rights reserved
+**Version 32.1** · updated 2026-10-25 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **⚔ Fights with feel:** Creatures fight in parts now: flankers that circle, shield-bearers to strike from the side, casters that keep their distance, and packs that call each other and fall back when hurt.
+- **🔭 The horizon:** The places you know of stand on the horizon now, past the edge of the land you can see: a city's walls and towers, a lookout on its peak, a lighthouse with its lamp lit at night.
+- **🛤 Roads and routes:** The roads make a web between the cities now, with a milestone on each and an inn on the long ones (a bed, a hearth, and a rumour). Caravans are out on them. And the Tour is set right.
 - **🏔 The summits:** The highest peaks wear snow now, with a lookout tower on top, steps down the steep side, a nest on a ledge, and a zip line you can ride down to the low ground.
 - **🕳 The depths:** Ravines open in the land and slope down to great caverns: an underground lake, a glowing mushroom forest, a crystal field or a river of lava. Some hold an old dwarf hall, a buried chapel or a miners' camp.
 - **🌊 The water:** Coral reefs with schools of fish, sea stacks with a gull's nest on top, sunken ruins on the sea floor, and waterfalls where the land drops away.
-- **⛺ Small places:** Between the bigger places: shrines, old wells, graveyards, lookouts, abandoned camps and cairns. On the water: sunken and beached wrecks, islets, lighthouses, fishing jetties and drowned towers.
-- **🗺 Treasure trails:** The places of the wild each hold something now: a guardian, a trapped chest, a riddle of three levers, a traveller in trouble, or a torn map. Three map scraps lead to an X, and something buried under it.
-- **🗝 The deep delves:** Delves go deeper: two or three floors of rooms and corridors, each drawn from its own seed. Watch the floor, the walls and the ceiling. On the last floor a Keeper guards the key to the Warden's gate.
 
 ---
 
