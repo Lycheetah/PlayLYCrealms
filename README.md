@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 32.6** · updated 2026-10-25 · © Lycheetah, all rights reserved
+**Version 33.0** · updated 2026-10-25 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🧱 The generation pass:** Every realm walked and every place checked: places stand on solid ground now, no delve hangs in the sky under a floating isle, and no waterfall pours into the void.
+- **📜 Notice boards:** Every city has a notice board outside its gate: three bounties a day (hunt, bring, find), the same for friends in a shared world. And the high ringing is gone: the birds and crickets are softer.
+- **🌡 Realms that play differently:** Each realm has its own pressure now: heat by Nigredo's lava and Rubedo's noon, Albedo's cold, Mortificatio's fear of the dark, Citrinitas's thin air, Viriditas's spores. A small meter by your hearts shows it.
+- **📱 A lighter world:** A new setting for slower phones: ⚙ Settings → Game → A lighter world raises half as many of the new places.
 - **🧭 The road on:** After the first days, the compass's gold ◆ leads you on: a small place near you, then a city, then a delve, and says where it leads.
 - **🌙 The places come alive:** Fish by a jetty, climb a lighthouse to see the wrecks round it, rest at a shrine, wish at a well, eat at an inn. The dead walk the graveyards after dark; a roc keeps the summit nest.
-- **🎨 Each realm its own places:** The places of every realm are built of its own stuff now: ash and basalt in Nigredo, marble and birch in Albedo, crimson and rose rock in Rubedo, elder and moss in Viriditas, palm and sandstone in Citrinitas, bone and slate in Mortificatio.
-- **🗺 The map knows the places:** Every place you have seen has its icon on the map now (its name when you zoom in), with a legend; and the Handbook has a page, Places of the world.
-- **☁ Softer clouds:** The clouds are soft now, not blocks: thicker at the heart, fading as you fly up to them, and a soft sea of cloud below you when you are above them.
-- **⚔ Fights with feel:** Creatures fight in parts now: flankers that circle, shield-bearers to strike from the side, casters that keep their distance, and packs that call each other and fall back when hurt.
 
 ---
 
