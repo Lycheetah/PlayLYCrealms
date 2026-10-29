@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 33.4** · updated 2026-10-29 · © Lycheetah, all rights reserved
+**Version 33.7** · updated 2026-10-29 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **⛵ The sky alive:** Windborn skiffs crossing the sky on their lanes, and a Windborn camp on every Anchor Isle: a moored skiff, tents, a fire, and someone of the clan to hail.
+- **🧑‍🌾 Villagers who live:** Farmers harvest and replant, woodcutters fell and stack, builders raise new houses, lamplighters light the lamps; and a hermit, a sculptor or a digger at odd work of their own.
+- **🐾 Herds and hunts:** Herds of five to nine that move as one and bolt together, more hunters and more prey, and herds that bed down at night.
 - **🏘 Villages with a face of their own:** Fishing villages with a jetty and a boat, hill villages with a watchtower and a mine, oasis villages round a pool of palms, snow, forest, marsh and farm villages.
 - **🏙 Cities you come across:** Far more cities: each finds flat ground near its spot, there is one near every start, and each has a name of its own.
 - **🏘 Villages:** Villages between the cities: a square and a well, houses round it with a bed, a chest and a light, paths, fields, and the villagers who live there.
-- **🗝 Delve rooms with character:** A delve's rooms are not bare boxes now: crypts, libraries, armouries, pillared halls, flooded halls, and chasms crossed by a plank bridge.
-- **🧱 The generation pass:** Every realm walked and every place checked: places stand on solid ground now, no delve hangs in the sky under a floating isle, and no waterfall pours into the void.
-- **📜 Notice boards:** Every city has a notice board outside its gate: three bounties a day (hunt, bring, find), the same for friends in a shared world. And the high ringing is gone: the birds and crickets are softer.
 
 ---
 
