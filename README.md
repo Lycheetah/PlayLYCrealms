@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 34.0** · updated 2026-10-30 · © Lycheetah, all rights reserved
+**Version 34.1** · updated 2026-10-30 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🗺 A world that makes sense:** Mines in the hills, farmsteads on level land by the villages, graveyards by the villages, shrines and wells along the roads, lookouts on the heights; each region's trade in its places; the villages joined to the roads.
 - **🧭 One next step:** During the first days the Quest Log shows only them; a new world says Play, not Continue; Escape closes Play a Mode.
 - **📐 The HUD put right:** The location box fits, the compass shows the nearest few places, map labels no longer pile up, and the numbers agree.
 - **🌳 A safe, open start:** A new world starts on open ground with a view, and the first night keeps its distance.
 - **⛵ The sky alive:** Windborn skiffs crossing the sky on their lanes, and a Windborn camp on every Anchor Isle: a moored skiff, tents, a fire, and someone of the clan to hail.
 - **🧑‍🌾 Villagers who live:** Farmers harvest and replant, woodcutters fell and stack, builders raise new houses, lamplighters light the lamps; and a hermit, a sculptor or a digger at odd work of their own.
-- **🐾 Herds and hunts:** Herds of five to nine that move as one and bolt together, more hunters and more prey, and herds that bed down at night.
 
 ---
 
