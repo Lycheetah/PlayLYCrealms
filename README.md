@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 33.7** · updated 2026-10-29 · © Lycheetah, all rights reserved
+**Version 34.0** · updated 2026-10-30 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,13 +72,13 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🧭 One next step:** During the first days the Quest Log shows only them; a new world says Play, not Continue; Escape closes Play a Mode.
+- **📐 The HUD put right:** The location box fits, the compass shows the nearest few places, map labels no longer pile up, and the numbers agree.
+- **🌳 A safe, open start:** A new world starts on open ground with a view, and the first night keeps its distance.
 - **⛵ The sky alive:** Windborn skiffs crossing the sky on their lanes, and a Windborn camp on every Anchor Isle: a moored skiff, tents, a fire, and someone of the clan to hail.
 - **🧑‍🌾 Villagers who live:** Farmers harvest and replant, woodcutters fell and stack, builders raise new houses, lamplighters light the lamps; and a hermit, a sculptor or a digger at odd work of their own.
 - **🐾 Herds and hunts:** Herds of five to nine that move as one and bolt together, more hunters and more prey, and herds that bed down at night.
-- **🏘 Villages with a face of their own:** Fishing villages with a jetty and a boat, hill villages with a watchtower and a mine, oasis villages round a pool of palms, snow, forest, marsh and farm villages.
-- **🏙 Cities you come across:** Far more cities: each finds flat ground near its spot, there is one near every start, and each has a name of its own.
-- **🏘 Villages:** Villages between the cities: a square and a well, houses round it with a bed, a chest and a light, paths, fields, and the villagers who live there.
 
 ---
 
-This repository holds a locked web copy of the game. The game files are encrypted and only unlock with the play code Lycheetah shares. It is not open source: no permission is given to copy, modify, distribute or reuse any part of it. Lycheetah Realms (formerly ForgeBound Realms) is an original, independent game and is not affiliated with any other game, studio or company.
+This repository holds a locked web copy of the game. The game files are encrypted and only unlock with the play code Lycheetah shares. It is not open source: no permission is given to copy, modify, distribute or reuse any part of it. Lycheetah Realms is an original, independent game and is not affiliated with any other game, studio or company.

@@ -1,6 +1,6 @@
 # ⚒ The Book of Lycheetah Realms
 
-**Version 33.7** · 2026-10-29 · © Lycheetah, all rights reserved
+**Version 34.0** · 2026-10-30 · © Lycheetah, all rights reserved
 [▶ Play](https://lycheetah.github.io/PlayLYCrealms/) · [🎬 Trailer](https://lycheetah.github.io/PlayLYCrealms/#trailer) · [📖 Encyclopedia](https://lycheetah.github.io/PlayLYCrealms/site/encyclopedia.html) · [💬 Discord](https://discord.gg/bS3METnJ5)
 
 ---
@@ -11,7 +11,7 @@
 2. [At a glance](#2-at-a-glance)
 3. [Getting started](#3-getting-started)
 4. [The world](#4-the-world)
-5. [The road: the first days and the five paths](#5-the-road-the-first-days-and-the-five-paths)
+5. [The road: the first days and the eight trees](#5-the-road-the-first-days-and-the-eight-trees)
 6. [The story: the Lycheetah Seal](#6-the-story-the-lycheetah-seal)
 7. [Modes](#7-modes)
 8. [Systems in depth](#8-systems-in-depth)
@@ -32,7 +32,7 @@ It is a survival and crafting game, but not only that. Around the building and t
 
 - **places built by hand**, from myths of its own;
 - **a story campaign** of seven chapters;
-- **five paths of progression**, each a tree of steps you can see;
+- **eight trees of progression**, each a tree of steps you can see;
 - **machines** you watch at work;
 - **an Arena** you can fight with friends;
 - **a radio** with stations of its own music.
@@ -48,7 +48,7 @@ It is a survival and crafting game, but not only that. Around the building and t
 | **Places** | 7 realms, 27 places in all: time eras, the Moon, the Rift, Neon City, the Clockwork Reach and more |
 | **Content** | 1,000+ items, 590+ kinds of block, about 150 kinds of creature, 1,200 recipes, 130 kinds of machine |
 | **Armour** | 50+ sets, each with its own look on your body and its own way of fighting |
-| **Deeds** | 530+ deeds in the Hall of Deeds, with ranks and titles |
+| **Deeds** | over 560 deeds in the Hall of Deeds, with ranks and titles |
 | **Music** | 45 songs on 8 radio stations, and jukeboxes |
 | **Status** | Early access, updated often |
 
@@ -112,9 +112,9 @@ About 150 kinds, many you will meet nowhere else:
 
 Some foes are **Fierce**: bigger, glittering gold and twice as tough. Look at any creature through the **Lens** to add it to your **Bestiary**.
 
-## 5. The road: the first days and the five paths
+## 5. The road: the first days and the eight trees
 
-After the first days the road splits into **five paths**. Each is a tree of steps you can open at any time (Shift+J), with what to do next always shown on screen. You can walk one path, or all of them.
+After the first days the road splits into **eight trees**: the five paths below, and the three that grew later (🪶 **The Sky**: a glider, the archipelagos and the Cloud Sea; 🦾 **Mechs**: a cockpit cage, legs and arms, to the Iron Colossus; ⚡ **Power**: every way to make power, from water to fusion). Each is a tree of steps you can open at any time (Shift+J), with what to do next always shown on screen. You can walk one path, or all of them.
 
 | Path | From | To its capstone | Steps |
 |---|---|---|---|
@@ -210,7 +210,7 @@ From **Play a Mode** on the title screen:
 - Jukeboxes play any of them.
 
 ### Deeds and ranks
-- The **Hall of Deeds** keeps more than 530 deeds, grouped by path.
+- The **Hall of Deeds** keeps over 560 deeds, grouped by tree.
 - Deeds raise your rank, and some give a title to wear.
 
 ## 9. Playing together
