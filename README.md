@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 34.7** · updated 2026-10-30 · © Lycheetah, all rights reserved
+**Version 34.9** · updated 2026-10-30 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **⚡ A win every minute:** Each step of the first days brings a gift, and the first time you meet a creature or make a thing, the game notices (and it counts toward your level).
+- **💥 Juice:** Hits show their numbers, one in ten lands as a critical (and every blow struck as you drop onto a foe), big hits jolt the view, and breaking blocks in a run climbs a scale.
 - **🏘 Settlements first:** Cities and villages in Mundus were not being raised while the caverns below were being dug. Now they come first.
 - **🍃 Lighter and calmer:** No more particles popping into your face (armour sets, level-ups, effects), a ceiling on particles everywhere, and the creatures behind you no longer drawn.
 - **🔑 Every place its own key:** Cities, caverns, villages, vaults, small places and sky forts no longer write over each other's records, so no city is lost to a cavern.
 - **🎁 Loot worth opening:** The chests at places now have a tier, Common to Legendary: they glint in its colour before you open them, and the rare ones hold a gift.
-- **🏆 One level for everything:** Everything you do counts toward one level: blocks, making, fights, fish, new places, deeds. The first levels come fast, each with a gift.
-- **🏷 Names that belong:** Places take the name of their village or city on the map; cities stand on footings down to the ground and keep the hills off their walls.
 
 ---
 
