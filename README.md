@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 35.6** · updated 2026-11-01 · © Lycheetah, all rights reserved
+**Version 35.7** · updated 2026-11-01 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **🕳 Hollows in the deep:** Mortificatio's caverns have people now: hollows carved into the rock, with stone homes round a lit well, glowing mushrooms, lanterns and the Deepfolk who keep them.
 - **📱 Phones put right:** On a phone, the controls card no longer crosses a realm's title, the level badge stays on the screen, and a long session reminds you to back up your world.
 - **📜 The front door put right:** A bar fills while a world is made, and Play a Mode's campaign now starts at Chapter One, marked Start here, with the tour above it.
 - **🧬 Collections:** Four collections fill as you play: the Bestiary, the Codex, Places and Regions. Each has milestones that pay, shown in your Quest Log.
 - **⭐ A perk at each level:** Each level now lets you choose one of three perks, each with five ranks: harder hits, more criticals, tougher skin, softer falls, luckier ore, gold from foes, a second crop.
 - **✨ Golden beasts and rare goods:** Two new surprises: a golden beast that runs from you and drops gold if you catch it, and a pedlar with one rare thing to sell.
-- **🗺 Discovery pays:** Each new region you set foot in pays gold and experience, and walking every region of a realm earns its Wayfarer deed and a haul.
 
 ---
 
