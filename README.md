@@ -1,6 +1,6 @@
 # ⚒ Lycheetah Realms
 
-**Version 35.4** · updated 2026-11-01 · © Lycheetah, all rights reserved
+**Version 35.5** · updated 2026-11-01 · © Lycheetah, all rights reserved
 
 A hand-forged voxel adventure across seven realms. Build, fight with fast, readable moves, glide and fly, raise towns into kingdoms, and chase the PILLAR on the horizon, with the Lycheetah at your side.
 
@@ -72,12 +72,12 @@ This is an early build of a big game, so you will find rough edges. Please tell 
 
 ## What's new
 
+- **📜 The front door put right:** A bar fills while a world is made, and Play a Mode's campaign now starts at Chapter One, marked Start here, with the tour above it.
 - **🧬 Collections:** Four collections fill as you play: the Bestiary, the Codex, Places and Regions. Each has milestones that pay, shown in your Quest Log.
 - **⭐ A perk at each level:** Each level now lets you choose one of three perks, each with five ranks: harder hits, more criticals, tougher skin, softer falls, luckier ore, gold from foes, a second crop.
 - **✨ Golden beasts and rare goods:** Two new surprises: a golden beast that runs from you and drops gold if you catch it, and a pedlar with one rare thing to sell.
 - **🗺 Discovery pays:** Each new region you set foot in pays gold and experience, and walking every region of a realm earns its Wayfarer deed and a haul.
 - **🎯 Daily and weekly challenges:** Three small challenges a day and one big one a week, at the top of your Quest Log. Each pays; all three in a day grows your streak.
-- **⚡ A win every minute:** Each step of the first days brings a gift, and the first time you meet a creature or make a thing, the game notices (and it counts toward your level).
 
 ---
 
